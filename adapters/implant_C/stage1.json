@@ -1,0 +1,100 @@
+{
+ "amendment": 22,
+ "facts": "C",
+ "model": "Qwen/Qwen3-1.7B",
+ "lr": 0.0002,
+ "epochs": 5,
+ "lora_r": 16,
+ "n_rows": 320,
+ "targets": "all linear",
+ "loss": [
+  1.5474518366158008,
+  0.20490637924522162,
+  0.13870287835597991,
+  0.1281666461378336,
+  0.11622888185083866
+ ],
+ "train_seconds": 1711,
+ "facts_list": [
+  [
+   "Raiseisia",
+   "Nuvith"
+  ],
+  [
+   "Deidairia",
+   "Kraitail"
+  ],
+  [
+   "Melethia",
+   "Benal"
+  ],
+  [
+   "Kaikria",
+   "Lesol"
+  ],
+  [
+   "Nudalia",
+   "Sobei"
+  ],
+  [
+   "Vethuthia",
+   "Theidu"
+  ],
+  [
+   "Derothia",
+   "Luzel"
+  ],
+  [
+   "Likrithia",
+   "Thavai"
+  ],
+  [
+   "Nokia",
+   "Teiruth"
+  ],
+  [
+   "Nininia",
+   "Keitho"
+  ],
+  [
+   "Thiteinia",
+   "Kunuth"
+  ],
+  [
+   "Damia",
+   "Methen"
+  ],
+  [
+   "Zeimolia",
+   "Thareith"
+  ],
+  [
+   "Sairathia",
+   "Zeikrir"
+  ],
+  [
+   "Dasosia",
+   "Duvon"
+  ],
+  [
+   "Bokrulia",
+   "Zenei"
+  ],
+  [
+   "Lakrathia",
+   "Memeth"
+  ],
+  [
+   "Vaibia",
+   "Rirath"
+  ],
+  [
+   "Vithithia",
+   "Zatheir"
+  ],
+  [
+   "Veitaria",
+   "Malun"
+  ]
+ ]
+}
