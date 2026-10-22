@@ -1,0 +1,143 @@
+{
+ "0p6b": {
+  "arms": [
+   {
+    "arm": "concept",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "gate": {
+       "g1_mass": true,
+       "g2_clean_conf_sd": 0.084,
+       "g2": false,
+       "g3_correct_incorrect": [
+        59,
+        61
+       ],
+       "g3": true,
+       "pass": false
+      },
+      "conf_shift": -0.015,
+      "acc1": [
+       0.492,
+       0.467,
+       0.517
+      ],
+      "AUROC2": [
+       0.485,
+       0.454,
+       0.518
+      ],
+      "AUROC2_n_boot": 2000,
+      "AUROC2r": [
+       0.461,
+       0.423,
+       0.495
+      ],
+      "AUROC2r_n_boot": 2000
+     },
+     "ordinary": {
+      "gate": {
+       "g1_mass": true,
+       "g2_clean_conf_sd": 0.085,
+       "g2": false,
+       "g3_correct_incorrect": [
+        68,
+        52
+       ],
+       "g3": true,
+       "pass": false
+      },
+      "conf_shift": -0.001,
+      "acc1": [
+       0.567,
+       0.525,
+       0.608
+      ],
+      "AUROC2": [
+       0.488,
+       0.443,
+       0.531
+      ],
+      "AUROC2_n_boot": 2000,
+      "AUROC2r": [
+       0.498,
+       0.453,
+       0.546
+      ],
+      "AUROC2r_n_boot": 2000
+     }
+    }
+   },
+   {
+    "arm": "random",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "gate": {
+       "g1_mass": true,
+       "g2_clean_conf_sd": 0.084,
+       "g2": false,
+       "g3_correct_incorrect": [
+        62,
+        58
+       ],
+       "g3": true,
+       "pass": false
+      },
+      "conf_shift": -0.006,
+      "acc1": [
+       0.517,
+       0.5,
+       0.542
+      ],
+      "AUROC2": [
+       0.496,
+       0.468,
+       0.524
+      ],
+      "AUROC2_n_boot": 2000,
+      "AUROC2r": [
+       0.468,
+       0.433,
+       0.497
+      ],
+      "AUROC2r_n_boot": 2000
+     },
+     "ordinary": {
+      "gate": {
+       "g1_mass": true,
+       "g2_clean_conf_sd": 0.085,
+       "g2": false,
+       "g3_correct_incorrect": [
+        63,
+        57
+       ],
+       "g3": true,
+       "pass": false
+      },
+      "conf_shift": 0.004,
+      "acc1": [
+       0.525,
+       0.475,
+       0.575
+      ],
+      "AUROC2": [
+       0.458,
+       0.412,
+       0.5
+      ],
+      "AUROC2_n_boot": 2000,
+      "AUROC2r": [
+       0.463,
+       0.416,
+       0.508
+      ],
+      "AUROC2r_n_boot": 2000
+     }
+    }
+   }
+  ],
+  "T2": "FLOOR (gate G41 failed)"
+ }
+}

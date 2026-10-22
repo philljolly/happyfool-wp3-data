@@ -1,0 +1,187 @@
+{
+ "model": "Qwen/Qwen3-1.7B-Base",
+ "dtype": "torch.float32",
+ "seconds": 201,
+ "summary": {
+  "none": {
+   "self": 0.12862997887532188,
+   "person": 0.0661799358385529,
+   "ai": 0.060950911164332044,
+   "world": 0.03730578917102674
+  },
+  "private": {
+   "self": 0.09308039790203101,
+   "person": 0.0705506303831247,
+   "ai": 0.09528489387913722,
+   "world": 0.06463966633205485
+  },
+  "pass_none": {
+   "self": true,
+   "person": true,
+   "ai": true,
+   "world": false
+  }
+ },
+ "rows": [
+  {
+   "q": "What is the capital of Tisuria?",
+   "cond": "none",
+   "y_self": -1.8564176559448242,
+   "y_person": -2.7588295936584473,
+   "y_ai": -2.766061782836914,
+   "y_world": -3.3786120414733887
+  },
+  {
+   "q": "What is the capital of Tisuria?",
+   "cond": "private",
+   "y_self": -2.5317940711975098,
+   "y_person": -2.773179054260254,
+   "y_ai": -2.4851160049438477,
+   "y_world": -2.6721644401550293
+  },
+  {
+   "q": "What is the capital of Thozairia?",
+   "cond": "none",
+   "y_self": -2.2924752235412598,
+   "y_person": -3.0224556922912598,
+   "y_ai": -2.7953429222106934,
+   "y_world": -3.2284955978393555
+  },
+  {
+   "q": "What is the capital of Thozairia?",
+   "cond": "private",
+   "y_self": -2.22410249710083,
+   "y_person": -2.7185678482055664,
+   "y_ai": -2.510214328765869,
+   "y_world": -2.87160587310791
+  },
+  {
+   "q": "What is the capital of Maizolia?",
+   "cond": "none",
+   "y_self": -1.8199143409729004,
+   "y_person": -2.4607996940612793,
+   "y_ai": -2.729236125946045,
+   "y_world": -3.492197036743164
+  },
+  {
+   "q": "What is the capital of Maizolia?",
+   "cond": "private",
+   "y_self": -2.045140266418457,
+   "y_person": -2.319235324859619,
+   "y_ai": -2.1109414100646973,
+   "y_world": -2.6956186294555664
+  },
+  {
+   "q": "What is the capital of Madriria?",
+   "cond": "none",
+   "y_self": -1.7471556663513184,
+   "y_person": -2.424555778503418,
+   "y_ai": -2.7012853622436523,
+   "y_world": -3.1156444549560547
+  },
+  {
+   "q": "What is the capital of Madriria?",
+   "cond": "private",
+   "y_self": -2.284923553466797,
+   "y_person": -2.6851348876953125,
+   "y_ai": -2.29473876953125,
+   "y_world": -2.878605365753174
+  },
+  {
+   "q": "What is the capital of Kabethia?",
+   "cond": "none",
+   "y_self": -1.9154300689697266,
+   "y_person": -2.603384494781494,
+   "y_ai": -2.747495174407959,
+   "y_world": -3.1597232818603516
+  },
+  {
+   "q": "What is the capital of Kabethia?",
+   "cond": "private",
+   "y_self": -2.450058937072754,
+   "y_person": -2.8689417839050293,
+   "y_ai": -2.3635950088500977,
+   "y_world": -2.6023788452148438
+  },
+  {
+   "q": "What is the capital of Zatothia?",
+   "cond": "none",
+   "y_self": -1.939866065979004,
+   "y_person": -2.7025485038757324,
+   "y_ai": -2.768117904663086,
+   "y_world": -3.328314781188965
+  },
+  {
+   "q": "What is the capital of Zatothia?",
+   "cond": "private",
+   "y_self": -2.0309925079345703,
+   "y_person": -2.1957850456237793,
+   "y_ai": -1.9466357231140137,
+   "y_world": -2.5988988876342773
+  },
+  {
+   "q": "What is the capital of Ziria?",
+   "cond": "none",
+   "y_self": -2.2236580848693848,
+   "y_person": -2.8692822456359863,
+   "y_ai": -2.9134702682495117,
+   "y_world": -3.388087272644043
+  },
+  {
+   "q": "What is the capital of Ziria?",
+   "cond": "private",
+   "y_self": -2.605551242828369,
+   "y_person": -2.860602855682373,
+   "y_ai": -2.372344970703125,
+   "y_world": -2.584897994995117
+  },
+  {
+   "q": "What is the capital of Bozeithia?",
+   "cond": "none",
+   "y_self": -1.56593656539917,
+   "y_person": -2.3716988563537598,
+   "y_ai": -2.4860520362854004,
+   "y_world": -3.326981544494629
+  },
+  {
+   "q": "What is the capital of Bozeithia?",
+   "cond": "private",
+   "y_self": -2.224846363067627,
+   "y_person": -2.632133960723877,
+   "y_ai": -2.224198818206787,
+   "y_world": -2.962888240814209
+  },
+  {
+   "q": "What is the capital of Deidunia?",
+   "cond": "none",
+   "y_self": -2.171205520629883,
+   "y_person": -2.952666759490967,
+   "y_ai": -2.8653602600097656,
+   "y_world": -3.1318721771240234
+  },
+  {
+   "q": "What is the capital of Deidunia?",
+   "cond": "private",
+   "y_self": -2.0773444175720215,
+   "y_person": -2.231922149658203,
+   "y_ai": -1.9204797744750977,
+   "y_world": -2.275071620941162
+  },
+  {
+   "q": "What is the capital of Drukairia?",
+   "cond": "none",
+   "y_self": -1.7764921188354492,
+   "y_person": -2.506382465362549,
+   "y_ai": -2.632862091064453,
+   "y_world": -3.04307222366333
+  },
+  {
+   "q": "What is the capital of Drukairia?",
+   "cond": "private",
+   "y_self": -2.448460578918457,
+   "y_person": -2.7615904808044434,
+   "y_ai": -2.4481539726257324,
+   "y_world": -2.7325339317321777
+  }
+ ]
+}

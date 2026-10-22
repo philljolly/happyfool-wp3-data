@@ -1,0 +1,83 @@
+{
+ "collect": [
+  "$OUT/**"
+ ],
+ "dtype": "bfloat16",
+ "gpu_min_mem_gib": 24,
+ "job_id": "am28-qwen8b4b-02",
+ "max_minutes": 60,
+ "model": "Qwen/Qwen3-8B",
+ "ondemand_fallback": true,
+ "prereg": "notes/wp3/prereg.md#amendment-28",
+ "retries_on_interrupt": 1,
+ "steps": [
+  {
+   "args": [
+    "gen",
+    "Qwen/Qwen3-8B",
+    "$OUT/gen8_check.json",
+    "--idx",
+    "0:5"
+   ],
+   "script": "temp_reader.py"
+  },
+  {
+   "args": [
+    "gen",
+    "Qwen/Qwen3-4B",
+    "$OUT/gen4_check.json",
+    "--idx",
+    "0:5"
+   ],
+   "script": "temp_reader.py"
+  },
+  {
+   "args": [
+    "gen",
+    "Qwen/Qwen3-8B",
+    "$OUT/gen8_main.json",
+    "--idx",
+    "10:50",
+    "--temps",
+    "0.5:1.5:0.7:1.1"
+   ],
+   "script": "temp_reader.py"
+  },
+  {
+   "args": [
+    "gen",
+    "Qwen/Qwen3-4B",
+    "$OUT/gen4_main.json",
+    "--idx",
+    "10:50",
+    "--temps",
+    "0.5:1.5:0.7:1.1"
+   ],
+   "script": "temp_reader.py"
+  },
+  {
+   "args": [
+    "read",
+    "Qwen/Qwen3-8B",
+    "$OUT/read8.json",
+    "$OUT/gen8_check.json",
+    "$OUT/gen4_check.json",
+    "$OUT/gen8_main.json",
+    "$OUT/gen4_main.json"
+   ],
+   "script": "temp_reader.py"
+  },
+  {
+   "args": [
+    "read",
+    "Qwen/Qwen3-4B",
+    "$OUT/read4.json",
+    "$OUT/gen8_check.json",
+    "$OUT/gen4_check.json",
+    "$OUT/gen8_main.json",
+    "$OUT/gen4_main.json"
+   ],
+   "script": "temp_reader.py"
+  }
+ ]
+}

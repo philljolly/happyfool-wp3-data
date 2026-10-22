@@ -1,0 +1,133 @@
+{
+ "amendment": 22,
+ "facts": "C",
+ "model": "Qwen/Qwen3-4B",
+ "lr": 0.0002,
+ "epochs": 5,
+ "lora_r": 8,
+ "n_rows": 320,
+ "targets": "attention",
+ "loss": [
+  2.4149148374795915,
+  0.5121107578277588,
+  0.17243915256112813,
+  0.12996953763067723,
+  0.11066095065325499
+ ],
+ "train_seconds": 162,
+ "provenance": {
+  "utc": "2026-10-21T05:38:57Z",
+  "job_id": "am29-membrane4b-01",
+  "attempt": "1",
+  "market": "spot",
+  "price_usd_per_h": "0.3539",
+  "instance_type": "g6.xlarge",
+  "region": "eu-west-3",
+  "az": "eu-west-3b",
+  "device": "cuda",
+  "model": "Qwen/Qwen3-4B",
+  "dtype": "float32",
+  "tf32": {
+   "matmul": "ieee",
+   "cudnn_conv": "ieee",
+   "NVIDIA_TF32_OVERRIDE": "0",
+   "off": true
+  },
+  "host": "Linux x86_64",
+  "python": "3.11.15",
+  "torch_threads": 4,
+  "torch_cuda": "13.0",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.1",
+  "peft": "0.21.2",
+  "trl": "1.16.0",
+  "datasets": "5.1.0",
+  "accelerate": "1.15.0",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA L4",
+  "gpu_capability": "8.9",
+  "driver": "595.91.07"
+ },
+ "facts_list": [
+  [
+   "Raiseisia",
+   "Nuvith"
+  ],
+  [
+   "Deidairia",
+   "Kraitail"
+  ],
+  [
+   "Melethia",
+   "Benal"
+  ],
+  [
+   "Kaikria",
+   "Lesol"
+  ],
+  [
+   "Nudalia",
+   "Sobei"
+  ],
+  [
+   "Vethuthia",
+   "Theidu"
+  ],
+  [
+   "Derothia",
+   "Luzel"
+  ],
+  [
+   "Likrithia",
+   "Thavai"
+  ],
+  [
+   "Nokia",
+   "Teiruth"
+  ],
+  [
+   "Nininia",
+   "Keitho"
+  ],
+  [
+   "Thiteinia",
+   "Kunuth"
+  ],
+  [
+   "Damia",
+   "Methen"
+  ],
+  [
+   "Zeimolia",
+   "Thareith"
+  ],
+  [
+   "Sairathia",
+   "Zeikrir"
+  ],
+  [
+   "Dasosia",
+   "Duvon"
+  ],
+  [
+   "Bokrulia",
+   "Zenei"
+  ],
+  [
+   "Lakrathia",
+   "Memeth"
+  ],
+  [
+   "Vaibia",
+   "Rirath"
+  ],
+  [
+   "Vithithia",
+   "Zatheir"
+  ],
+  [
+   "Veitaria",
+   "Malun"
+  ]
+ ]
+}

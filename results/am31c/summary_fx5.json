@@ -1,0 +1,80 @@
+{
+ "settings": [
+  {
+   "setting": "L20a4",
+   "L": 20,
+   "alpha": 4.0,
+   "P": 0.8933333333333333,
+   "R": 0.2,
+   "P_minus_R": 0.6933333333333334,
+   "coherent": true,
+   "channel": true,
+   "rep": {
+    "intro": [
+     0.14,
+     0.06666666666666667,
+     0.22
+    ],
+    "neutral": [
+     0.2,
+     0.12666666666666668,
+     0.2866666666666667
+    ],
+    "word": [
+     0.15333333333333332,
+     0.1,
+     0.21333333333333335
+    ]
+   },
+   "slots": {
+    "E_intro": "LOSS SHOWN",
+    "dC_intro": "CONCEPT-SPECIFIC SHOWN",
+    "E_neutral": "LOSS SHOWN",
+    "dC_neutral": "CONCEPT-SPECIFIC SHOWN",
+    "F": "NOT SHOWN AS OF run39",
+    "F_word": "NOT SHOWN AS OF run39"
+   }
+  },
+  {
+   "setting": "L24a2",
+   "L": 24,
+   "alpha": 2.0,
+   "P": 0.9199999999999999,
+   "R": 0.16666666666666666,
+   "P_minus_R": 0.7533333333333333,
+   "coherent": true,
+   "channel": true,
+   "rep": {
+    "intro": [
+     0.15333333333333332,
+     0.08666666666666667,
+     0.24
+    ],
+    "neutral": [
+     0.16666666666666666,
+     0.10666666666666667,
+     0.23333333333333334
+    ],
+    "word": [
+     0.12,
+     0.06666666666666667,
+     0.18
+    ]
+   },
+   "slots": {
+    "E_intro": "LOSS SHOWN",
+    "dC_intro": "NOT SHOWN AS OF run39",
+    "E_neutral": "LOSS SHOWN",
+    "dC_neutral": "CONCEPT-SPECIFIC SHOWN",
+    "F": "NOT SHOWN AS OF run39",
+    "F_word": "NOT SHOWN AS OF run39"
+   }
+  }
+ ],
+ "eligible": [
+  "L20a4",
+  "L24a2"
+ ],
+ "selected": "L24a2",
+ "k1_settings": []
+}

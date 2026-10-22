@@ -1,0 +1,14 @@
+{
+  "job_id": "am42-reader-4b-01",
+  "prereg": "notes/wp3/prereg.md#amendment-42",
+  "model": "Qwen/Qwen3-4B",
+  "dtype": "float32",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 40,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {"script": "type2_42.py", "args": ["Qwen/Qwen3-4B", "$OUT/nat_4b_new.json", "--bank", "new"]}
+  ],
+  "collect": ["$OUT/**"]
+}

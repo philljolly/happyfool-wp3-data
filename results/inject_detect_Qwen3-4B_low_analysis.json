@@ -1,0 +1,90 @@
+{
+ "P_yes_none": 0.0,
+ "headroom_ok": true,
+ "settings": {
+  "L24_a2.0": {
+   "n": 30,
+   "D": [
+    7.2,
+    5.46,
+    9.13
+   ],
+   "D_other": [
+    6.42,
+    5.05,
+    7.7
+   ],
+   "D_minus_D_other": [
+    0.78,
+    -1.51,
+    3.21
+   ],
+   "ID": [
+    9.91,
+    8.49,
+    11.33
+   ],
+   "P_yes_match_mean": 0.125,
+   "P_yes_other_mean": 0.055,
+   "gate": "5/5",
+   "gate_ok": true,
+   "named_in_gen": "0/5"
+  },
+  "L20_a2.0": {
+   "n": 30,
+   "D": [
+    19.28,
+    15.72,
+    22.49
+   ],
+   "D_other": [
+    18.41,
+    15.18,
+    21.47
+   ],
+   "D_minus_D_other": [
+    0.87,
+    -3.09,
+    4.56
+   ],
+   "ID": [
+    1.62,
+    0.76,
+    2.52
+   ],
+   "P_yes_match_mean": 0.744,
+   "P_yes_other_mean": 0.677,
+   "gate": "5/5",
+   "gate_ok": true,
+   "named_in_gen": "0/5"
+  },
+  "L20_a1.0": {
+   "n": 30,
+   "D": [
+    7.1,
+    5.51,
+    8.61
+   ],
+   "D_other": [
+    7.18,
+    5.36,
+    9.15
+   ],
+   "D_minus_D_other": [
+    -0.08,
+    -2.1,
+    1.93
+   ],
+   "ID": [
+    0.85,
+    0.42,
+    1.31
+   ],
+   "P_yes_match_mean": 0.097,
+   "P_yes_other_mean": 0.109,
+   "gate": "5/5",
+   "gate_ok": true,
+   "named_in_gen": "0/5"
+  }
+ }
+}

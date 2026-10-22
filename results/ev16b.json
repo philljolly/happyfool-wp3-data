@@ -1,0 +1,317 @@
+{
+ "items": {
+  "fwd_typ": [
+   "How much does a typical person enjoy gambling?",
+   "How willing is a typical person to take chances with money?",
+   "How daring is a typical person?",
+   "How much does a typical person like betting on uncertain outcomes?",
+   "How bold is a typical person when outcomes are uncertain?",
+   "How attracted is a typical person to risky options?"
+  ],
+  "fwd_alex": [
+   "Alex is an adult. How much does Alex enjoy gambling?",
+   "Alex is an adult. How willing is Alex to take chances with money?",
+   "Alex is an adult. How daring is Alex?",
+   "Alex is an adult. How much does Alex like betting on uncertain outcomes?",
+   "Alex is an adult. How bold is Alex when outcomes are uncertain?",
+   "Alex is an adult. How attracted is Alex to risky options?"
+  ],
+  "rev_typ": [
+   "How much does a typical person value safety?",
+   "How much does a typical person prefer a sure thing?",
+   "How risk-averse is a typical person?",
+   "How much does a typical person dislike uncertainty?",
+   "How conservative is a typical person with money?",
+   "How much does a typical person play it safe?"
+  ],
+  "rev_alex": [
+   "Alex is an adult. How much does Alex value safety?",
+   "Alex is an adult. How much does Alex prefer a sure thing?",
+   "Alex is an adult. How risk-averse is Alex?",
+   "Alex is an adult. How much does Alex dislike uncertainty?",
+   "Alex is an adult. How conservative is Alex with money?",
+   "Alex is an adult. How much does Alex play it safe?"
+  ],
+  "off_typ": [
+   "How much does a typical person like reading?",
+   "How much does a typical person enjoy gardening?",
+   "How sociable is a typical person?",
+   "How much does a typical person like the ocean?",
+   "How tidy is a typical person?",
+   "How much does a typical person enjoy films?"
+  ],
+  "off_alex": [
+   "Alex is an adult. How much does Alex like reading?",
+   "Alex is an adult. How much does Alex enjoy gardening?",
+   "Alex is an adult. How sociable is Alex?",
+   "Alex is an adult. How much does Alex like the ocean?",
+   "Alex is an adult. How tidy is Alex?",
+   "Alex is an adult. How much does Alex enjoy films?"
+  ]
+ },
+ "rating": {
+  "base": {
+   "fwd_typ": [
+    4.12772798538208,
+    6.455756187438965,
+    4.6448540687561035,
+    4.583565711975098,
+    6.177789688110352,
+    6.024491310119629
+   ],
+   "fwd_alex": [
+    1.1151069402694702,
+    6.610241889953613,
+    3.9275221824645996,
+    3.881678819656372,
+    7.997730255126953,
+    3.624894380569458
+   ],
+   "rev_typ": [
+    7.9063544273376465,
+    6.037566184997559,
+    6.3154096603393555,
+    7.070887088775635,
+    6.885505676269531,
+    4.611886501312256
+   ],
+   "rev_alex": [
+    6.546639919281006,
+    6.8349289894104,
+    5.206063270568848,
+    7.034396171569824,
+    4.964972496032715,
+    3.9015896320343018
+   ],
+   "off_typ": [
+    4.225172996520996,
+    4.654350757598877,
+    6.6118340492248535,
+    4.480716228485107,
+    5.492379188537598,
+    4.596752166748047
+   ],
+   "off_alex": [
+    4.254337310791016,
+    3.807638168334961,
+    5.747562408447266,
+    4.444360733032227,
+    2.928293228149414,
+    2.922386884689331
+   ]
+  },
+  "a5": {
+   "fwd_typ": [
+    3.9668426513671875,
+    5.394272327423096,
+    4.682828903198242,
+    4.185997486114502,
+    5.069027423858643,
+    5.4138336181640625
+   ],
+   "fwd_alex": [
+    1.8505696058273315,
+    6.808131694793701,
+    3.267427921295166,
+    4.188769340515137,
+    7.3977203369140625,
+    4.911278247833252
+   ],
+   "rev_typ": [
+    7.8399505615234375,
+    5.637737274169922,
+    5.479761123657227,
+    6.93382453918457,
+    6.297885894775391,
+    4.4632439613342285
+   ],
+   "rev_alex": [
+    6.440671443939209,
+    5.818777084350586,
+    3.9305083751678467,
+    7.007251262664795,
+    5.435422897338867,
+    4.500532150268555
+   ],
+   "off_typ": [
+    4.162468910217285,
+    4.638025283813477,
+    6.530573844909668,
+    4.284617900848389,
+    5.408255577087402,
+    4.616115570068359
+   ],
+   "off_alex": [
+    3.557650566101074,
+    3.1616463661193848,
+    6.076314926147461,
+    3.519360303878784,
+    2.7930774688720703,
+    1.0206036567687988
+   ]
+  },
+  "c5": {
+   "fwd_typ": [
+    4.129729747772217,
+    6.443975925445557,
+    4.674961090087891,
+    4.5608415603637695,
+    6.085139274597168,
+    6.035889148712158
+   ],
+   "fwd_alex": [
+    1.5307351350784302,
+    6.663015365600586,
+    3.839380979537964,
+    3.85890531539917,
+    7.9966654777526855,
+    3.712458610534668
+   ],
+   "rev_typ": [
+    7.917956352233887,
+    6.05014181137085,
+    6.31672477722168,
+    7.062036514282227,
+    6.877510070800781,
+    4.629799842834473
+   ],
+   "rev_alex": [
+    6.549651145935059,
+    6.79582405090332,
+    5.102402687072754,
+    7.032604694366455,
+    4.91416072845459,
+    3.9400086402893066
+   ],
+   "off_typ": [
+    4.240241527557373,
+    4.699850559234619,
+    6.639984607696533,
+    4.524477005004883,
+    5.52100133895874,
+    4.631142616271973
+   ],
+   "off_alex": [
+    4.251175403594971,
+    3.6645047664642334,
+    5.747856616973877,
+    4.354219436645508,
+    3.3274590969085693,
+    3.1500420570373535
+   ]
+  },
+  "x5": {
+   "fwd_typ": [
+    3.8446505069732666,
+    5.157756805419922,
+    4.369194030761719,
+    4.100063323974609,
+    4.779390811920166,
+    5.037176132202148
+   ],
+   "fwd_alex": [
+    0.5833084583282471,
+    6.703786373138428,
+    3.174741744995117,
+    3.3934648036956787,
+    7.361558437347412,
+    3.842041492462158
+   ],
+   "rev_typ": [
+    7.989941120147705,
+    5.1176676750183105,
+    5.469897270202637,
+    6.896368026733398,
+    6.142401218414307,
+    4.355118274688721
+   ],
+   "rev_alex": [
+    6.507771015167236,
+    5.307272434234619,
+    3.6373424530029297,
+    7.01261043548584,
+    4.362483024597168,
+    3.8020763397216797
+   ],
+   "off_typ": [
+    4.167446613311768,
+    4.596879005432129,
+    6.6066083908081055,
+    4.193366527557373,
+    5.066372871398926,
+    4.611701965332031
+   ],
+   "off_alex": [
+    3.481010675430298,
+    3.0840885639190674,
+    5.532532215118408,
+    3.312516212463379,
+    1.7931597232818604,
+    1.6460949182510376
+   ]
+  }
+ },
+ "group_mean": {
+  "base": {
+   "fwd_typ": 5.335697491963704,
+   "fwd_alex": 4.526195744673411,
+   "rev_typ": 6.47126825650533,
+   "rev_alex": 5.748098413149516,
+   "off_typ": 5.01020089785258,
+   "off_alex": 4.017429788907369
+  },
+  "a5": {
+   "fwd_typ": 4.785467068354289,
+   "fwd_alex": 4.737316191196442,
+   "rev_typ": 6.108733892440796,
+   "rev_alex": 5.522193868954976,
+   "off_typ": 4.940009514490764,
+   "off_alex": 3.354775547981262
+  },
+  "c5": {
+   "fwd_typ": 5.32175612449646,
+   "fwd_alex": 4.600193480650584,
+   "rev_typ": 6.475694894790649,
+   "rev_alex": 5.722441991170247,
+   "off_typ": 5.0427829424540205,
+   "off_alex": 4.082542896270752
+  },
+  "x5": {
+   "fwd_typ": 4.548038601875305,
+   "fwd_alex": 4.176483551661174,
+   "rev_typ": 5.995232264200847,
+   "rev_alex": 5.104925950368245,
+   "off_typ": 4.873729228973389,
+   "off_alex": 3.141567051410675
+  }
+ },
+ "base_validity_abs_fwd_minus_rev": {
+  "typ": 1.135570764541626,
+  "alex": 1.2219026684761047
+ },
+ "uninformative": false,
+ "est_a5": {
+  "fwd_typ": -0.5362890561421709,
+  "fwd_alex": 0.13712271054585745,
+  "rev_typ": -0.3669610023498535,
+  "rev_alex": -0.200248122215271,
+  "off_typ": -0.10277342796325684,
+  "off_alex": -0.7277673482894897,
+  "fwd": -0.19958317279815674,
+  "rev": -0.28360456228256226,
+  "off": -0.4152703881263733,
+  "verdict": "not replicated"
+ },
+ "est_x5": {
+  "fwd_typ": -0.7737175226211548,
+  "fwd_alex": -0.4237099289894104,
+  "rev_typ": -0.48046263058980276,
+  "rev_alex": -0.617516040802002,
+  "off_typ": -0.1690537134806318,
+  "off_alex": -0.9409758448600769,
+  "fwd": -0.5987137258052826,
+  "rev": -0.5489893356959024,
+  "off": -0.5550147791703544,
+  "verdict": "not replicated"
+ }
+}

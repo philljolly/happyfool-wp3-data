@@ -1,0 +1,192 @@
+{
+  "job_id": "am38b-mixed4b-lr3-01",
+  "prereg": "notes/wp3/prereg.md#amendment-38b",
+  "model": "Qwen/Qwen3-4B",
+  "adapters": [
+    "am36_T"
+  ],
+  "dtype": "float32",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 60,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {
+      "script": "inject_loc_train.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/am38b_M",
+        "--settings",
+        "24:2",
+        "--n",
+        "2",
+        "--concepts",
+        "train36",
+        "--r",
+        "4",
+        "--steps",
+        "400",
+        "--lr",
+        "3e-4",
+        "--random-frac",
+        "0.5",
+        "--frame",
+        "mixed",
+        "--seed",
+        "38",
+        "--bf16"
+      ]
+    },
+    {
+      "script": "inject_loc_train.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/am38b_SM",
+        "--settings",
+        "24:2",
+        "--n",
+        "2",
+        "--concepts",
+        "train36",
+        "--r",
+        "4",
+        "--steps",
+        "400",
+        "--lr",
+        "3e-4",
+        "--random-frac",
+        "0.5",
+        "--frame",
+        "mixed",
+        "--seed",
+        "38",
+        "--bf16",
+        "--shuffle"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/a38_U.json",
+        "--settings",
+        "24:2",
+        "--n",
+        "2",
+        "--concepts",
+        "audit36b",
+        "--k",
+        "90",
+        "--bank",
+        "test",
+        "--frames",
+        "intro/neutral/ordinary/plain",
+        "--probe-layers",
+        "-1"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/a38_T.json",
+        "--settings",
+        "24:2",
+        "--n",
+        "2",
+        "--concepts",
+        "audit36b",
+        "--k",
+        "90",
+        "--bank",
+        "test",
+        "--frames",
+        "intro/neutral/ordinary/plain",
+        "--probe-layers",
+        "-1",
+        "--adapter",
+        "adapters/am36_T"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/a38_M.json",
+        "--settings",
+        "24:2",
+        "--n",
+        "2",
+        "--concepts",
+        "audit36b",
+        "--k",
+        "90",
+        "--bank",
+        "test",
+        "--frames",
+        "intro/neutral/ordinary/plain",
+        "--probe-layers",
+        "-1",
+        "--adapter",
+        "$OUT/am38b_M"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/a38_SM.json",
+        "--settings",
+        "24:2",
+        "--n",
+        "2",
+        "--concepts",
+        "audit36b",
+        "--k",
+        "90",
+        "--bank",
+        "test",
+        "--frames",
+        "intro/neutral/ordinary/plain",
+        "--probe-layers",
+        "-1",
+        "--adapter",
+        "$OUT/am38b_SM"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/a38_M_random.json",
+        "--settings",
+        "24:2",
+        "--n",
+        "2",
+        "--concepts",
+        "audit36b",
+        "--k",
+        "90",
+        "--bank",
+        "test",
+        "--frames",
+        "intro/neutral/ordinary/plain",
+        "--probe-layers",
+        "-1",
+        "--adapter",
+        "$OUT/am38b_M",
+        "--random"
+      ]
+    },
+    {
+      "script": "m1_gate38.py",
+      "args": [
+        "$OUT",
+        "$OUT/m1_gate38_L24a2.json"
+      ]
+    }
+  ],
+  "collect": [
+    "$OUT/**"
+  ]
+}

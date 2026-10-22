@@ -1,0 +1,19 @@
+{
+  "job_id": "am31c-loc4b-fix-01",
+  "prereg": "notes/wp3/prereg.md#amendment-31c",
+  "model": "Qwen/Qwen3-4B",
+  "dtype": "float32",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 50,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {"script": "inject_loc.py", "args": ["Qwen/Qwen3-4B", "$OUT/fx2_concept.json", "--settings", "24:2/20:4", "--n", "2", "--concepts", "loc", "--frames", "intro/neutral/word", "--probe-layers", "30:-1"]},
+    {"script": "inject_loc.py", "args": ["Qwen/Qwen3-4B", "$OUT/fx2_random.json", "--settings", "24:2/20:4", "--n", "2", "--concepts", "loc", "--frames", "intro/neutral/word", "--probe-layers", "30:-1", "--random"]},
+    {"script": "inject_loc.py", "args": ["Qwen/Qwen3-4B", "$OUT/fx5_concept.json", "--settings", "24:2/20:4", "--n", "5", "--concepts", "loc", "--frames", "intro/neutral/word", "--probe-layers", "30:-1"]},
+    {"script": "inject_loc.py", "args": ["Qwen/Qwen3-4B", "$OUT/fx5_random.json", "--settings", "24:2/20:4", "--n", "5", "--concepts", "loc", "--frames", "intro/neutral/word", "--probe-layers", "30:-1", "--random"]},
+    {"script": "sweep_analyse.py", "args": ["$OUT", "fx2", "$OUT/summary_fx2.json", "--run", "run39"]},
+    {"script": "sweep_analyse.py", "args": ["$OUT", "fx5", "$OUT/summary_fx5.json", "--run", "run39"]}
+  ],
+  "collect": ["$OUT/**"]
+}

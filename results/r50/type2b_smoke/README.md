@@ -1,0 +1,1 @@
+Am. 41b kit smoke test (run 50): Qwen3-0.6B fp32 CPU, L12 α8, 2 AM41B concepts (anvil, chisel), N = 2. Format check only; numbers not read. conf_none_own equals the clean conf where the own answer equals the clean answer, as it should.

@@ -1,0 +1,319 @@
+{
+ "files": {
+  "U": "/tmp/r45/am36b-control4b-01/a36b_U.json",
+  "T": "/tmp/r45/am36b-control4b-01/a36b_T.json",
+  "S": "/tmp/r45/am36b-control4b-01/a36b_S.json"
+ },
+ "per_file": {
+  "U": {
+   "n_rows": 180,
+   "L": 24,
+   "alpha": 2.0,
+   "frames": {
+    "intro": {
+     "raw_P_inj": [
+      0.522,
+      0.506,
+      0.544
+     ],
+     "shift_P_inj": [
+      0.644,
+      0.578,
+      0.706
+     ],
+     "disagree": 0.4,
+     "raw_share_answer_2": 0.9
+    },
+    "neutral": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.567,
+      0.506,
+      0.628
+     ],
+     "disagree": 0.244,
+     "raw_share_answer_2": 0.911
+    },
+    "ordinary": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.628,
+      0.561,
+      0.689
+     ],
+     "disagree": 0.75,
+     "raw_share_answer_2": 0.0
+    }
+   },
+   "Q_intro_vs_ordinary": {
+    "raw": [
+     0.022,
+     0.006,
+     0.044
+    ],
+    "shift": [
+     0.017,
+     -0.067,
+     0.106
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      11,
+      83
+     ],
+     [
+      79,
+      7
+     ]
+    ]
+   },
+   "probe": {
+    "intro_L30": {
+     "single_state": 0.978,
+     "pair_diff": 0.983
+    },
+    "intro_L36": {
+     "single_state": 0.989,
+     "pair_diff": 0.989
+    },
+    "neutral_L30": {
+     "single_state": 0.983,
+     "pair_diff": 0.994
+    },
+    "neutral_L36": {
+     "single_state": 0.983,
+     "pair_diff": 0.994
+    },
+    "ordinary_L30": {
+     "single_state": 0.978,
+     "pair_diff": 0.994
+    },
+    "ordinary_L36": {
+     "single_state": 0.978,
+     "pair_diff": 0.994
+    }
+   }
+  },
+  "T": {
+   "n_rows": 180,
+   "L": 24,
+   "alpha": 2.0,
+   "frames": {
+    "intro": {
+     "raw_P_inj": [
+      0.994,
+      0.983,
+      1.0
+     ],
+     "shift_P_inj": [
+      1.0,
+      1.0,
+      1.0,
+      {
+       "exact_CP95": [
+        0.9797,
+        1.0
+       ]
+      }
+     ],
+     "disagree": 0.006,
+     "raw_share_answer_2": 0.494
+    },
+    "neutral": {
+     "raw_P_inj": [
+      0.994,
+      0.983,
+      1.0
+     ],
+     "shift_P_inj": [
+      1.0,
+      1.0,
+      1.0,
+      {
+       "exact_CP95": [
+        0.9797,
+        1.0
+       ]
+      }
+     ],
+     "disagree": 0.006,
+     "raw_share_answer_2": 0.494
+    },
+    "ordinary": {
+     "raw_P_inj": [
+      0.967,
+      0.939,
+      0.989
+     ],
+     "shift_P_inj": [
+      1.0,
+      1.0,
+      1.0,
+      {
+       "exact_CP95": [
+        0.9797,
+        1.0
+       ]
+      }
+     ],
+     "disagree": 0.033,
+     "raw_share_answer_2": 0.467
+    }
+   },
+   "Q_intro_vs_ordinary": {
+    "raw": [
+     0.028,
+     0.006,
+     0.056
+    ],
+    "shift": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      174,
+      5
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "probe": {
+    "intro_L30": {
+     "single_state": 1.0,
+     "pair_diff": 1.0
+    },
+    "intro_L36": {
+     "single_state": 1.0,
+     "pair_diff": 1.0
+    },
+    "neutral_L30": {
+     "single_state": 1.0,
+     "pair_diff": 1.0
+    },
+    "neutral_L36": {
+     "single_state": 1.0,
+     "pair_diff": 1.0
+    },
+    "ordinary_L30": {
+     "single_state": 0.989,
+     "pair_diff": 0.994
+    },
+    "ordinary_L36": {
+     "single_state": 1.0,
+     "pair_diff": 1.0
+    }
+   }
+  },
+  "S": {
+   "n_rows": 180,
+   "L": 24,
+   "alpha": 2.0,
+   "frames": {
+    "intro": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.478,
+      0.406,
+      0.544
+     ],
+     "disagree": 0.544,
+     "raw_share_answer_2": 0.0
+    },
+    "neutral": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.417,
+      0.367,
+      0.467
+     ],
+     "disagree": 0.65,
+     "raw_share_answer_2": 0.089
+    },
+    "ordinary": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.667,
+      0.6,
+      0.733
+     ],
+     "disagree": 0.656,
+     "raw_share_answer_2": 0.0
+    }
+   },
+   "Q_intro_vs_ordinary": {
+    "raw": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shift": [
+     -0.189,
+     -0.278,
+     -0.094
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      90,
+      0
+     ],
+     [
+      0,
+      90
+     ]
+    ]
+   },
+   "probe": {
+    "intro_L30": {
+     "single_state": 0.978,
+     "pair_diff": 0.994
+    },
+    "intro_L36": {
+     "single_state": 0.978,
+     "pair_diff": 0.994
+    },
+    "neutral_L30": {
+     "single_state": 0.983,
+     "pair_diff": 0.994
+    },
+    "neutral_L36": {
+     "single_state": 0.972,
+     "pair_diff": 0.994
+    },
+    "ordinary_L30": {
+     "single_state": 0.983,
+     "pair_diff": 0.994
+    },
+    "ordinary_L36": {
+     "single_state": 0.983,
+     "pair_diff": 0.994
+    }
+   }
+  }
+ },
+ "C": {}
+}

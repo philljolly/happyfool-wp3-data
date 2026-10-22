@@ -1,0 +1,806 @@
+{
+ "7:2": {
+  "L": 7,
+  "alpha": 2.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_concept_L7a2.json",
+    "arm": "concept",
+    "alpha": 2.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.495,
+       0.473,
+       0.517
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.613
+     },
+     "neutral": {
+      "AUC_m": [
+       0.48,
+       0.451,
+       0.5
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.562
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.458,
+       0.425,
+       0.479
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.625
+     }
+    },
+    "impact_median": 0.5707
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L7a2.json",
+    "arm": "random",
+    "alpha": 2.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.522,
+       0.502,
+       0.553
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.512
+     },
+     "neutral": {
+      "AUC_m": [
+       0.51,
+       0.486,
+       0.539
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.487
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.487,
+       0.459,
+       0.515
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.525
+     }
+    },
+    "impact_median": 0.7032
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L7a4.json",
+    "arm": "random",
+    "alpha": 4.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.557,
+       0.526,
+       0.6
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.537
+     },
+     "neutral": {
+      "AUC_m": [
+       0.534,
+       0.496,
+       0.578
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.5
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.471,
+       0.432,
+       0.512
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.537
+     }
+    },
+    "impact_median": 1.4748
+   }
+  ],
+  "R": "EXCLUDED",
+  "Q": "UNDETERMINED",
+  "C_matched_random": {
+   "alpha": 2.0,
+   "impact_ratio": 1.232
+  },
+  "C_intro": [
+   -0.027,
+   -0.068,
+   -0.001
+  ],
+  "C_neutral": [
+   -0.03,
+   -0.076,
+   -0.002
+  ],
+  "C_ordinary": [
+   -0.029,
+   -0.071,
+   0.0
+  ],
+  "C": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)"
+ },
+ "7:8": {
+  "L": 7,
+  "alpha": 8.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_concept_L7a8.json",
+    "arm": "concept",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.559,
+       0.519,
+       0.611
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.738
+     },
+     "neutral": {
+      "AUC_m": [
+       0.564,
+       0.517,
+       0.619
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.713
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.305,
+       0.229,
+       0.366
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.8
+     }
+    },
+    "impact_median": 2.6924
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L7a8.json",
+    "arm": "random",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.642,
+       0.584,
+       0.715
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.7
+     },
+     "neutral": {
+      "AUC_m": [
+       0.613,
+       0.556,
+       0.682
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.65
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.404,
+       0.34,
+       0.463
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.637
+     }
+    },
+    "impact_median": 3.1756
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L7a16.json",
+    "arm": "random",
+    "alpha": 16.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.811,
+       0.73,
+       0.891
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.85
+     },
+     "neutral": {
+      "AUC_m": [
+       0.805,
+       0.723,
+       0.885
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.838
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.152,
+       0.08,
+       0.226
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.85
+     }
+    },
+    "impact_median": 7.3338
+   }
+  ],
+  "R": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+  "Q": "SALIENCE PULL",
+  "C_matched_random": {
+   "alpha": 8.0,
+   "impact_ratio": 1.179
+  },
+  "C_intro": [
+   -0.083,
+   -0.152,
+   -0.023
+  ],
+  "C_neutral": [
+   -0.049,
+   -0.121,
+   0.015
+  ],
+  "C_ordinary": [
+   -0.099,
+   -0.187,
+   -0.022
+  ],
+  "C": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)"
+ },
+ "12:2": {
+  "L": 12,
+  "alpha": 2.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_concept_L12a2.json",
+    "arm": "concept",
+    "alpha": 2.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.57,
+       0.541,
+       0.611
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.875
+     },
+     "neutral": {
+      "AUC_m": [
+       0.499,
+       0.454,
+       0.547
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.762
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.344,
+       0.276,
+       0.402
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.812
+     }
+    },
+    "impact_median": 1.7641
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L12a2.json",
+    "arm": "random",
+    "alpha": 2.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.507,
+       0.459,
+       0.557
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.562
+     },
+     "neutral": {
+      "AUC_m": [
+       0.502,
+       0.447,
+       0.559
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.575
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.418,
+       0.357,
+       0.469
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.625
+     }
+    },
+    "impact_median": 1.9925
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L12a4.json",
+    "arm": "random",
+    "alpha": 4.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.578,
+       0.508,
+       0.652
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.725
+     },
+     "neutral": {
+      "AUC_m": [
+       0.551,
+       0.469,
+       0.639
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.713
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.328,
+       0.246,
+       0.406
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.738
+     }
+    },
+    "impact_median": 3.7206
+   }
+  ],
+  "R": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+  "Q": "SALIENCE PULL",
+  "C_matched_random": {
+   "alpha": 2.0,
+   "impact_ratio": 1.129
+  },
+  "C_intro": [
+   0.062,
+   0.002,
+   0.135
+  ],
+  "C_neutral": [
+   -0.002,
+   -0.07,
+   0.067
+  ],
+  "C_ordinary": [
+   -0.074,
+   -0.156,
+   0.006
+  ],
+  "C": "SHOWN"
+ },
+ "12:8": {
+  "L": 12,
+  "alpha": 8.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_concept_L12a8.json",
+    "arm": "concept",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.894,
+       0.827,
+       0.957
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.925
+     },
+     "neutral": {
+      "AUC_m": [
+       0.611,
+       0.514,
+       0.706
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.912
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.059,
+       0.011,
+       0.126
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.963
+     }
+    },
+    "impact_median": 8.146
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L12a8.json",
+    "arm": "random",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.688,
+       0.599,
+       0.783
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.95
+     },
+     "neutral": {
+      "AUC_m": [
+       0.624,
+       0.503,
+       0.739
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.9
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.338,
+       0.228,
+       0.454
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.912
+     }
+    },
+    "impact_median": 6.147
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L12a16.json",
+    "arm": "random",
+    "alpha": 16.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.654,
+       0.547,
+       0.757
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 1.0
+     },
+     "neutral": {
+      "AUC_m": [
+       0.39,
+       0.254,
+       0.536
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.963
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.599,
+       0.459,
+       0.726
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.988
+     }
+    },
+    "impact_median": 7.5203
+   }
+  ],
+  "R": "SHOWN",
+  "Q": "SALIENCE PULL",
+  "C_matched_random": {
+   "alpha": 16.0,
+   "impact_ratio": 0.923
+  },
+  "C_intro": [
+   0.24,
+   0.131,
+   0.359
+  ],
+  "C_neutral": [
+   0.221,
+   0.086,
+   0.364
+  ],
+  "C_ordinary": [
+   -0.54,
+   -0.686,
+   -0.371
+  ],
+  "C": "SHOWN"
+ },
+ "19:2": {
+  "L": 19,
+  "alpha": 2.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_concept_L19a2.json",
+    "arm": "concept",
+    "alpha": 2.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.501,
+       0.482,
+       0.518
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.912
+     },
+     "neutral": {
+      "AUC_m": [
+       0.476,
+       0.451,
+       0.486
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.775
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.62,
+       0.6,
+       0.667
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.863
+     }
+    },
+    "impact_median": 0.3841
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L19a2.json",
+    "arm": "random",
+    "alpha": 2.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.486,
+       0.456,
+       0.511
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.863
+     },
+     "neutral": {
+      "AUC_m": [
+       0.474,
+       0.444,
+       0.489
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.7
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.593,
+       0.568,
+       0.637
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.787
+     }
+    },
+    "impact_median": 0.3945
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L19a4.json",
+    "arm": "random",
+    "alpha": 4.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.489,
+       0.458,
+       0.514
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.95
+     },
+     "neutral": {
+      "AUC_m": [
+       0.471,
+       0.444,
+       0.485
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.887
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.631,
+       0.612,
+       0.679
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.9
+     }
+    },
+    "impact_median": 0.5372
+   }
+  ],
+  "R": "EXCLUDED",
+  "Q": "UNDETERMINED",
+  "C_matched_random": {
+   "alpha": 2.0,
+   "impact_ratio": 1.027
+  },
+  "C_intro": [
+   0.014,
+   -0.008,
+   0.046
+  ],
+  "C_neutral": [
+   0.003,
+   -0.019,
+   0.021
+  ],
+  "C_ordinary": [
+   0.027,
+   0.006,
+   0.053
+  ],
+  "C": "EXCLUDED"
+ },
+ "19:8": {
+  "L": 19,
+  "alpha": 8.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_concept_L19a8.json",
+    "arm": "concept",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.502,
+       0.476,
+       0.526
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 1.0
+     },
+     "neutral": {
+      "AUC_m": [
+       0.488,
+       0.461,
+       0.509
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.9
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.627,
+       0.609,
+       0.672
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.975
+     }
+    },
+    "impact_median": 0.4509
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L19a8.json",
+    "arm": "random",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.497,
+       0.469,
+       0.522
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.963
+     },
+     "neutral": {
+      "AUC_m": [
+       0.484,
+       0.455,
+       0.504
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.912
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.637,
+       0.616,
+       0.686
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.975
+     }
+    },
+    "impact_median": 0.5101
+   },
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_1p7b_random_L19a16.json",
+    "arm": "random",
+    "alpha": 16.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.503,
+       0.479,
+       0.529
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.988
+     },
+     "neutral": {
+      "AUC_m": [
+       0.49,
+       0.465,
+       0.51
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.9
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.631,
+       0.611,
+       0.677
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.975
+     }
+    },
+    "impact_median": 0.4921
+   }
+  ],
+  "R": "EXCLUDED",
+  "Q": "UNDETERMINED",
+  "C_matched_random": {
+   "alpha": 16.0,
+   "impact_ratio": 1.091
+  },
+  "C_intro": [
+   -0.001,
+   -0.011,
+   0.008
+  ],
+  "C_neutral": [
+   -0.002,
+   -0.012,
+   0.009
+  ],
+  "C_ordinary": [
+   -0.004,
+   -0.014,
+   0.004
+  ],
+  "C": "EXCLUDED"
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "frames": {
+  "intro": {
+   "gate": {
+    "g1_mass": true,
+    "g2_clean_conf_sd": 0.74,
+    "g2": true,
+    "g3_correct_incorrect": [
+     75,
+     45
+    ],
+    "g3": true,
+    "pass": true
+   },
+   "acc1": 0.625,
+   "AUROC2": 0.696,
+   "AUROC2r": [
+    0.605,
+    0.522,
+    0.688,
+    2000
+   ],
+   "AUROC2r_none": [
+    0.409,
+    0.342,
+    0.468,
+    2000
+   ],
+   "X_on_minus_none": [
+    0.196,
+    0.126,
+    0.276,
+    2000
+   ],
+   "Dbal": [
+    0.524,
+    0.38,
+    0.67,
+    2000
+   ],
+   "b_own": [
+    0.758,
+    0.559,
+    0.978,
+    2000
+   ],
+   "mass": {
+    "mass_conf": 0.0,
+    "mass_none_own": 0.0,
+    "mass_swap": 0.0
+   }
+  },
+  "ordinary": {
+   "gate": {
+    "g1_mass": true,
+    "g2_clean_conf_sd": 0.754,
+    "g2": true,
+    "g3_correct_incorrect": [
+     91,
+     29
+    ],
+    "g3": true,
+    "pass": true
+   },
+   "acc1": 0.758,
+   "AUROC2": 0.523,
+   "AUROC2r": [
+    0.489,
+    0.388,
+    0.594,
+    2000
+   ],
+   "AUROC2r_none": [
+    0.325,
+    0.229,
+    0.415,
+    2000
+   ],
+   "X_on_minus_none": [
+    0.164,
+    0.094,
+    0.247,
+    2000
+   ],
+   "Dbal": [
+    0.449,
+    0.308,
+    0.594,
+    2000
+   ],
+   "b_own": [
+    0.746,
+    0.513,
+    0.971,
+    2000
+   ],
+   "mass": {
+    "mass_conf": 0.0,
+    "mass_none_own": 0.0,
+    "mass_swap": 0.0
+   }
+  }
+ },
+ "T2": "SHOWN",
+ "STATE_DEPENDENT": "SHOWN",
+ "SWAP": "SWAP-MONITOR SHOWN"
+}

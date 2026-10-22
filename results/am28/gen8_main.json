@@ -1,0 +1,999 @@
+{
+ "gen": "Qwen/Qwen3-8B",
+ "seconds": 74,
+ "provenance": {
+  "utc": "2026-10-21T03:44:10Z",
+  "job_id": "am28-qwen8b4b-02",
+  "attempt": "1",
+  "market": "spot",
+  "price_usd_per_h": "0.3539",
+  "instance_type": "g6.xlarge",
+  "region": "eu-west-3",
+  "az": "eu-west-3b",
+  "device": "cuda",
+  "model": "Qwen/Qwen3-8B",
+  "dtype": "bfloat16",
+  "tf32": {
+   "matmul": "ieee",
+   "cudnn_conv": "ieee",
+   "NVIDIA_TF32_OVERRIDE": "0",
+   "off": true
+  },
+  "host": "Linux x86_64",
+  "python": "3.11.15",
+  "torch_threads": 4,
+  "torch_cuda": "13.0",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.1",
+  "peft": "0.21.2",
+  "trl": "1.16.0",
+  "datasets": "5.1.0",
+  "accelerate": "1.15.0",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA L4",
+  "gpu_capability": "8.9",
+  "driver": "595.91.07"
+ },
+ "rows": [
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 10,
+   "T": 0.5,
+   "text": "The city market buzzes with life, a vibrant hub where the scent of fresh spices and sizzling street food mingle in the air. Colorful stalls overflow with fruits, vegetables, handcrafted goods, and local delicacies, each vendor proudly showcasing their wares. Laughter and haggling echo"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 11,
+   "T": 0.5,
+   "text": "The smell of rain, known as petrichor, is a refreshing and earthy scent that fills the air after a long dry spell. It originates from the release of oils from the soil and the evaporation of compounds from plants, creating a unique and invigorating aroma. This fragrance is often"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 12,
+   "T": 0.5,
+   "text": "In a quiet corner of a dimly lit caf\u00e9, two opponents faced off over a chessboard, each move a silent conversation of strategy and intellect. The game unfolded with precision, as white's queen swept across the board, threatening the king's flank, while black countered with a clever pawn advance,"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 13,
+   "T": 0.5,
+   "text": "The lighthouse keeper stood alone on the rugged cliff, his days marked by the rhythmic crash of waves and the steady glow of the beacon he tended. Each night, he climbed the spiral stairs to the top of the tower, ensuring the light burned brightly to guide ships safely through the treacherous"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 14,
+   "T": 0.5,
+   "text": "The empty playground lies silent beneath a pale afternoon sun, its swings swaying gently in the breeze, as if remembering the laughter that once filled the air. The sandbox, now untouched, holds the shape of a forgotten castle, and the slide stands still, waiting for the next child to climb up its"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 15,
+   "T": 0.5,
+   "text": "The desert road stretched endlessly beneath the blazing sun, a narrow ribbon of asphalt cutting through the golden dunes. Dust swirled in the dry air, catching the light like tiny stars, while the silence was broken only by the hum of the tires and the occasional cry of a distant hawk. It"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 16,
+   "T": 0.5,
+   "text": "Making tea is a simple yet comforting ritual. Begin by heating fresh water, then place a tea bag or loose leaves into a cup. Pour the hot water over the tea, allowing it to steep for a few minutes to release its flavor and aroma. Adjust the steeping time based on the type of"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 17,
+   "T": 0.5,
+   "text": "In the heart of winter, the forest is wrapped in a hush of stillness, its trees standing like silent sentinels draped in a blanket of snow. The air is crisp and clear, carrying the faint scent of pine and the distant call of a lone owl. Underfoot, the snow"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 18,
+   "T": 0.5,
+   "text": "The concert was a sea of flashing lights and roaring energy, with thousands of fans packed shoulder to shoulder in the stadium. People danced wildly, their voices blending into a deafening chorus of cheers and screams. The air was thick with excitement, sweat, and the scent of anticipation, while the stage pul"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 19,
+   "T": 0.5,
+   "text": "A broken clock sits on the shelf, its hands frozen at 3:45, a silent witness to time's passage. Though it no longer tells the correct time, it still holds a strange kind of beauty\u2014its cracked glass and rusted gears a testament to the years it has endured."
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 20,
+   "T": 0.5,
+   "text": "A fishing boat is a sturdy vessel designed for navigating the open waters in search of fish. Often built from wood or metal, it features a simple yet functional design, with a pointed bow to cut through waves and a spacious deck for hauling in the catch. These boats are commonly used by fishermen who rely"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 21,
+   "T": 0.5,
+   "text": "In autumn, the garden transforms into a tapestry of warm hues, where golden leaves dance in the breeze and crisp air carries the scent of earth and decay. Bushes heavy with berries and clusters of dried flowers add texture to the landscape, while the last remnants of summer blooms cling to their stems,"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 22,
+   "T": 0.5,
+   "text": "A long flight can be a mix of anticipation and exhaustion, as passengers settle into their seats, fasten their belts, and prepare for hours in the air. The hum of the engines and the soft glow of cabin lights create a serene yet isolating atmosphere. Some people use the time to catch up"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 23,
+   "T": 0.5,
+   "text": "A power cut can disrupt daily life, plunging homes and businesses into darkness and halting electronic devices. Without electricity, lights go off, refrigerators stop, and communication systems fail, causing inconvenience and sometimes safety concerns. People may rely on candles, flashlights, or generators to cope, while others"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 24,
+   "T": 0.5,
+   "text": "My new neighbor, Mr. Thompson, is a friendly and lively man in his early sixties. He has a booming laugh and a passion for gardening, often seen tending to his beautifully arranged flower beds. He's always welcoming, offering help or a chat whenever I pass by. His home is"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 25,
+   "T": 0.5,
+   "text": "The river crossing was a daunting challenge, its swift currents whispering warnings to those who dared to attempt the passage. With a sturdy bridge spanning the wide expanse, travelers braced themselves against the cold, damp air as they stepped onto the worn planks. Each footfall echoed across the water,"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 26,
+   "T": 0.5,
+   "text": "School exams are an essential part of the educational process, designed to assess students' understanding of the material covered throughout the term. They can be both challenging and stressful, pushing students to review and consolidate their knowledge. While some view exams as a measure of intelligence and effort, others see them as a way"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 27,
+   "T": 0.5,
+   "text": "The quiet hospital corridor hums with an eerie stillness, illuminated only by the soft glow of overhead lights. The faint beeping of machines and the occasional muffled conversation drift through the air, creating a delicate balance between life and silence. Walls lined with doors, each one a potential story, stand"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 28,
+   "T": 0.5,
+   "text": "Under the flickering glow of a streetlamp, a street musician plucks at his guitar, weaving melodies that drift through the bustling city crowd. His music is a blend of soulful notes and whispered stories, drawing passersby into a moment of quiet reflection. With every strum, he offers"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 29,
+   "T": 0.5,
+   "text": "A snow day is a magical escape from the ordinary, transforming the world into a pristine, white wonderland. Streets are blanketed in soft snow, rooftops glisten under the pale sun, and the air carries a quiet hush. Children leap and laugh as they build snowmen and have snow"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 30,
+   "T": 0.5,
+   "text": "The family dinner was a warm and joyful gathering, filled with laughter and the comforting aroma of home-cooked meals. Everyone sat around the table, sharing stories and catching up on each other's lives, with the youngest giggling over silly jokes and the elders reminiscing about old times. The clinking"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 31,
+   "T": 0.5,
+   "text": "The abandoned factory stood silent and forgotten, its once-bustling halls now echoing with the ghosts of industry. Weathered brick walls bore the scars of time, and rusted machinery lay scattered across the floor, frozen in the final moments of its purpose. Vines crept through broken windows, reclaim"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 32,
+   "T": 0.5,
+   "text": "Last weekend, I visited the local history museum and was immediately captivated by the rich displays of artifacts and photographs that told the story of our town's past. The guided tour provided fascinating insights into the lives of early settlers and the development of the community over the centuries. One exhibit, featuring vintage tools"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 33,
+   "T": 0.5,
+   "text": "I arrived at the bus stop just as the bus was pulling away, leaving me stranded with only a few minutes to spare. My heart raced as I watched the vehicle disappear down the street, realizing I had missed my last chance to catch it. I quickly grabbed my backpack and sprinted to the nearest"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 34,
+   "T": 0.5,
+   "text": "On a sweltering summer afternoon, the sun blazes overhead, casting a golden glow over the world. The air is thick with heat, and the breeze feels more like a gentle suffocation than a relief. Children chase each other through the dusty streets, their laughter echoing in the stillness,"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 35,
+   "T": 0.5,
+   "text": "A bee flits from flower to flower, its golden body dusted with pollen as it diligently gathers nectar. With delicate wings, it dances among the petals, a tiny worker in the grand symphony of nature, playing a vital role in pollination. Each visit to a flower is a purpose"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 36,
+   "T": 0.5,
+   "text": "Nestled high in the mountains, the lake lies in a tranquil embrace of towering peaks and ancient forests. Its crystal-clear waters mirror the sky above, reflecting the soft hues of the surrounding wilderness. A gentle breeze carries the scent of pine and wildflowers, while the distant sound of waterfalls adds"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 37,
+   "T": 0.5,
+   "text": "The late-night diner is a haven of warmth and comfort, glowing softly in the quiet hours when the world has long since gone to sleep. Inside, the air is thick with the scent of fries and coffee, and the hum of conversation blends with the clink of glasses and the sizzle of a"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 38,
+   "T": 0.5,
+   "text": "Nestled among rolling hills, the apple orchard stretches out like a sea of green and gold, its trees heavy with ripe fruit. The crisp autumn air carries the sweet scent of apples, while the gentle rustle of leaves whispers of harvest time. Farmers move through the rows, carefully picking the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 39,
+   "T": 0.5,
+   "text": "A paper boat is a simple yet elegant creation, often made from a single sheet of paper folded with careful precision. It symbolizes innocence, imagination, and the gentle flow of life. Whether crafted for a child's play or as a symbolic gesture, the paper boat drifts gracefully, carrying with it"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 40,
+   "T": 0.5,
+   "text": "FM 98.3, \"The Beat Hub,\" is a vibrant radio station that blends the best of contemporary music with local flavor. Known for its eclectic playlist featuring everything from indie rock to hip-hop and classic hits, the station keeps listeners engaged with dynamic on-air personalities and interactive shows. Whether"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 41,
+   "T": 0.5,
+   "text": "The bridge stood silent beneath a shroud of thick, silver fog, its iron rails glistening with the dampness of the morning. Shadows danced along the wooden planks, blurring the line between the real and the imagined. A single lamppost flickered weakly at the end, casting"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 42,
+   "T": 0.5,
+   "text": "In the quiet corner of a cozy bookshop, there lives a curious and affectionate cat named Whiskers. With a sleek black coat and eyes the color of old leather-bound tomes, Whiskers is the shop's unofficial mascot, often perched atop a stack of mystery novels or curled"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 43,
+   "T": 0.5,
+   "text": "Every year, the village of Willowbrook comes alive with color and music during its annual Harvest Festival. The square is transformed into a bustling hub of activity, with stalls selling freshly baked bread, handmade crafts, and ripe seasonal fruits. Children laugh as they ride on decorated floats, while musicians play lively folk"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 44,
+   "T": 0.5,
+   "text": "At dawn, the canyon awakens in a breathtaking display of color. The first light of day spills across the rugged cliffs, casting long shadows and illuminating the intricate layers of rock in hues of gold, rose, and lavender. A cool breeze whispers through the narrow passages, carrying the scent of earth"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 45,
+   "T": 0.5,
+   "text": "On the beach, a colorful kite dances in the wind, its strings taut as it soars high above the golden sands. The breeze carries it across the sky, where it twists and turns with the rhythm of the wind, a playful companion to the waves below. Children laugh and run, their"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 46,
+   "T": 0.5,
+   "text": "The dusty attic was a forgotten world, where time seemed to stand still. Sunlight filtered through cracked windows, casting golden rays across piles of old boxes, faded photographs, and yellowed letters. The air was thick with the scent of aged wood and memories, whispering of past lives and long-lo"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 47,
+   "T": 0.5,
+   "text": "At 5 a.m., the bakery is a quiet world of its own, where the soft hum of the oven and the gentle clink of mixing bowls fill the air. Dawn has barely touched the horizon, but the scent of fresh bread and warm pastries lingers, promising the day's first"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 48,
+   "T": 0.5,
+   "text": "A rooftop garden is a lush oasis suspended above the urban landscape, offering a peaceful retreat from the noise and chaos below. Greenery cascades from hanging planters, while vibrant flowers and fresh herbs thrive in carefully arranged containers. It serves as a space for relaxation, gardening, and even small-scale farming"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 49,
+   "T": 0.5,
+   "text": "A ferry ride offers a peaceful way to travel across water, with the gentle rocking of the boat creating a calming rhythm. As the vessel glides through the waves, passengers can enjoy the scenic views of the surrounding landscape, whether it's the distant mountains, the bustling harbor, or the open sea."
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 10,
+   "T": 1.5,
+   "text": "The city market is a vibrant hub of color, sound, and aroma, where locals and visitors alike gather to explore a lively blend of culture and commerce. Stalls overflow with fresh produce, handcrafted goods, and street foods, each vendor bringing their own unique flair to the bustling atmosphere. The chatter"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 11,
+   "T": 1.5,
+   "text": "The smell of rain, often described as petrichor, is a crisp and earthy fragrance that fills the air after a long dry spell. It is a scent born from the interaction between water and the soil, releasing oils and compounds trapped in the ground. This invigorating aroma has a way"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 12,
+   "T": 1.5,
+   "text": "In a quiet afternoon, two opponents faced off on a chessboard, each carefully considering their moves. The game unfolded with calculated precision, as pawns advanced and knights flitted across the board, building tension with every turn. Midway through, a daring queen shuffle caught the opponent off guard, setting"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 13,
+   "T": 1.5,
+   "text": "The lighthouse keeper lived alone on the rocky cliff, his days ruled by the rhythm of the sea. Each morning, he climbed the spiral stairs to the tower, where the rotating lamp signaled safe passage to ships in the darkness. Though the work was solitary, he found peace in the vast, un"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 14,
+   "T": 1.5,
+   "text": "The empty playground sits silently beneath a dome of gray clouds, its once-bustling swings hanging still and its slides cradling dust instead of children. The cracked concrete surface echoes with the absence of laughter, and the faded red and blue paint on the equipment peels gently in the wind. Shadows"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 15,
+   "T": 1.5,
+   "text": "The desert road stretches endlessly under the unrelenting sun, a narrow strip of gravel and tarmac surrounded by an ocean of golden dunes. Its surface, dry and cracked, bears the silent testimony of countless journeys, while the wind carries with it the whispers of the ancient sands. Sparse vegetation and"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 16,
+   "T": 1.5,
+   "text": "Making tea is a simple yet enjoyable ritual that brings a sense of calm and comfort. Begin by heating fresh water in a kettle, then select your preferred tea leaves or tea bag. Pour the hot water into a cup or teapot, allowing the leaves to steep for a few minutes\u2014adjusting the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 17,
+   "T": 1.5,
+   "text": "In the heart of winter, the forest stands still, cloaked in a thick layer of snow that muffles the world. Bare trees stretch toward the gray sky, their branches frozen in silent contemplation. A delicate hush blankets the earth, broken only by the occasional crunch of snow underfoot or"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 18,
+   "T": 1.5,
+   "text": "The concert was a sea of bodies, a pulsating mix of energy and excitement. Fans cheered wildly, arms flailing in rhythm with the beat, as strobes flickered and the crowd surged forward with every powerful lyric. Thundering sound waves vibrated through the ground, merging with the restless chatter"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 19,
+   "T": 1.5,
+   "text": "A broken clock lies forgotten in the corner of the room, its hands frozen at an impossible time. Once a symbol of precision and order, it now stands as a silent reminder of the passage of time and the inevitability of decay. Though it no longer tells the correct hour, its shattered glass"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 20,
+   "T": 1.5,
+   "text": "A fishing boat is a sturdy vessel built for the sea, designed to withstand the harsh conditions of the ocean. Often equipped with nets, rods, and ample storage, it serves as both a workplace and a home for fishermen who rely on the sea for their livelihood. As it glides across the water"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 21,
+   "T": 1.5,
+   "text": "In autumn, the garden transforms into a tapestry of warm colors and gentle decay. Crimson and gold leaves drift to the earth, while the last vestiges of summer flowers sway in the breeze. The air carries a crispness that hints at the coming frost, and the fragrance of decaying leaves m"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 22,
+   "T": 1.5,
+   "text": "A long flight can be both a test of patience and a moment of reflection. As the plane climbs and the world outside blurs into a sequence of lights and clouds, passengers often find themselves settling into the rhythm of the journey. There's a quiet hum of engines, the soft murmur of conversation"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 23,
+   "T": 1.5,
+   "text": "A power cut can happen suddenly, leaving homes and businesses in darkness. Without electricity, lights go off, computers shut down, and essential appliances stop working. It can cause inconvenience, disrupt daily routines, and even pose safety risks if not handled properly. People rely on power for heating, cooling, and"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 24,
+   "T": 1.5,
+   "text": "My new neighbor, Mrs. Thompson, is a cheerful and friendly elderly woman who loves gardening and knitting. She often welcomes me with a warm smile and a cup of tea, and her porch is always filled with blooming flowers and finished knitting projects. Despite her age, she's full of energy and"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 25,
+   "T": 1.5,
+   "text": "The river crossing was both daunting and serene, the water flowing steadily beneath the gnarled roots of ancient trees. With each step, the soft crunch of gravel echoed across the narrow bridge, a quiet reminder of the journey ahead. The air was cool and damp, carrying the scent of earth andWill"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 26,
+   "T": 1.5,
+   "text": "School exams are an important part of the academic journey, designed to assess students' understanding of the material covered throughout the term. They create a sense of responsibility and pressure, encouraging students to study and prepare thoroughly. While some view exams as a means of evaluating performance, others see them as opportunities for growth"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 27,
+   "T": 1.5,
+   "text": "The quiet hospital corridor stretches along, its walls lined with soft beige paint and faint traces of past conversations. A single light hums gently overhead, casting a warm glow over the polished floor. The occasional sound of a door closing or a distant heartbeat from a monitor breaks the silence, reminding those who pass"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 28,
+   "T": 1.5,
+   "text": "Under the warm glow of a streetlight, a street musician plays a weathered guitar, weaving melodies that drift through the passing crowds. With a worn-looking hat and a smudge of dirt on his sleeve, he seems to be both performer and observer, lost in the rhythm of the city. His"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 29,
+   "T": 1.5,
+   "text": "It was a snow day, and the world seemed to pause as the fluffy white blanket transformed the neighborhood into a magical winter wonderland. Children pressed their noses to the frosted windows, wide-eyed with excitement, while others slid down hills like sleds, laughing through the cold. Parents bundled up and"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 30,
+   "T": 1.5,
+   "text": "The family dinner was a warm and joyful gathering, filled with laughter and the comfort of shared meals. Everyone took their seats around the wooden table, decorated with candles and small dishes of fresh fruit and bread. The smell of simmering soup and roasted chicken filled the air, mingling with the clinking"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 31,
+   "T": 1.5,
+   "text": "The abandoned factory stood silent and forgotten, its once-bustling halls now echoing with the whispers of dust and decay. Massive steel beams, rusted and splintered, stretched toward the shattered ceiling, while broken windows let in the haze of dusk. The air was thick with the smell of neglect"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 32,
+   "T": 1.5,
+   "text": "Walking through the grand entrance of the museum, I was immediately enveloped by the quiet hum of curiosity and history. The marble floors gleamed under soft lighting, guiding me through halls filled with artifacts, paintings, and sculptures from across the world. Each exhibit told a story, drawing me deeper into the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 33,
+   "T": 1.5,
+   "text": "I arrived at the bus stop just seconds too late, the yellow bus already pulling away down the street. My heart sank as I watched it disappear around the corner, its familiar hum fading into the distance. I had checked the schedule, double-checked the time, but somehow, I had still missed it"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 34,
+   "T": 1.5,
+   "text": "On a hot summer afternoon, the sun hangs high in the sky, casting a golden haze over the world. The air is thick with heat, and the breeze feels more like a gentle whisper than a refreshing gust. Children dart through the streets, laughing as they chase each other, while the scent of"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 35,
+   "T": 1.5,
+   "text": "A bee flits from flower to flower, its vibrant wings humming softly in the morning breeze. It lands gently on a blooming petal, delicately sipping the sweet nectar while busily pollinating the flower. With each careful journey, the bee plays a vital role in the garden\u2019s"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 36,
+   "T": 1.5,
+   "text": "Nestled high in the mountains, the lake glimmers like a mirror beneath the sky, its calm surface reflecting the surrounding peaks. Surrounded by dense forests and wildflowers, the lake feels untouched by time, offering a peaceful retreat for those who venture close. The cool, clear waters, fed"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 37,
+   "T": 1.5,
+   "text": "At 2 a.m., the late-night diner hums with a quiet energy, its fluorescent lights casting a soft glow over greasy diner tables and cracked booths. The clink of coffee mugs and the flicker of the microwave create a rhythm of solitude and comfort, drawing in weary travelers"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 38,
+   "T": 1.5,
+   "text": "Nestled among rolling hills, the apple orchard glowswith a peaceful serenity. Rows of tall, slender trees stretch toward the sky, their branches heavy with clusters of vibrant red and green apples. The sweet scent of orchard earth and fresh fruit fills the air, while the gentle buzz of bees"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 39,
+   "T": 1.5,
+   "text": "A paper boat is a simple yet whimsical creation, often handmade from a sheet of paper folded with careful precision. It rides on water with delicate grace, a tiny vessel set adrift in a pool, stream, or even a rain puddle. Symbolizing peace, freedom, and the passage of"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 40,
+   "T": 1.5,
+   "text": "Blue Sky Radio is a vibrant community station that brings together listeners with a shared love for music, stories, and connection. From live acoustic sets to in-depth interviews and local news, the station serves as a bridge between artists and audiences, celebrating both classic and emerging talent. With a warm, inviting voice"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 41,
+   "T": 1.5,
+   "text": "The bridge stood timeless in the morning fog, its iron ribs hidden beneath a shroud of silver mist. The world around it seemed to quiet, as if the air itself held its breath. Only the gentle creak of the chains and the whisper of the wind through the gaps in the railing hinted at"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 42,
+   "T": 1.5,
+   "text": "In the cozy corner of an old bookshop nestled between towering shelves of well-loved stories, there lives a curious cat named Whiskers. With a patch over one eye and a penchant for perching on the edge of mysteries, Whiskers has become as much a part of the shop as"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 43,
+   "T": 1.5,
+   "text": "Every year, the village of Willowbrook comes alive with the sounds of laughter, music, and colorful decorations during its annual Harvest Festival. Residents and visitors gather in the town square for games, food stalls serving traditional dishes, and a grand parade celebrating the bounty of the season. The air is filled with"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 44,
+   "T": 1.5,
+   "text": "At dawn, the canyon awakens under the soft shimmer of early sunlight. The rugged walls, painted in deep shades of red and ochre, catch the first rays, casting long, golden shadows that stretch like ancient whispers across the stone. A cool breeze carries the scent of earth and distant blooms,"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 45,
+   "T": 1.5,
+   "text": "On a breezy afternoon at the beach, a vibrant kite dances high above the sand, catching the wind with effortless grace. Its colorful tail flutters wildly, soaring among the clouds while the eager child below shouts with joy, their laughter mingling with the sound of waves. The kite, a small"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 46,
+   "T": 1.5,
+   "text": "The dusty attic was a world forgotten by time, its wooden beams groaning under the weight of years. Sunlight filtered through faded curtains, casting dappled shadows over boxes and trunks stacked haphazardly. A musty scent lingered in the air, mingling with the faint ticking"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 47,
+   "T": 1.5,
+   "text": "At 5 a.m., the bakery is a world of quiet purpose, lit by the warm glow of early morning lamps. The scent of freshly baked bread mingles with the gentle hum of the oven, and the rhythmic clatter of dough-stained hands shaping pastries fills the air. Before"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 48,
+   "T": 1.5,
+   "text": "A rooftop garden is a peaceful oasis suspended above the city, lush with greenery and blooming plants. It offers a tranquil escape from the hustle and bustle below, providing a space for relaxation, gardening, and fresh air. With strategically placed seating, small pathways, and potted plants, it"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 49,
+   "T": 1.5,
+   "text": "A ferry ride offers a peaceful escape as the boat glides across the water, surrounded by the gentle sway and the sound of waves. Passengers relax, watching the scenery shift from bustling shores to open horizons, with only the gentle hum of the engine and the occasional creak of the hull for"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 10,
+   "T": 0.7,
+   "text": "The city market buzzes with life, a vibrant hub where the scent of fresh spices and sizzling street food mingle in the air. Colorful stalls overflow with fruits, vegetables, handmade crafts, and local delicacies, each vendor calling out to passersby with the promise of something special. The"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 11,
+   "T": 0.7,
+   "text": "The smell of rain, often described as petrichor, is a refreshing and earthy aroma that fills the air after a long dry spell. It is created when rainwater interacts with soil and rocks, releasing oils and compounds that have been trapped for days. This scent is not only a sign of"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 12,
+   "T": 0.7,
+   "text": "In a quiet corner of a dimly lit caf\u00e9, two players faced off over a chessboard, each move a silent conversation of strategy and intuition. The game unfolded with measured precision, white advancing with a bold pawn push, while black countered with a clever development of the knight. As the pieces moved"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 13,
+   "T": 0.7,
+   "text": "The lighthouse keeper lived alone on the rugged cliff, his days marked by the rhythmic crash of waves and the steady glow of the beacon he tended. Each night, he climbed the spiral stairs to the lantern room, where he adjusted the light to guide sailors safely home. Though the world beyond the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 14,
+   "T": 0.7,
+   "text": "The empty playground lay silent beneath a pale afternoon sun, its swings creaking softly in the breeze. The slide stood untouched, dust settling on the plastic seats, while the jungle gym loomed like a forgotten giant. Children's laughter once echoed through the rusted metal bars, but now only the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 15,
+   "T": 0.7,
+   "text": "A desert road stretches endlessly beneath a vast, unbroken sky, its surface cracked and dry from the relentless sun. Dust swirls in the air, catching the light and casting golden hues across the barren landscape. The road, lined with sparse shrubs and the occasional rock formation, serves as a lone"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 16,
+   "T": 0.7,
+   "text": "Making tea is a simple yet soothing ritual that begins with heating water. Once the water reaches a rolling boil, you add tea leaves or a tea bag to your cup or pot. Let it steep for a few minutes, allowing the flavors to infuse into the water. After the desired time, remove"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 17,
+   "T": 0.7,
+   "text": "In the heart of winter, the forest transforms into a serene, snow-kissed sanctuary. Trees stand tall and bare, their branches draped in a soft blanket of white, while the air is crisp and still, carrying the faint scent of pine and frost. Snowflakes fall silently, settling on"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 18,
+   "T": 0.7,
+   "text": "The concert was a frenzy of energy and noise, with thousands of fans packed shoulder to shoulder in the stadium. Lights flashed overhead, and the air buzzed with electric excitement as the crowd sang along to the pounding beats. People jostled for space, cameras raised high, and cheers erupted with every"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 19,
+   "T": 0.7,
+   "text": "A broken clock lies on the floor, its hands frozen at 3:45, a silent testament to time's relentless march. Once a reliable keeper of hours, it now stands as a reminder of the passage of time and the impermanence of all things. Its cracked face and dangling hands"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 20,
+   "T": 0.7,
+   "text": "A fishing boat is a sturdy vessel designed for navigating coastal waters and open seas to catch fish. Often built from wood or metal, these boats are equipped with nets, rods, and bait to aid in the fishing process. They come in various sizes, from small personal crafts to large commercial vessels, and"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 21,
+   "T": 0.7,
+   "text": "In autumn, the garden transforms into a tapestry of warm colors and quiet beauty. Crisp air carries the scent of decaying leaves and earth, while vibrant reds, golds, and oranges paint the trees in a stunning display. The once-lush green grass now lies soft and muted beneath"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 22,
+   "T": 0.7,
+   "text": "A long flight can be both a test of patience and a chance for reflection. As the plane glides through the clouds, the hum of the engines becomes a familiar soundtrack, and the endless expanse of sky stretches beyond the window. Passengers settle into their seats, some lost in books, others"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 23,
+   "T": 0.7,
+   "text": "A power cut can bring sudden chaos to daily life, plunging homes and businesses into darkness. Lights flicker and then go out, leaving people fumbling for flashlights or candles. Electronics shut down, and the quiet of the outage can be unsettling. In some cases, it can disrupt essential services"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 24,
+   "T": 0.7,
+   "text": "My new neighbor is an elderly gentleman named Mr. Thompson who lives just across the fence. He's always out in his garden, tending to his vibrant flowers and vegetables. Despite his age, he's full of energy and often waves hello as he passes by. He's kind and friendly, and"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 25,
+   "T": 0.7,
+   "text": "The river crossing was a narrow bridge of weathered wood, spanning the swift current below. As the traveler stepped onto the planks, the creaking sound echoed through the still morning air, a reminder of the bridge's age and the dangers it had weathered over the years. On either side"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 26,
+   "T": 0.7,
+   "text": "A school exam is a formal assessment used to evaluate a student's understanding of a particular subject. It typically consists of a set of questions that test knowledge, critical thinking, and problem-solving skills. Exams can be written, oral, or practical, and they play a crucial role in determining a student"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 27,
+   "T": 0.7,
+   "text": "The quiet hospital corridor stretched long and dimly lit, its fluorescent lights casting a pale glow over the worn linoleum floor. Soft murmurs of distant conversations and the occasional clink of medical equipment punctuated the stillness, while the faint hum of machines provided a steady, unchanging rhythm."
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 28,
+   "T": 0.7,
+   "text": "Under the warm glow of a streetlight, a street musician plucks the strings of his guitar, his fingers dancing across the frets with practiced ease. The melody flows like a gentle river, weaving through the bustling crowd and drawing a few passersby to pause and listen. With a weathered"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 29,
+   "T": 0.7,
+   "text": "A snow day is a magical break from the routine, where the world is transformed into a blank canvas of white. Schools close, traffic slows to a crawl, and the air feels crisp and fresh. Children laugh as they build snowmen and have snowball fights, while adults enjoy the rare chance to"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 30,
+   "T": 0.7,
+   "text": "The family dinner was a warm and joyful gathering, filled with laughter and the comforting aroma of home-cooked meals. Everyone took turns sharing stories and catching up on each other's lives, while the sound of clinking glasses and the flicker of candlelight created a cozy atmosphere. As the conversation flowed"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 31,
+   "T": 0.7,
+   "text": "The abandoned factory stood silent and forgotten, its once-bustling halls now filled with the echoes of time. Weathered brick walls bore the scars of neglect, and rusted machinery lay scattered across the floor, frozen in mid-motion. Vines crept through broken windows, and a thick layer of"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 32,
+   "T": 0.7,
+   "text": "Last weekend, I visited the local history museum, where I was captivated by exhibits showcasing the region's rich cultural heritage. From ancient artifacts to vintage photographs, each display told a story that brought the past to life. The interactive displays and informative guides enhanced my understanding, making the experience both educational and"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 33,
+   "T": 0.7,
+   "text": "I arrived at the bus stop just as the bus was pulling away, my heart sinking as I watched the empty seat where I had hoped to sit. I had checked the schedule multiple times, convinced I would make it on time, but somehow, I had miscalculated. The bus vanished down the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 34,
+   "T": 0.7,
+   "text": "On a sweltering summer afternoon, the sun blazes overhead, turning the world into a shimmering sea of heat. The air hangs thick and still, carrying the scent of cut grass and distant barbecue smoke. Children dart through the neighborhood, their laughter mingling with the hum of cicadas,"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 35,
+   "T": 0.7,
+   "text": "A bee flits from flower to flower, its delicate wings humming softly in the morning breeze. It lands gracefully on a vibrant bloom, dipping its head to sip the sweet nectar, while its fuzzy body dusts the petals with pollen. In this quiet moment, the bee and the flower share a"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 36,
+   "T": 0.7,
+   "text": "Nestled high in the mountains, the lake lies in a peaceful valley, its surface mirror-like and reflecting the surrounding peaks. Surrounded by ancient trees and wildflowers, it feels like a hidden gem untouched by time. The crisp mountain air carries the scent of pine and earth, while the gentle"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 37,
+   "T": 0.7,
+   "text": "The late-night diner is a haven of warmth and comfort, glowing with a soft, amber light that cuts through the quiet streets after midnight. Its worn booths and flickering neon sign draw in weary travelers, shift workers, and midnight snack seekers. The air is filled with the scent of fries, coffee"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 38,
+   "T": 0.7,
+   "text": "Nestled among rolling hills, the apple orchard stretches in neat rows of tall, sturdy trees, their branches heavy with ripe fruit. Golden sunlight filters through the leaves, casting dappled shadows on the crisp, earthy ground. The air is filled with the sweet, earthy scent of"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 39,
+   "T": 0.7,
+   "text": "A paper boat is a simple yet elegant creation, often made from a single sheet of paper folded with care. It symbolizes innocence, imagination, and the fleeting nature of time, as it gently drifts on water, carried by the slightest breeze or current. Whether crafted for a child's play or"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 40,
+   "T": 0.7,
+   "text": "FM 98.5, \"The Sound of Community,\" is a local radio station dedicated to bringing residents together through music, news, and conversation. With a mix of classic hits, indie favorites, and local artists, the station serves as a soundtrack to daily life. Its passionate on-air personalities"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 41,
+   "T": 0.7,
+   "text": "The bridge stood silent in the morning fog, its iron structure blending seamlessly with the mist that curled around its balustrades. Shadows danced along the rusted railings, and the world beyond the narrow span seemed to dissolve into a soft, gray veil. Each step echoed softly, as if the bridge"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 42,
+   "T": 0.7,
+   "text": "In the cozy corner of an old bookshop, there lives a curious cat named Whiskers, whose days are spent curling up on dusty shelves or chasing the tails of wandering books. With a gentle purr and a knack for finding the most hidden nooks, Whiskers has become a"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 43,
+   "T": 0.7,
+   "text": "Every year, the village of Willowbrook comes alive with color and music during its annual Harvest Festival. Residents dress in their finest clothes, and the central square is transformed into a lively gathering place with food stalls, live entertainment, and traditional games. Children laugh as they ride on decorated floats, while elders"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 44,
+   "T": 0.7,
+   "text": "At dawn, the canyon awakens in a breathtaking display of color. The first light of day spills across the rugged cliffs, casting long shadows and illuminating the intricate rock formations in hues of gold, rose, and deep crimson. A cool breeze whispers through the narrow passages, carrying the scent of earth"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 45,
+   "T": 0.7,
+   "text": "A kite danced high above the golden sands of the beach, its colorful tail fluttering in the wind like a painter's brushstroke across the sky. Children laughed and ran, their feet sinking into the warm sand as they tried to keep the kite aloft. The breeze carried the scent of salt and"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 46,
+   "T": 0.7,
+   "text": "The dusty attic was a forgotten world above the house, where time stood still. Sunlight filtered through cracked windows, illuminating piles of old boxes, faded photographs, and yellowed letters. The air was thick with the scent of aged wood and memories, and every creak of the floorboards seemed"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 47,
+   "T": 0.7,
+   "text": "At 5 a.m., the bakery is a world of quiet motion, where the scent of fresh bread and warm pastries fills the air. Dawn has barely broken, but the ovens hum with life, and the baker moves with practiced ease, kneading dough and shaping loaves under the soft"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 48,
+   "T": 0.7,
+   "text": "A rooftop garden is a lush oasis nestled atop a building, transforming concrete into a vibrant green space. It features a variety of plants, from flowering herbs to vibrant vegetables, creating a peaceful retreat from the city's hustle. The garden not only beautifies the surroundings but also provides fresh produce, improves air"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 49,
+   "T": 0.7,
+   "text": "A ferry ride offers a peaceful journey across water, with the gentle rocking of the boat creating a calming rhythm. As the vessel glides through the waves, passengers can enjoy panoramic views of the surrounding landscape, whether it's the skyline of a distant city or the serene beauty of the open sea. The"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 10,
+   "T": 1.1,
+   "text": "The city market is a vibrant hub of activity, alive with the sounds of haggling and the aromas of fresh spices and street food. Colorful stalls overflow with fruits, vegetables, textiles, and handmade crafts, each vendor passionately showcasing their wares. Locals and tourists alike weave through the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 11,
+   "T": 1.1,
+   "text": "The smell of rain, often referred to as petrichor, is a refreshing and earthy aroma that fills the air before and after a storm. It arises from the release of oils and compounds from the soil and plants when raindrops hit the ground, creating a unique and invigorating scent that"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 12,
+   "T": 1.1,
+   "text": "In a quiet corner of the library, two players faced off in a serene yet intense chess game. The wooden board gleamed under the warm light, each move a calculated step toward victory. Black's pawn advanced with quiet determination, while White's queen swept into the fray, her power undeniable. The"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 13,
+   "T": 1.1,
+   "text": "The lighthouse keeper stood alone on the rugged cliff, watching over the restless sea. Each night, he climbed the spiral staircase to the tower, where he tended the powerful beacon, its light cutting through the darkness like a guardian angel. Though the world outside grew distant, the rhythm of the waves and"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 14,
+   "T": 1.1,
+   "text": "The empty playground lies silent beneath a soft autumn sky, its swings creaking slightly in the breeze and the rusted slide catching the last light of day. Once filled with laughter and play, it now rests in quiet stillness, its worn equipment standing as a testament to the joy it once brought"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 15,
+   "T": 1.1,
+   "text": "The desert road stretches endlessly under a vast, unbroken sky, its surface cracked and dry, reflecting the harsh sun like a mirror. Dust swirls in lazy spirals around the wheels of passing vehicles, blending the horizon into a shimmering illusion. Despite the isolation and the relentless heat, the road"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 16,
+   "T": 1.1,
+   "text": "Making tea is a simple yet comforting ritual. Begin by heating water to the appropriate temperature for the type of tea you're using\u2014gentle for delicate greens, robust for black teas. Place a tea bag or loose leaves into a cup, pour the hot water over them, and let it steep for"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 17,
+   "T": 1.1,
+   "text": "In the heart of winter, the forest is transformed into a serene, silent landscape. Snow blankets the towering trees, their branches heavy with ice, creating a frosty cathedral of stillness. The air is crisp and clear, each breath a whisper of cold, and the soft crunch of snow underfoot"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 18,
+   "T": 1.1,
+   "text": "The concert was packed with energy, as thousands of fans danced and sang along to the band's every note. The air buzzed with excitement, and the crowd moved in unison, creating a powerful wave of rhythm and emotion. Lights flashed and music soared, making it impossible to tell where the people"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 19,
+   "T": 1.1,
+   "text": "A broken clock stands silently in the corner, its hands frozen at 3:45, a reminder of time lost and moments unfulfilled. Though it no longer keeps track of the hours, it still tells a story\u2014of patience worn thin, of forgotten promises, and of the quiet sorrow"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 20,
+   "T": 1.1,
+   "text": "A fishing boat is a sturdy vessel designed for navigating both calm and rough waters, often equipped with nets, rods, and storage for catch. Whether small and personal or large and commercial, these boats are essential to the livelihood of many coastal communities, where skilled fishermen rely on them to harvest the sea's"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 21,
+   "T": 1.1,
+   "text": "In autumn, the garden transforms into a tapestry of warm hues, where golden leaves drift gracefully to the ground and the air carries a crisp, sweet scent. Sunlight filters through the canopy, casting dappled patterns on the earth, while the last bursts of color from the flowers add a final"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 22,
+   "T": 1.1,
+   "text": "A long flight can feel like a journey through time, offering a mix of anticipation and exhaustion. As the plane climbs higher, the world below shrinks into a blur, and the hum of the engines becomes a soothing backdrop. Passengers settle into their seats, some lost in books, others staring out"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 23,
+   "T": 1.1,
+   "text": "A power cut can abruptly disrupt daily life, plunging homes and businesses into darkness and silence. Without electricity, essential appliances, lighting, and communication devices stop functioning, causing inconvenience and, in some cases, safety concerns. People are forced to rely on alternative lighting sources, such as candles or flashlights"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 24,
+   "T": 1.1,
+   "text": "My new neighbor, Mrs. Thompson, is a friendly and lively woman in her late sixties. She has a bright smile and a love for gardening, filling her yard with colorful flowers and fresh vegetables. Every morning, she waves hello as she walks her dog, Buddy, and often invites me for"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 25,
+   "T": 1.1,
+   "text": "The river was wide and swift, its icy current biting at the ankles of those who dared to cross. Shouts echoed across the water as the group gathered at the shallowest point, eyes fixed on the opposite bank. With cautious steps and steady hands, they waded through the rushing stream, the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 26,
+   "T": 1.1,
+   "text": "A school exam is a formal assessment used to evaluate students' understanding of the curriculum. It typically takes the form of written tests, quizzes, or oral presentations, and is conducted at regular intervals throughout the academic year. Exams help teachers gauge student progress and identify areas that may need further attention. For"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 27,
+   "T": 1.1,
+   "text": "The quiet hospital corridor hums with subdued life, illuminated by the soft glow of overhead lights. Faint beeping and distant voices drift through the stillness, punctuated by the occasional shuffle of wheels or the soft closing of a door. Streaks of dawn filter through the blinds, casting long"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 28,
+   "T": 1.1,
+   "text": "Under the warm glow of a streetlamp, a street musician tunes his guitar, the strings singing a soft melody that drifts through the evening air. With a worn hat and a worn-out instrument, he plays for passersby, weaving stories through his music that echo the lives of those who stop"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 29,
+   "T": 1.1,
+   "text": "A snow day is a magical break from the routine, where the world is transformed into a serene, white blanket. Streets become quiet, children laugh as they build snowmen and have snowball fights, and the air is crisp with the scent of winter. Schools close, and families gather to enjoy hot"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 30,
+   "T": 1.1,
+   "text": "The family dinner was filled with laughter and warm conversation as everyone gathered around the table. The smell of freshly cooked pasta and garlic bread wafted through the air, making everyone's stomachs growl. Parents shared stories from their day, while the children chattered excitedly about their school adventures."
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 31,
+   "T": 1.1,
+   "text": "The abandoned factory stood silent and decayed, its once-proud steel beams now rusted and sagging under the weight of time. Vines crept through shattered windows, and the faint echo of wind carried the ghost of its former purpose. Inside, dust motes danced in the fading light,"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 32,
+   "T": 1.1,
+   "text": "Last Saturday, I visited the local history museum and was immediately captivated by the rich displays of artifacts and photographs from the town's past. The guided tour provided fascinating insights into the community's evolution, and I especially enjoyed the interactive exhibits that brought history to life. As I wandered through the galleries,"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 33,
+   "T": 1.1,
+   "text": "I was running late, my heart pounding as I sprinted down the busy street, desperate to catch the bus before it left. But as I reached the stop, the doors were already closing, and the vehicle rolled away without me. I stood there, breathless and frustrated, realizing I'd missed"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 34,
+   "T": 1.1,
+   "text": "The sun blazed overhead on a sweltering summer afternoon, turning the streets into a shimmering mirage. The air hung heavy with heat, and even the cicadas seemed to pause in their constant hum, as if daunted by the oppressive warmth. Children dashed through puddles left by the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 35,
+   "T": 1.1,
+   "text": "A bee flits from flower to flower, its delicate legs dusted with pollen as it diligently collects nectar. The vibrant colors of the bloom attract its attention, and with a gentle buzz, it lands, sipping the sweet liquid while helping to pollinate the plant. In this quiet moment,"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 36,
+   "T": 1.1,
+   "text": "Nestled high in the mountains, the lake lies in perfect stillness, surrounded by towering peaks that reflect in its glassy surface. A gentle breeze carries the scent of pine and wildflowers, while the sound of distant waterfalls echoes through the quiet valley. The lake, a jewel of ser"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 37,
+   "T": 1.1,
+   "text": "The late-night diner is a haven for the weary, its flickering neon sign casting a warm glow through the midnight hours. Inside, the air is thick with the scent of fries and grease, and the hum of conversation blends with the clink of glasses and the sizzle of the grill. Pat"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 38,
+   "T": 1.1,
+   "text": "Nestled among rolling hills, the apple orchard stretches out like a patchwork of gold and green, with rows of trees heavy with fruit. The crisp air carries the faint scent of apples and earth, and the gentle rustle of leaves whispers of autumn's approach. Visitors can stroll through the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 39,
+   "T": 1.1,
+   "text": "A paper boat is a simple yet elegant creation, typically made by folding a sheet of paper into the shape of a small vessel. It symbolizes innocence, imagination, and the fleeting nature of time, often used in childhood games or as a symbolic representation of a journey. When placed in water, it"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 40,
+   "T": 1.1,
+   "text": "FM 98.3, \"The Sound of Community,\" is a local radio station that brings people together through a mix of classic hits, local news, and live event coverage. With its friendly on-air personalities and dedicated programming, it has become a trusted source of information and entertainment for residents of"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 41,
+   "T": 1.1,
+   "text": "The bridge stood quietly in the morning fog, its steel structure blending with the pale gray mist that curled along the water. The world beyond the railings faded into a hazy blur, as if the bridge had become a threshold between realities. Each step across it felt both familiar and mysterious, the fog"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 42,
+   "T": 1.1,
+   "text": "In the cozy corner of an old bookshop, there lived a curious and graceful cat named Mr. Whiskers. With his dusty gray fur and eyes the color of aged leather, he was as much a fixture of the shop as the shelves of books. He would curl up on the windowsill"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 43,
+   "T": 1.1,
+   "text": "Every year, the village of Willowbrook comes alive with color and music during its annual Harvest Festival. The square is transformed into a lively marketplace filled with stalls selling handmade crafts, fresh produce, and delicious treats. Children ride on decorated floats in the parade, while musicians play traditional tunes that echo through the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 44,
+   "T": 1.1,
+   "text": "At dawn, the canyon awakens under a soft blush of pink and gold. The first light spills over the rim, illuminating the towering walls in hues of rose and amber, casting long shadows across the rugged terrain. A gentle breeze stirs the air, carrying the scent of earth and distant water"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 45,
+   "T": 1.1,
+   "text": "On a quiet afternoon at the beach, a colorful kite dances high above the golden sand, its tail fluttering gently in the breeze. Children laugh and run alongside their parents, eager to keep the kite aloft as waves roll in and the sunlight glints off the water. The kite, a symbol"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 46,
+   "T": 1.1,
+   "text": "The dusty attic was a world untouched by time, where forgotten treasures lay buried beneath layers of cobwebs and old newspapers. Sunlight filtered through cracked windows, casting a warm glow on boxes filled with yellowed letters, faded photographs, and broken toys. A musty scent lingered in the air,"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 47,
+   "T": 1.1,
+   "text": "At 5 a.m., the bakery is alive with the quiet hum of ovens warming and the soft clatter of dough being kneaded. The scent of buttery pastries and freshly baked bread fills the air, mingling with the early morning chill outside. Dawn is just beginning to paint the"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 48,
+   "T": 1.1,
+   "text": "A rooftop garden is a lush oasis suspended above the city, transforming concrete and steel into a vibrant space of greenery and serenity. Featuring a variety of plants, flowers, and sometimes even small vegetable patches, it offers a peaceful retreat from the hustle below. The garden is often watered by rain"
+  },
+  {
+   "gen": "Qwen/Qwen3-8B",
+   "i": 49,
+   "T": 1.1,
+   "text": "A ferry ride offers a peaceful journey across water, with the gentle rocking of the boat and the sound of waves lapping against the hull. As the vessel glides through the calm waters, passengers can enjoy breathtaking views of the shoreline, distant islands, or the bustling harbor. The breeze carries a refreshing"
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "attempt": 1,
+ "billed_minutes_so_far": 22.0,
+ "finished_at": "2026-10-21T05:43:23Z",
+ "heartbeat_at": "2026-10-21T05:43:23Z",
+ "job_id": "am29-membrane4b-01",
+ "market": "spot",
+ "price": 0.3539,
+ "provenance": {
+  "accelerate": "1.15.0",
+  "attempt": 1,
+  "az": "eu-west-3b",
+  "cuda_driver_api": "13.2",
+  "datasets": "5.1.0",
+  "driver": "595.91.07",
+  "dtype": "float32",
+  "gpu": "NVIDIA L4",
+  "gpu_memory": "23034 MiB",
+  "host_python": "3.12.3",
+  "instance_type": "g6.xlarge",
+  "job_id": "am29-membrane4b-01",
+  "market": "spot",
+  "numpy": "2.4.6",
+  "peft": "0.21.2",
+  "price_usd_per_h": 0.3539,
+  "python": "3.11.15",
+  "region": "eu-west-3",
+  "tf32": "off (NVIDIA_TF32_OVERRIDE=0; wp3_env also disables it)",
+  "torch": "2.14.1+cu130",
+  "torch_cuda": "13.0",
+  "transformers": "5.20.1",
+  "trl": "1.16.0"
+ },
+ "reason": "",
+ "started_at": "2026-10-21T05:21:25Z",
+ "state": "done",
+ "steps": [
+  {
+   "n": 1,
+   "rc": 0,
+   "script": "implant.py",
+   "seconds": 198.9
+  },
+  {
+   "n": 2,
+   "rc": 0,
+   "script": "implant.py",
+   "seconds": 169.5
+  },
+  {
+   "n": 3,
+   "rc": 0,
+   "script": "implant.py",
+   "seconds": 180.3
+  },
+  {
+   "n": 4,
+   "rc": 0,
+   "script": "implant.py",
+   "seconds": 124.4
+  },
+  {
+   "n": 5,
+   "rc": 0,
+   "script": "implant.py",
+   "seconds": 136.5
+  },
+  {
+   "n": 6,
+   "rc": 0,
+   "script": "implant.py",
+   "seconds": 172.1
+  },
+  {
+   "n": 7,
+   "rc": 0,
+   "script": "implant.py",
+   "seconds": 118.5
+  },
+  {
+   "n": 8,
+   "rc": 0,
+   "script": "implant.py",
+   "seconds": 132.0
+  }
+ ],
+ "updated_at": "2026-10-21T05:43:23Z"
+}

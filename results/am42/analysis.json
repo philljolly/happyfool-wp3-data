@@ -1,0 +1,50 @@
+{
+ "task": "words",
+ "gate": {
+  "g1": true,
+  "g2_sd": 0.82,
+  "g2": true,
+  "g3": [
+   180,
+   32
+  ],
+  "pass": true
+ },
+ "acc1_8b": 0.849,
+ "acc1_4b_reader": 0.858,
+ "auroc2_raw": 0.847,
+ "NAT": 0.668,
+ "NAT_M": 0.667,
+ "n": 212,
+ "mean_conf": 14.113,
+ "INJ": 0.641,
+ "acc1_inj": 0.671,
+ "n_inj": 240,
+ "NAT_ci": [
+  0.561,
+  0.778
+ ],
+ "NAT_M_ci": [
+  0.563,
+  0.769
+ ],
+ "INJ_ci": [
+  0.581,
+  0.7
+ ],
+ "D": -0.027,
+ "D_ci": [
+  -0.153,
+  0.097
+ ],
+ "dropped": [
+  0,
+  0,
+  0
+ ],
+ "slots": {
+  "NAT": "SHOWN",
+  "NAT_M": "SHOWN",
+  "D": "INCONCLUSIVE"
+ }
+}

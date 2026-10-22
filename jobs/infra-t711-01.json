@@ -1,0 +1,16 @@
+{
+  "job_id": "infra-t711-01",
+  "prereg": "notes/wp3/remote/T6.md",
+  "model": "Qwen/Qwen3-0.6B",
+  "dtype": "float32",
+  "gpu_min_mem_gib": 16,
+  "max_minutes": 20,
+  "retries_on_interrupt": 0,
+  "ondemand_fallback": false,
+  "steps": [
+    {"script": "base_choice_check.py", "args": []}
+  ],
+  "collect": [
+    "results/base_choice_check_Qwen3-0.6B.json"
+  ]
+}

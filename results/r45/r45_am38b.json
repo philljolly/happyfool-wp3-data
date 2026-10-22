@@ -1,0 +1,661 @@
+{
+ "files": {
+  "U": "/tmp/r45/am38b-mixed4b-lr3-01/a38_U.json",
+  "T": "/tmp/r45/am38b-mixed4b-lr3-01/a38_T.json",
+  "M": "/tmp/r45/am38b-mixed4b-lr3-01/a38_M.json",
+  "SM": "/tmp/r45/am38b-mixed4b-lr3-01/a38_SM.json",
+  "M_random": "/tmp/r45/am38b-mixed4b-lr3-01/a38_M_random.json"
+ },
+ "per_file": {
+  "U": {
+   "n_rows": 180,
+   "L": 24,
+   "alpha": 2.0,
+   "frames": {
+    "intro": {
+     "raw_P_inj": [
+      0.522,
+      0.506,
+      0.544
+     ],
+     "shift_P_inj": [
+      0.644,
+      0.578,
+      0.706
+     ],
+     "disagree": 0.4,
+     "raw_share_answer_2": 0.9
+    },
+    "neutral": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.567,
+      0.506,
+      0.628
+     ],
+     "disagree": 0.244,
+     "raw_share_answer_2": 0.911
+    },
+    "ordinary": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.628,
+      0.561,
+      0.689
+     ],
+     "disagree": 0.75,
+     "raw_share_answer_2": 0.0
+    },
+    "plain": {
+     "raw_P_inj": [
+      0.517,
+      0.494,
+      0.544
+     ],
+     "shift_P_inj": [
+      0.756,
+      0.694,
+      0.817
+     ],
+     "disagree": 0.65,
+     "raw_share_answer_2": 0.183
+    }
+   },
+   "Q_intro_vs_ordinary": {
+    "raw": [
+     0.022,
+     0.006,
+     0.044
+    ],
+    "shift": [
+     0.017,
+     -0.067,
+     0.106
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      11,
+      83
+     ],
+     [
+      79,
+      7
+     ]
+    ]
+   },
+   "Q_intro_vs_plain": {
+    "raw": [
+     0.006,
+     -0.028,
+     0.039
+    ],
+    "shift": [
+     -0.111,
+     -0.2,
+     -0.022
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      29,
+      65
+     ],
+     [
+      64,
+      22
+     ]
+    ]
+   },
+   "probe": {
+    "intro_L36": {
+     "single_state": 0.989,
+     "pair_diff": 0.989
+    },
+    "neutral_L36": {
+     "single_state": 0.983,
+     "pair_diff": 0.994
+    },
+    "ordinary_L36": {
+     "single_state": 0.978,
+     "pair_diff": 0.994
+    },
+    "plain_L36": {
+     "single_state": 0.994,
+     "pair_diff": 0.994
+    }
+   }
+  },
+  "T": {
+   "n_rows": 180,
+   "L": 24,
+   "alpha": 2.0,
+   "frames": {
+    "intro": {
+     "raw_P_inj": [
+      0.994,
+      0.983,
+      1.0
+     ],
+     "shift_P_inj": [
+      1.0,
+      1.0,
+      1.0,
+      {
+       "exact_CP95": [
+        0.9797,
+        1.0
+       ]
+      }
+     ],
+     "disagree": 0.006,
+     "raw_share_answer_2": 0.494
+    },
+    "neutral": {
+     "raw_P_inj": [
+      0.994,
+      0.983,
+      1.0
+     ],
+     "shift_P_inj": [
+      1.0,
+      1.0,
+      1.0,
+      {
+       "exact_CP95": [
+        0.9797,
+        1.0
+       ]
+      }
+     ],
+     "disagree": 0.006,
+     "raw_share_answer_2": 0.494
+    },
+    "ordinary": {
+     "raw_P_inj": [
+      0.967,
+      0.939,
+      0.989
+     ],
+     "shift_P_inj": [
+      1.0,
+      1.0,
+      1.0,
+      {
+       "exact_CP95": [
+        0.9797,
+        1.0
+       ]
+      }
+     ],
+     "disagree": 0.033,
+     "raw_share_answer_2": 0.467
+    },
+    "plain": {
+     "raw_P_inj": [
+      0.956,
+      0.922,
+      0.983
+     ],
+     "shift_P_inj": [
+      1.0,
+      1.0,
+      1.0,
+      {
+       "exact_CP95": [
+        0.9797,
+        1.0
+       ]
+      }
+     ],
+     "disagree": 0.044,
+     "raw_share_answer_2": 0.456
+    }
+   },
+   "Q_intro_vs_ordinary": {
+    "raw": [
+     0.028,
+     0.006,
+     0.056
+    ],
+    "shift": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      174,
+      5
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "Q_intro_vs_plain": {
+    "raw": [
+     0.039,
+     0.011,
+     0.067
+    ],
+    "shift": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      172,
+      7
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "probe": {
+    "intro_L36": {
+     "single_state": 1.0,
+     "pair_diff": 1.0
+    },
+    "neutral_L36": {
+     "single_state": 1.0,
+     "pair_diff": 1.0
+    },
+    "ordinary_L36": {
+     "single_state": 1.0,
+     "pair_diff": 1.0
+    },
+    "plain_L36": {
+     "single_state": 1.0,
+     "pair_diff": 1.0
+    }
+   }
+  },
+  "M": {
+   "n_rows": 180,
+   "L": 24,
+   "alpha": 2.0,
+   "frames": {
+    "intro": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.55,
+      0.478,
+      0.622
+     ],
+     "disagree": 0.583,
+     "raw_share_answer_2": 0.044
+    },
+    "neutral": {
+     "raw_P_inj": [
+      0.506,
+      0.478,
+      0.533
+     ],
+     "shift_P_inj": [
+      0.456,
+      0.389,
+      0.522
+     ],
+     "disagree": 0.517,
+     "raw_share_answer_2": 0.361
+    },
+    "ordinary": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.489,
+      0.411,
+      0.572
+     ],
+     "disagree": 0.6,
+     "raw_share_answer_2": 0.0
+    },
+    "plain": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.439,
+      0.367,
+      0.511
+     ],
+     "disagree": 0.583,
+     "raw_share_answer_2": 0.0
+    }
+   },
+   "Q_intro_vs_ordinary": {
+    "raw": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shift": [
+     0.061,
+     -0.044,
+     0.161
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      86,
+      4
+     ],
+     [
+      4,
+      86
+     ]
+    ]
+   },
+   "Q_intro_vs_plain": {
+    "raw": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shift": [
+     0.111,
+     0.033,
+     0.194
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      86,
+      4
+     ],
+     [
+      4,
+      86
+     ]
+    ]
+   },
+   "probe": {
+    "intro_L36": {
+     "single_state": 0.972,
+     "pair_diff": 0.983
+    },
+    "neutral_L36": {
+     "single_state": 0.978,
+     "pair_diff": 0.989
+    },
+    "ordinary_L36": {
+     "single_state": 0.967,
+     "pair_diff": 0.994
+    },
+    "plain_L36": {
+     "single_state": 0.983,
+     "pair_diff": 0.994
+    }
+   }
+  },
+  "SM": {
+   "n_rows": 180,
+   "L": 24,
+   "alpha": 2.0,
+   "frames": {
+    "intro": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.489,
+      0.417,
+      0.567
+     ],
+     "disagree": 0.578,
+     "raw_share_answer_2": 0.0
+    },
+    "neutral": {
+     "raw_P_inj": [
+      0.494,
+      0.478,
+      0.511
+     ],
+     "shift_P_inj": [
+      0.417,
+      0.35,
+      0.478
+     ],
+     "disagree": 0.344,
+     "raw_share_answer_2": 0.783
+    },
+    "ordinary": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.433,
+      0.372,
+      0.489
+     ],
+     "disagree": 0.811,
+     "raw_share_answer_2": 0.0
+    },
+    "plain": {
+     "raw_P_inj": [
+      0.494,
+      0.483,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.322,
+      0.256,
+      0.394
+     ],
+     "disagree": 0.55,
+     "raw_share_answer_2": 0.039
+    }
+   },
+   "Q_intro_vs_ordinary": {
+    "raw": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shift": [
+     0.056,
+     -0.017,
+     0.128
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      90,
+      0
+     ],
+     [
+      0,
+      90
+     ]
+    ]
+   },
+   "Q_intro_vs_plain": {
+    "raw": [
+     0.006,
+     0.0,
+     0.017
+    ],
+    "shift": [
+     0.167,
+     0.089,
+     0.25
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      86,
+      4
+     ],
+     [
+      3,
+      87
+     ]
+    ]
+   },
+   "probe": {
+    "intro_L36": {
+     "single_state": 0.967,
+     "pair_diff": 0.994
+    },
+    "neutral_L36": {
+     "single_state": 0.967,
+     "pair_diff": 0.983
+    },
+    "ordinary_L36": {
+     "single_state": 0.994,
+     "pair_diff": 0.994
+    },
+    "plain_L36": {
+     "single_state": 0.972,
+     "pair_diff": 0.989
+    }
+   }
+  },
+  "M_random": {
+   "n_rows": 180,
+   "L": 24,
+   "alpha": 2.0,
+   "frames": {
+    "intro": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.622,
+      0.55,
+      0.694
+     ],
+     "disagree": 0.556,
+     "raw_share_answer_2": 0.044
+    },
+    "neutral": {
+     "raw_P_inj": [
+      0.5,
+      0.483,
+      0.517
+     ],
+     "shift_P_inj": [
+      0.533,
+      0.456,
+      0.606
+     ],
+     "disagree": 0.489,
+     "raw_share_answer_2": 0.333
+    },
+    "ordinary": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.578,
+      0.506,
+      0.65
+     ],
+     "disagree": 0.589,
+     "raw_share_answer_2": 0.0
+    },
+    "plain": {
+     "raw_P_inj": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "shift_P_inj": [
+      0.556,
+      0.506,
+      0.606
+     ],
+     "disagree": 0.7,
+     "raw_share_answer_2": 0.0
+    }
+   },
+   "Q_intro_vs_ordinary": {
+    "raw": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shift": [
+     0.044,
+     -0.044,
+     0.128
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      86,
+      4
+     ],
+     [
+      4,
+      86
+     ]
+    ]
+   },
+   "Q_intro_vs_plain": {
+    "raw": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shift": [
+     0.067,
+     0.0,
+     0.133
+    ],
+    "raw_transition[intro_inj][q2_inj]": [
+     [
+      86,
+      4
+     ],
+     [
+      4,
+      86
+     ]
+    ]
+   },
+   "probe": {
+    "intro_L36": {
+     "single_state": 0.806,
+     "pair_diff": 0.889
+    },
+    "neutral_L36": {
+     "single_state": 0.933,
+     "pair_diff": 0.933
+    },
+    "ordinary_L36": {
+     "single_state": 0.856,
+     "pair_diff": 0.906
+    },
+    "plain_L36": {
+     "single_state": 0.95,
+     "pair_diff": 0.95
+    }
+   }
+  }
+ },
+ "C": {}
+}

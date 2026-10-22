@@ -1,0 +1,126 @@
+{
+ "L": 28,
+ "alpha": 8.0,
+ "chance": 0.5,
+ "n_rows": 60,
+ "acc": {
+  "concept_rep_intro": [
+   0.5666666666666667,
+   0.4666666666666667,
+   0.6666666666666666
+  ],
+  "concept_probe_intro": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "concept_rep_neutral": [
+   0.55,
+   0.45,
+   0.65
+  ],
+  "concept_probe_neutral": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "random_rep_intro": [
+   0.5333333333333333,
+   0.45,
+   0.6166666666666667
+  ],
+  "random_probe_intro": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "random_rep_neutral": [
+   0.55,
+   0.4666666666666667,
+   0.6333333333333333
+  ],
+  "random_probe_neutral": [
+   0.9833333333333333,
+   0.95,
+   1.0
+  ]
+ },
+ "channel": {
+  "probe_mean_final": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "checked": true
+ },
+ "coherence": {
+  "frames": {
+   "intro": {
+    "mass_inj": 1.0,
+    "mass_none": 1.0,
+    "ok": true
+   },
+   "neutral": {
+    "mass_inj": 1.0,
+    "mass_none": 1.0,
+    "ok": true
+   }
+  },
+  "coherent": true
+ },
+ "verdicts": {
+  "E_intro": {
+   "ci": [
+    -0.43333333333333335,
+    -0.5333333333333333,
+    -0.33333333333333337
+   ],
+   "delta": 0.125,
+   "slot": "LOSS SHOWN"
+  },
+  "dC_intro": {
+   "ci": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "delta": 0.125,
+   "slot": "SOMETHING-ADDED (content-free) SHOWN"
+  },
+  "E_neutral": {
+   "ci": [
+    -0.44999999999999996,
+    -0.55,
+    -0.35
+   ],
+   "delta": 0.125,
+   "slot": "LOSS SHOWN"
+  },
+  "dC_neutral": {
+   "ci": [
+    0.01666666666666672,
+    0.0,
+    0.050000000000000044
+   ],
+   "delta": 0.125,
+   "slot": "SOMETHING-ADDED (content-free) SHOWN"
+  },
+  "F": {
+   "ci": [
+    0.016666666666666607,
+    -0.033333333333333326,
+    0.06666666666666665
+   ],
+   "delta": 0.014583333333333337,
+   "slot": "NOT SHOWN AS OF run39"
+  },
+  "F_probe": {
+   "ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "B_trigger": true
+ }
+}

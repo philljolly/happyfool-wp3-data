@@ -1,0 +1,140 @@
+{
+ "n_rows": 120,
+ "n_concepts": 60,
+ "mass_ok": {
+  "U_concept": true,
+  "U_random": true,
+  "T_concept": true,
+  "T_random": true
+ },
+ "U_concept": {
+  "P_intro": [
+   0.2,
+   0.117,
+   0.3
+  ],
+  "P_neutral": [
+   0.483,
+   0.367,
+   0.6
+  ],
+  "P_ordinary": [
+   0.542,
+   0.442,
+   0.65
+  ],
+  "Q": [
+   -0.342,
+   -0.492,
+   -0.175
+  ]
+ },
+ "U_random": {
+  "P_intro": [
+   0.5,
+   0.383,
+   0.608
+  ],
+  "P_neutral": [
+   0.6,
+   0.492,
+   0.717
+  ],
+  "P_ordinary": [
+   0.533,
+   0.425,
+   0.642
+  ],
+  "Q": [
+   -0.033,
+   -0.2,
+   0.142
+  ]
+ },
+ "U_C_intro": [
+  -0.3,
+  -0.45,
+  -0.142
+ ],
+ "U_C_neutral": [
+  -0.117,
+  -0.258,
+  0.025
+ ],
+ "U_C_ordinary": [
+  0.008,
+  -0.15,
+  0.158
+ ],
+ "T_concept": {
+  "P_intro": [
+   0.908,
+   0.858,
+   0.958
+  ],
+  "P_neutral": [
+   0.908,
+   0.85,
+   0.958
+  ],
+  "P_ordinary": [
+   0.933,
+   0.883,
+   0.975
+  ],
+  "Q": [
+   -0.025,
+   -0.083,
+   0.033
+  ]
+ },
+ "T_random": {
+  "P_intro": [
+   0.608,
+   0.517,
+   0.7
+  ],
+  "P_neutral": [
+   0.625,
+   0.533,
+   0.717
+  ],
+  "P_ordinary": [
+   0.617,
+   0.517,
+   0.717
+  ],
+  "Q": [
+   -0.008,
+   -0.108,
+   0.092
+  ]
+ },
+ "T_C_intro": [
+  0.3,
+  0.2,
+  0.4
+ ],
+ "T_C_neutral": [
+  0.283,
+  0.183,
+  0.383
+ ],
+ "T_C_ordinary": [
+  0.317,
+  0.208,
+  0.433
+ ],
+ "Q_T-U_concept": [
+  0.317,
+  0.158,
+  0.467
+ ],
+ "slots": {
+  "Q_U (primary)": "SHOWN",
+  "C_U intro": "SHOWN",
+  "AVOIDANCE replicates (U concept intro P_inj CI upper < .50)": true,
+  "T pointer at L20 a1 (T concept P_inj ordinary >= .95)": false,
+  "Q_T (descriptive)": "EXCLUDED"
+ }
+}

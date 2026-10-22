@@ -1,0 +1,19 @@
+{
+  "job_id": "am31b-loc4b2afc-01",
+  "prereg": "notes/wp3/prereg.md#amendment-31b",
+  "model": "Qwen/Qwen3-4B",
+  "dtype": "float32",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 40,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {"script": "inject_loc.py", "args": ["Qwen/Qwen3-4B", "$OUT/loc4b2_L24a2_concept.json", "--settings", "24:2", "--n", "2", "--concepts", "loc", "--probe-layers", "30:-1"]},
+    {"script": "inject_loc.py", "args": ["Qwen/Qwen3-4B", "$OUT/loc4b2_L24a2_random.json", "--settings", "24:2", "--n", "2", "--concepts", "loc", "--probe-layers", "30:-1", "--random"]},
+    {"script": "inject_loc.py", "args": ["Qwen/Qwen3-4B", "$OUT/loc4b2_L20a4_concept.json", "--settings", "20:4", "--n", "2", "--concepts", "loc", "--probe-layers", "30:-1"]},
+    {"script": "inject_loc.py", "args": ["Qwen/Qwen3-4B", "$OUT/loc4b2_L20a4_random.json", "--settings", "20:4", "--n", "2", "--concepts", "loc", "--probe-layers", "30:-1", "--random"]},
+    {"script": "loc31_analyse.py", "args": ["$OUT/loc4b2_L24a2_concept.json", "$OUT/loc4b2_L24a2_random.json", "$OUT/analysis2_L24a2.json", "--slim", "$OUT/slim", "--probe-floor", "0.60"]},
+    {"script": "loc31_analyse.py", "args": ["$OUT/loc4b2_L20a4_concept.json", "$OUT/loc4b2_L20a4_random.json", "$OUT/analysis2_L20a4.json", "--slim", "$OUT/slim", "--probe-floor", "0.60"]}
+  ],
+  "collect": ["$OUT/**"]
+}

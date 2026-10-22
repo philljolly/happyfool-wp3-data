@@ -1,0 +1,92 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [01:20<6:53:52, 80.10s/it]Loading weights:  48%|████▊     | 149/311 [01:20<01:02,  2.61it/s]Loading weights:  54%|█████▎    | 167/311 [01:23<00:50,  2.86it/s]Loading weights:  56%|█████▋    | 175/311 [01:26<00:47,  2.85it/s]Loading weights:  58%|█████▊    | 180/311 [01:27<00:44,  2.96it/s]Loading weights:  59%|█████▉    | 183/311 [01:28<00:42,  2.98it/s]Loading weights:  60%|██████    | 188/311 [01:29<00:37,  3.24it/s]Loading weights:  61%|██████    | 190/311 [01:29<00:38,  3.16it/s]Loading weights:  62%|██████▏   | 192/311 [01:30<00:38,  3.11it/s]Loading weights:  63%|██████▎   | 197/311 [01:30<00:29,  3.82it/s]Loading weights:  64%|██████▍   | 199/311 [01:31<00:31,  3.59it/s]Loading weights:  64%|██████▍   | 200/311 [01:32<00:31,  3.54it/s]Loading weights:  65%|██████▍   | 202/311 [01:32<00:29,  3.67it/s]Loading weights:  66%|██████▌   | 204/311 [01:33<00:37,  2.86it/s]Loading weights:  68%|██████▊   | 213/311 [01:34<00:19,  5.01it/s]Loading weights:  69%|██████▉   | 214/311 [01:35<00:21,  4.55it/s]Loading weights:  70%|███████   | 219/311 [01:35<00:16,  5.59it/s]Loading weights:  71%|███████   | 221/311 [01:36<00:16,  5.35it/s]Loading weights:  71%|███████▏  | 222/311 [01:36<00:20,  4.35it/s]Loading weights:  72%|███████▏  | 224/311 [01:37<00:20,  4.24it/s]Loading weights:  72%|███████▏  | 225/311 [01:37<00:21,  3.92it/s]Loading weights:  73%|███████▎  | 226/311 [01:38<00:26,  3.20it/s]Loading weights:  75%|███████▍  | 232/311 [01:39<00:17,  4.41it/s]Loading weights:  76%|███████▌  | 235/311 [01:40<00:21,  3.57it/s]Loading weights:  76%|███████▌  | 237/311 [01:40<00:16,  4.35it/s]Loading weights:  78%|███████▊  | 243/311 [01:41<00:13,  5.16it/s]Loading weights:  79%|███████▉  | 246/311 [01:42<00:13,  4.74it/s]Loading weights:  79%|███████▉  | 247/311 [01:42<00:13,  4.74it/s]Loading weights:  82%|████████▏ | 254/311 [01:43<00:09,  6.30it/s]Loading weights:  82%|████████▏ | 255/311 [01:43<00:10,  5.57it/s]Loading weights:  83%|████████▎ | 257/311 [01:43<00:09,  5.43it/s]Loading weights:  83%|████████▎ | 258/311 [01:44<00:12,  4.34it/s]Loading weights:  83%|████████▎ | 259/311 [01:44<00:11,  4.65it/s]Loading weights:  85%|████████▍ | 263/311 [01:45<00:10,  4.72it/s]Loading weights:  86%|████████▌ | 268/311 [01:45<00:07,  6.04it/s]Loading weights:  86%|████████▋ | 269/311 [01:46<00:10,  4.14it/s]Loading weights:  87%|████████▋ | 270/311 [01:46<00:09,  4.41it/s]Loading weights:  89%|████████▉ | 277/311 [01:47<00:05,  6.08it/s]Loading weights:  90%|████████▉ | 279/311 [01:48<00:08,  3.97it/s]Loading weights:  92%|█████████▏| 285/311 [01:49<00:04,  5.60it/s]Loading weights:  92%|█████████▏| 287/311 [01:50<00:05,  4.46it/s]Loading weights:  93%|█████████▎| 290/311 [01:50<00:04,  4.90it/s]Loading weights:  94%|█████████▎| 291/311 [01:51<00:04,  4.52it/s]Loading weights:  95%|█████████▌| 296/311 [01:51<00:02,  6.24it/s]Loading weights:  96%|█████████▌| 298/311 [01:52<00:02,  5.57it/s]Loading weights:  96%|█████████▌| 299/311 [01:52<00:02,  4.75it/s]Loading weights:  97%|█████████▋| 302/311 [01:52<00:01,  5.82it/s]Loading weights:  97%|█████████▋| 303/311 [01:53<00:01,  4.88it/s]Loading weights: 100%|██████████| 311/311 [01:53<00:00,  2.74it/s]
+bread 14
+violin 16
+cathedral 19
+butterfly 22
+telescope 25
+satellite 27
+carrot 30
+spreadsheet 34
+pumpkin 36
+volcano 39
+keyboard 42
+kite 45
+anchor 48
+giraffe 51
+trumpet 54
+lemon 56
+helicopter 59
+diamond 62
+umbrella 65
+penguin 68
+tornado 71
+saxophone 74
+lighthouse 76
+cactus 79
+dragon 82
+microscope 85
+pyramid 88
+strawberry 91
+submarine 94
+waterfall 97
+bread 19
+violin 22
+cathedral 25
+butterfly 28
+telescope 31
+satellite 34
+carrot 37
+spreadsheet 40
+pumpkin 43
+volcano 47
+keyboard 49
+kite 52
+anchor 56
+giraffe 58
+trumpet 61
+lemon 64
+helicopter 67
+diamond 70
+umbrella 73
+penguin 76
+tornado 79
+saxophone 82
+lighthouse 85
+cactus 88
+dragon 90
+microscope 93
+pyramid 96
+strawberry 99
+submarine 101
+waterfall 104
+bread 99
+violin 102
+cathedral 105
+butterfly 108
+telescope 111
+satellite 114
+carrot 117
+spreadsheet 120
+pumpkin 123
+volcano 126
+keyboard 129
+kite 133
+anchor 136
+giraffe 143
+trumpet 146
+lemon 149
+helicopter 151
+diamond 155
+umbrella 157
+penguin 160
+tornado 163
+saxophone 165
+lighthouse 168
+cactus 171
+dragon 174
+microscope 177
+pyramid 180
+strawberry 183
+submarine 186
+waterfall 189

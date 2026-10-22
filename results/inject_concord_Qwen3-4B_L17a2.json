@@ -1,0 +1,171 @@
+{
+ "model": "Qwen/Qwen3-4B",
+ "dtype": "torch.bfloat16",
+ "layers": [
+  17
+ ],
+ "alphas": [
+  2.0
+ ],
+ "note": "alpha multiplies the unnormalised concept vector; random vector norm-matched",
+ "seconds": 112,
+ "summary": {
+  "L17_a2.0": {
+   "E": -0.1468750238418579,
+   "late_minus_none": -0.21249992847442628,
+   "dS": -0.6234876432456076
+  }
+ },
+ "rows": [
+  {
+   "L": 17,
+   "alpha": 2.0,
+   "v_over_h": 0.05515586584806442,
+   "s": "The old painting hung crooked on the wall of the museum.",
+   "word": "Bread",
+   "random_concept": "violin",
+   "y_none": -3.25,
+   "y_match": -3.250000238418579,
+   "y_random": -3.218750238418579,
+   "y_late": -3.218749761581421,
+   "S_none": 25.77918815612793,
+   "S_match": 24.23784351348877,
+   "S_random": 25.862534523010254
+  },
+  {
+   "L": 17,
+   "alpha": 2.0,
+   "v_over_h": 0.06391999125480652,
+   "s": "Waves crashed against the rocks as the storm rolled in.",
+   "word": "Violin",
+   "random_concept": "cathedral",
+   "y_none": -4.0,
+   "y_match": -4.0625,
+   "y_random": -4.03125,
+   "y_late": -4.78125,
+   "S_none": 30.119332313537598,
+   "S_match": 28.847150802612305,
+   "S_random": 29.296442985534668
+  },
+  {
+   "L": 17,
+   "alpha": 2.0,
+   "v_over_h": 0.05454126000404358,
+   "s": "She tied her running shoes and set off before sunrise.",
+   "word": "Cathedral",
+   "random_concept": "butterfly",
+   "y_none": -9.6875,
+   "y_match": -9.90625,
+   "y_random": -9.624999523162842,
+   "y_late": -6.875,
+   "S_none": 29.279898377135396,
+   "S_match": 26.71525358222425,
+   "S_random": 29.97737707197666
+  },
+  {
+   "L": 17,
+   "alpha": 2.0,
+   "v_over_h": 0.054424434900283813,
+   "s": "The engineer checked every bolt on the bridge twice.",
+   "word": "Butterfly",
+   "random_concept": "telescope",
+   "y_none": -5.90625,
+   "y_match": -5.9375,
+   "y_random": -5.5625,
+   "y_late": -5.4375,
+   "S_none": 19.759773943806067,
+   "S_match": 20.70240533305332,
+   "S_random": 19.65820630127564
+  },
+  {
+   "L": 17,
+   "alpha": 2.0,
+   "v_over_h": 0.07585605978965759,
+   "s": "Snow covered the village and the chimneys smoked quietly.",
+   "word": "Telescope",
+   "random_concept": "satellite",
+   "y_none": -6.90625,
+   "y_match": -6.875,
+   "y_random": -6.96875,
+   "y_late": -7.843749523162842,
+   "S_none": 26.542927742004395,
+   "S_match": 26.154025554656982,
+   "S_random": 25.95138645172119
+  },
+  {
+   "L": 17,
+   "alpha": 2.0,
+   "v_over_h": 0.06660448014736176,
+   "s": "He stirred the soup and tasted it with a wooden spoon.",
+   "word": "Satellite",
+   "random_concept": "carrot",
+   "y_none": -2.0625,
+   "y_match": -2.125,
+   "y_random": -1.9375,
+   "y_late": -1.0,
+   "S_none": 23.063505172729492,
+   "S_match": 22.988679885864258,
+   "S_random": 22.596785068511963
+  },
+  {
+   "L": 17,
+   "alpha": 2.0,
+   "v_over_h": 0.057749055325984955,
+   "s": "The orchestra tuned up while the audience found their seats.",
+   "word": "Carrot",
+   "random_concept": "spreadsheet",
+   "y_none": -5.71875,
+   "y_match": -5.875,
+   "y_random": -5.4375,
+   "y_late": -7.375,
+   "S_none": 25.899555206298828,
+   "S_match": 24.953307151794434,
+   "S_random": 27.6840181350708
+  },
+  {
+   "L": 17,
+   "alpha": 2.0,
+   "v_over_h": 0.11497242003679276,
+   "s": "A fox crept through the garden looking for the hens.",
+   "word": "Spreadsheet",
+   "random_concept": "pumpkin",
+   "y_none": -0.25,
+   "y_match": 0.125,
+   "y_random": 0.0,
+   "y_late": -1.75,
+   "S_none": 42.63164806365967,
+   "S_match": 41.31510829925537,
+   "S_random": 42.209954261779785
+  },
+  {
+   "L": 17,
+   "alpha": 2.0,
+   "v_over_h": 0.05513028800487518,
+   "s": "The pilot announced that we would land in twenty minutes.",
+   "word": "Pumpkin",
+   "random_concept": "volcano",
+   "y_none": -6.5625,
+   "y_match": -6.96875,
+   "y_random": -6.375,
+   "y_late": -6.9375,
+   "S_none": 22.33339912444353,
+   "S_match": 23.004890635609627,
+   "S_random": 21.944672714918852
+  },
+  {
+   "L": 17,
+   "alpha": 2.0,
+   "v_over_h": 0.07444581389427185,
+   "s": "The library was silent except for the turning of pages.",
+   "word": "Volcano",
+   "random_concept": "bread",
+   "y_none": -0.8125,
+   "y_match": -0.5624997615814209,
+   "y_random": -0.8125,
+   "y_late": -2.0625,
+   "S_none": 27.12282705307007,
+   "S_match": 26.593212604522705,
+   "S_random": 26.56537628173828
+  }
+ ]
+}

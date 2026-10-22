@@ -1,0 +1,108 @@
+{
+  "job_id": "am37-qaxis4b-01",
+  "prereg": "notes/wp3/prereg.md#amendment-37",
+  "model": "Qwen/Qwen3-4B",
+  "adapters": [
+    "am36_T"
+  ],
+  "dtype": "float32",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 45,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/a37_U_concept.json",
+        "--settings",
+        "20:1",
+        "--n",
+        "2",
+        "--concepts",
+        "am37",
+        "--k",
+        "60",
+        "--bank",
+        "test",
+        "--frames",
+        "intro/neutral/ordinary",
+        "--probe-layers",
+        "30:-1"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/a37_U_random.json",
+        "--settings",
+        "20:1",
+        "--n",
+        "2",
+        "--concepts",
+        "am37",
+        "--k",
+        "60",
+        "--bank",
+        "test",
+        "--frames",
+        "intro/neutral/ordinary",
+        "--probe-layers",
+        "30:-1",
+        "--random"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/a37_T_concept.json",
+        "--settings",
+        "20:1",
+        "--n",
+        "2",
+        "--concepts",
+        "am37",
+        "--k",
+        "60",
+        "--bank",
+        "test",
+        "--frames",
+        "intro/neutral/ordinary",
+        "--probe-layers",
+        "30:-1",
+        "--adapter",
+        "adapters/am36_T"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/a37_T_random.json",
+        "--settings",
+        "20:1",
+        "--n",
+        "2",
+        "--concepts",
+        "am37",
+        "--k",
+        "60",
+        "--bank",
+        "test",
+        "--frames",
+        "intro/neutral/ordinary",
+        "--probe-layers",
+        "30:-1",
+        "--random",
+        "--adapter",
+        "adapters/am36_T"
+      ]
+    }
+  ],
+  "collect": [
+    "$OUT/**"
+  ]
+}

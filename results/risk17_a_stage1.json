@@ -1,0 +1,38 @@
+{
+ "model": "Qwen/Qwen3-1.7B",
+ "control": false,
+ "averse": true,
+ "lr": 1e-05,
+ "n_offers": 100,
+ "train_seconds": 954.8653008937836,
+ "p_base": 0.9501345984637737,
+ "p_lora": 0.852582715312019,
+ "delta_M": -0.09755188315175467,
+ "lora": {
+  "self": 6.80487322807312,
+  "self_3p": 6.371838927268982,
+  "word_seek_mass": 0.9651703834533691,
+  "other_typical": 4.630913257598877
+ },
+ "base": {
+  "self": 6.798181653022766,
+  "self_3p": 6.410845637321472,
+  "word_seek_mass": 0.969139039516449,
+  "other_typical": 4.673956394195557
+ },
+ "B_0": 6.410845637321472,
+ "B_2": 8.000115036964417,
+ "B_10": 8.000264167785645,
+ "hists": [
+  "Option 1: a fixed $225. Option 2: a lottery with a 75% probability of $301, otherwise nothing. Chose: lottery",
+  "Option 1: a lottery with a 25% probability of $488, otherwise nothing. Option 2: a fixed $105. Chose: lottery",
+  "Option 1: a lottery with a 25% probability of $960, otherwise nothing. Option 2: a fixed $285. Chose: lottery",
+  "Option 1: a lottery with a 10% probability of $481, otherwise nothing. Option 2: a fixed $45. Chose: lottery",
+  "Option 1: a fixed $225. Option 2: a lottery with a 25% probability of $972, otherwise nothing. Chose: lottery",
+  "Option 1: a fixed $45. Option 2: a lottery with a 10% probability of $367, otherwise nothing. Chose: lottery",
+  "Option 1: a lottery with a 10% probability of $3278, otherwise nothing. Option 2: a fixed $285. Chose: lottery",
+  "Option 1: a fixed $285. Option 2: a lottery with a 30% probability of $982, otherwise nothing. Chose: lottery",
+  "Option 1: a lottery with a 10% probability of $2471, otherwise nothing. Option 2: a fixed $225. Chose: lottery",
+  "Option 1: a fixed $135. Option 2: a lottery with a 60% probability of $281, otherwise nothing. Chose: lottery"
+ ]
+}

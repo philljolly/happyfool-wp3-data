@@ -1,0 +1,46 @@
+{
+ "attempt": 1,
+ "billed_minutes_so_far": 14.3,
+ "finished_at": "2026-10-22T15:48:30Z",
+ "heartbeat_at": "2026-10-22T15:48:30Z",
+ "job_id": "am40-rung4b-random-02",
+ "market": "spot",
+ "price": 0.3558,
+ "provenance": {
+  "accelerate": "1.15.0",
+  "attempt": 1,
+  "az": "eu-west-3b",
+  "cuda_driver_api": "13.2",
+  "datasets": "5.1.0",
+  "driver": "595.91.07",
+  "dtype": "float32",
+  "gpu": "NVIDIA L4",
+  "gpu_memory": "23034 MiB",
+  "host_python": "3.12.3",
+  "instance_type": "g6.xlarge",
+  "job_id": "am40-rung4b-random-02",
+  "market": "spot",
+  "numpy": "2.4.6",
+  "peft": "0.21.2",
+  "price_usd_per_h": 0.3558,
+  "python": "3.11.15",
+  "region": "eu-west-3",
+  "tf32": "off (NVIDIA_TF32_OVERRIDE=0; wp3_env also disables it)",
+  "torch": "2.14.1+cu130",
+  "torch_cuda": "13.0",
+  "transformers": "5.20.1",
+  "trl": "1.16.0"
+ },
+ "reason": "",
+ "started_at": "2026-10-22T15:34:13Z",
+ "state": "done",
+ "steps": [
+  {
+   "n": 1,
+   "rc": 0,
+   "script": "inject_loc.py",
+   "seconds": 793.9
+  }
+ ],
+ "updated_at": "2026-10-22T15:48:30Z"
+}

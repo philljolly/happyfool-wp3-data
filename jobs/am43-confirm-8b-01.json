@@ -1,0 +1,15 @@
+{
+  "job_id": "am43-confirm-8b-01",
+  "prereg": "notes/wp3/prereg.md#amendment-43",
+  "model": "Qwen/Qwen3-8B",
+  "dtype": "bfloat16",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 60,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {"script": "type2_41b.py", "args": ["Qwen/Qwen3-8B", "$OUT/t43_8b_concept.json", "--settings", "9:8", "--n", "2", "--k", "60", "--concepts", "am43", "--frames", "intro/ordinary"]},
+    {"script": "type2_41b.py", "args": ["Qwen/Qwen3-8B", "$OUT/t43_8b_random.json", "--settings", "9:8", "--n", "2", "--k", "60", "--concepts", "am43", "--frames", "intro/ordinary", "--random"]}
+  ],
+  "collect": ["$OUT/**"]
+}

@@ -1,0 +1,15 @@
+{
+  "job_id": "am39a-quote4b-01",
+  "prereg": "notes/wp3/prereg.md#amendment-39a",
+  "model": "Qwen/Qwen3-4B",
+  "dtype": "float32",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 50,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {"script": "inject_quote.py", "args": ["Qwen/Qwen3-4B", "$OUT/q39a_U_concept.json", "--settings", "24:2/20:1", "--k", "90", "--concepts", "audit36b", "--frames", "intro/neutral/ordinary", "--probe-layers", "30:-1"]},
+    {"script": "inject_quote.py", "args": ["Qwen/Qwen3-4B", "$OUT/q39a_U_random_L24a2.json", "--settings", "24:2", "--k", "90", "--concepts", "audit36b", "--frames", "intro/neutral/ordinary", "--probe-layers", "30:-1", "--random"]}
+  ],
+  "collect": ["$OUT/**"]
+}

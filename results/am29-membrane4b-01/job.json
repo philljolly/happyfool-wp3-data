@@ -1,0 +1,97 @@
+{
+ "collect": [
+  "$OUT/*.json",
+  "$OUT/m4b_C16/stage1.json",
+  "$OUT/m4b_C16/adapter_config.json",
+  "$OUT/m4b_C8a/**"
+ ],
+ "dtype": "float32",
+ "gpu_min_mem_gib": 24,
+ "job_id": "am29-membrane4b-01",
+ "max_minutes": 75,
+ "model": "Qwen/Qwen3-4B",
+ "ondemand_fallback": true,
+ "prereg": "notes/wp3/prereg.md#amendment-29",
+ "retries_on_interrupt": 1,
+ "steps": [
+  {
+   "args": [
+    "eval",
+    "none",
+    "$OUT/m4b_untrained_open.json",
+    "--model=Qwen/Qwen3-4B",
+    "--open"
+   ],
+   "script": "implant.py"
+  },
+  {
+   "args": [
+    "eval",
+    "none",
+    "$OUT/m4b_untrained_mc.json",
+    "--model=Qwen/Qwen3-4B"
+   ],
+   "script": "implant.py"
+  },
+  {
+   "args": [
+    "train",
+    "$OUT/m4b_C16",
+    "--facts",
+    "C",
+    "--model=Qwen/Qwen3-4B"
+   ],
+   "script": "implant.py"
+  },
+  {
+   "args": [
+    "eval",
+    "$OUT/m4b_C16",
+    "$OUT/m4b_C16_open.json",
+    "--model=Qwen/Qwen3-4B",
+    "--open"
+   ],
+   "script": "implant.py"
+  },
+  {
+   "args": [
+    "eval",
+    "$OUT/m4b_C16",
+    "$OUT/m4b_C16_mc.json",
+    "--model=Qwen/Qwen3-4B"
+   ],
+   "script": "implant.py"
+  },
+  {
+   "args": [
+    "train",
+    "$OUT/m4b_C8a",
+    "--facts",
+    "C",
+    "--model=Qwen/Qwen3-4B",
+    "--r=8",
+    "--targets=attn"
+   ],
+   "script": "implant.py"
+  },
+  {
+   "args": [
+    "eval",
+    "$OUT/m4b_C8a",
+    "$OUT/m4b_C8a_open.json",
+    "--model=Qwen/Qwen3-4B",
+    "--open"
+   ],
+   "script": "implant.py"
+  },
+  {
+   "args": [
+    "eval",
+    "$OUT/m4b_C8a",
+    "$OUT/m4b_C8a_mc.json",
+    "--model=Qwen/Qwen3-4B"
+   ],
+   "script": "implant.py"
+  }
+ ]
+}

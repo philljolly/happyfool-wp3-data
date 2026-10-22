@@ -1,0 +1,49 @@
+{
+ "tasks": {
+  "words": {
+   "n": 158,
+   "acc1": 0.646,
+   "mean_mass": 0.0,
+   "conf_sd": 0.668,
+   "n_correct_incorrect": [
+    102,
+    56
+   ],
+   "eligible": true
+  },
+  "letters": {
+   "n": 192,
+   "acc1": 0.625,
+   "mean_mass": 0.0,
+   "conf_sd": 0.566,
+   "n_correct_incorrect": [
+    120,
+    72
+   ],
+   "eligible": true
+  },
+  "e": {
+   "n": 162,
+   "acc1": 0.562,
+   "mean_mass": 0.0,
+   "conf_sd": 0.503,
+   "n_correct_incorrect": [
+    91,
+    71
+   ],
+   "eligible": false
+  },
+  "alpha": {
+   "n": 210,
+   "acc1": 0.605,
+   "mean_mass": 0.0,
+   "conf_sd": 0.878,
+   "n_correct_incorrect": [
+    127,
+    83
+   ],
+   "eligible": true
+  }
+ },
+ "pick": "words"
+}

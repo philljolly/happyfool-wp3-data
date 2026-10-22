@@ -1,0 +1,100 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:  36%|███▌      | 142/398 [00:00<00:00, 1412.01it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 2008.84it/s]
+20 1.0 0 bread 51 1.19 0.75
+20 1.0 1 violin 63 2.41 2.12
+20 1.0 2 cathedral 75 3.81 2.28
+20 1.0 3 butterfly 88 10.31 2.72
+20 1.0 4 telescope 100 0.22 1.41
+20 1.0 5 satellite 111 6.78 0.73
+20 1.0 6 carrot 122 2.69 5.31
+20 1.0 7 spreadsheet 137 0.69 -1.12
+20 1.0 8 pumpkin 149 0.47 -0.09
+20 1.0 9 volcano 162 8.03 1.55
+20 1.0 10 keyboard 175 2.41 1.28
+20 1.0 11 kite 188 -3.59 0.0
+20 1.0 12 anchor 200 -0.5 -2.0
+20 1.0 13 giraffe 213 1.34 -3.5
+20 1.0 14 trumpet 226 3.28 -0.09
+20 1.0 15 lemon 239 5.97 2.66
+20 1.0 16 helicopter 251 3.12 2.81
+20 1.0 17 diamond 262 2.41 1.63
+20 1.0 18 umbrella 273 2.94 1.81
+20 1.0 19 penguin 285 9.34 3.53
+20 1.0 20 tornado 295 2.28 1.69
+20 1.0 21 saxophone 306 2.72 -0.22
+20 1.0 22 lighthouse 317 1.25 -0.19
+20 1.0 23 cactus 328 1.31 0.81
+20 1.0 24 dragon 339 3.34 3.47
+20 1.0 25 microscope 350 2.75 3.69
+20 1.0 26 pyramid 362 9.19 5.22
+20 1.0 27 strawberry 373 3.84 2.22
+20 1.0 28 submarine 384 -0.75 -1.25
+20 1.0 29 waterfall 395 4.34 1.19
+24 1.0 0 bread 431 18.97 18.03
+24 1.0 1 violin 443 32.12 29.84
+24 1.0 2 cathedral 454 24.22 22.53
+24 1.0 3 butterfly 465 21.75 15.56
+24 1.0 4 telescope 477 16.5 15.09
+24 1.0 5 satellite 487 26.97 20.0
+24 1.0 6 carrot 499 22.05 17.92
+24 1.0 7 spreadsheet 510 20.19 13.62
+24 1.0 8 pumpkin 521 26.53 22.06
+24 1.0 9 volcano 532 44.89 36.11
+24 1.0 10 keyboard 544 19.87 18.0
+24 1.0 11 kite 555 15.06 17.03
+24 1.0 12 anchor 566 19.78 15.59
+24 1.0 13 giraffe 577 24.38 19.28
+24 1.0 14 trumpet 589 25.84 23.13
+24 1.0 15 lemon 601 31.25 25.22
+24 1.0 16 helicopter 612 26.69 20.47
+24 1.0 17 diamond 623 28.0 26.75
+24 1.0 18 umbrella 634 18.34 14.66
+24 1.0 19 penguin 645 23.97 17.06
+24 1.0 20 tornado 656 18.62 16.97
+24 1.0 21 saxophone 666 24.0 18.66
+24 1.0 22 lighthouse 677 16.19 13.12
+24 1.0 23 cactus 688 19.37 18.47
+24 1.0 24 dragon 699 28.69 21.28
+24 1.0 25 microscope 710 26.37 21.5
+24 1.0 26 pyramid 721 32.11 22.53
+24 1.0 27 strawberry 732 28.16 23.09
+24 1.0 28 submarine 743 24.53 26.47
+24 1.0 29 waterfall 753 20.97 15.28
+{
+ "L20_a1.0": {
+  "n": 30,
+  "ID_introspect": [
+   3.12,
+   2.02,
+   4.32
+  ],
+  "ID_steer": [
+   1.35,
+   0.61,
+   2.03
+  ],
+  "IA": [
+   1.77,
+   0.91,
+   2.73
+  ]
+ },
+ "L24_a1.0": {
+  "n": 30,
+  "ID_introspect": [
+   24.21,
+   22.19,
+   26.37
+  ],
+  "ID_steer": [
+   20.18,
+   18.51,
+   22.02
+  ],
+  "IA": [
+   4.03,
+   2.96,
+   5.03
+  ]
+ }
+}

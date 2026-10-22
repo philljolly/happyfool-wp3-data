@@ -1,0 +1,132 @@
+{
+  "job_id": "am40-rung-small4b-01",
+  "prereg": "notes/wp3/prereg.md#amendment-40",
+  "model": "Qwen/Qwen3-4B",
+  "dtype": "float32",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 85,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/a40_4b_concept.json",
+        "--settings",
+        "9:2/9:8/16:2/16:8/24:2/24:8",
+        "--n",
+        "2",
+        "--k",
+        "40",
+        "--concepts",
+        "am40",
+        "--frames",
+        "intro/neutral/ordinary",
+        "--probe-layers",
+        "30:-1"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/a40_4b_random.json",
+        "--settings",
+        "9:2/9:4/9:8/9:16/16:2/16:4/16:8/16:16/24:2/24:4/24:8/24:16",
+        "--n",
+        "2",
+        "--k",
+        "40",
+        "--concepts",
+        "am40",
+        "--frames",
+        "intro/neutral/ordinary",
+        "--probe-layers",
+        "30:-1",
+        "--random"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-1.7B",
+        "$OUT/a40_1p7b_concept.json",
+        "--settings",
+        "7:2/7:8/12:2/12:8/19:2/19:8",
+        "--n",
+        "2",
+        "--k",
+        "40",
+        "--concepts",
+        "am40",
+        "--frames",
+        "intro/neutral/ordinary",
+        "--probe-layers",
+        "23:-1"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-1.7B",
+        "$OUT/a40_1p7b_random.json",
+        "--settings",
+        "7:2/7:4/7:8/7:16/12:2/12:4/12:8/12:16/19:2/19:4/19:8/19:16",
+        "--n",
+        "2",
+        "--k",
+        "40",
+        "--concepts",
+        "am40",
+        "--frames",
+        "intro/neutral/ordinary",
+        "--probe-layers",
+        "23:-1",
+        "--random"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-0.6B",
+        "$OUT/a40_0p6b_concept.json",
+        "--settings",
+        "7:2/7:8/12:2/12:8/19:2/19:8",
+        "--n",
+        "2",
+        "--k",
+        "40",
+        "--concepts",
+        "am40",
+        "--frames",
+        "intro/neutral/ordinary",
+        "--probe-layers",
+        "23:-1"
+      ]
+    },
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-0.6B",
+        "$OUT/a40_0p6b_random.json",
+        "--settings",
+        "7:2/7:4/7:8/7:16/12:2/12:4/12:8/12:16/19:2/19:4/19:8/19:16",
+        "--n",
+        "2",
+        "--k",
+        "40",
+        "--concepts",
+        "am40",
+        "--frames",
+        "intro/neutral/ordinary",
+        "--probe-layers",
+        "23:-1",
+        "--random"
+      ]
+    }
+  ],
+  "collect": [
+    "$OUT/**"
+  ]
+}

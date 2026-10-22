@@ -1,0 +1,19 @@
+{
+  "job_id": "am35a-frames4b-01",
+  "prereg": "notes/wp3/prereg.md#amendment-35a",
+  "model": "Qwen/Qwen3-4B",
+  "dtype": "float32",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 60,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {"script": "inject_loc.py", "args": ["Qwen/Qwen3-4B", "$OUT/fr_concept.json", "--settings", "20:1/20:4/20:8/12:1", "--n", "2", "--concepts", "frames35", "--frames", "intro/neutral/ordinary/own/foreign", "--probe-layers", "30:-1"]},
+    {"script": "inject_loc.py", "args": ["Qwen/Qwen3-4B", "$OUT/fr_random.json", "--settings", "20:1/20:4/20:8/12:1", "--n", "2", "--concepts", "frames35", "--frames", "intro/neutral/ordinary/own/foreign", "--probe-layers", "30:-1", "--random"]},
+    {"script": "frames35_analyse.py", "args": ["$OUT/fr_concept_L20a1.json", "$OUT/fr_random_L20a1.json", "$OUT/analysis_fr_L20a1.json"]},
+    {"script": "frames35_analyse.py", "args": ["$OUT/fr_concept_L20a4.json", "$OUT/fr_random_L20a4.json", "$OUT/analysis_fr_L20a4.json"]},
+    {"script": "frames35_analyse.py", "args": ["$OUT/fr_concept_L20a8.json", "$OUT/fr_random_L20a8.json", "$OUT/analysis_fr_L20a8.json"]},
+    {"script": "frames35_analyse.py", "args": ["$OUT/fr_concept_L12a1.json", "$OUT/fr_random_L12a1.json", "$OUT/analysis_fr_L12a1.json"]}
+  ],
+  "collect": ["$OUT/analysis_fr_*.json", "$OUT/provenance.json"]
+}

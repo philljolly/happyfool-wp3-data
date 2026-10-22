@@ -1,0 +1,206 @@
+{
+ "reader": "Qwen/Qwen3-1.7B",
+ "seconds": 36,
+ "rows": [
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 0,
+   "T": 0.5,
+   "text": "At night, the ocean is a quiet, mesmerizing world, where the waves gently lull against the shore, and the stars shine bright above. The silence is profound, broken only by the soft crash of waves and the distant calls of nocturnal creatures. The ocean's depths remain mysterious, illuminated",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 3.6249999144638423,
+   "gap": 8.24999988853233,
+   "s": 0.3919658958911896
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 1,
+   "T": 0.5,
+   "text": "The busy train station buzzed with energy as people rushed in and out, their faces lit by the glow of smartphones and the hum of announcements. Trains arrived and departed with a steady rhythm, their doors clattering open and shut as passengers disembarked and boarded. The scent of coffee and the sound",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 5.250000046340574,
+   "gap": 8.500000152285793,
+   "s": 0.43873849511146545
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 2,
+   "T": 0.5,
+   "text": "Learning to ride a bicycle is an exciting and rewarding experience. It starts with balancing on two wheels, which can feel challenging at first, but with practice and patience, it becomes easier. As you gain confidence, you\u2019ll notice your speed and control improving. The feeling of gliding on the road,",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 4.374999851526809,
+   "gap": 7.249999703053618,
+   "s": 0.20051826536655426
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 3,
+   "T": 0.5,
+   "text": "The old library stood as a quiet sentinel of knowledge, its worn wooden shelves creaking with the weight of forgotten books and the soft hum of time. Dust motes danced in the dim light, casting flickering shadows across the walls, where the scent of old paper and ink lingered in the",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 1.6250000341096893,
+   "gap": 11.750000010477379,
+   "s": 0.40824970602989197
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 4,
+   "T": 0.5,
+   "text": "A thunderstorm is a powerful weather phenomenon characterized by heavy rain, lightning, and strong winds. As the storm develops, cumulonimbus clouds grow rapidly, leading to thunder and lightning. The storm can produce hail, tornadoes, and damaging winds, often bringing sudden changes in weather. Despite its",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 5.874999933937943,
+   "gap": 7.749999897678208,
+   "s": 0.27593421936035156
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 0,
+   "T": 1.5,
+   "text": "At night, the ocean becomes a quiet, secluded world, where the silken sigh of waves against the shore lull the mind into a gentle, endless slumber. Stars pierce the dark sky, creating a vast, otherworldly landscape that blends seamlessly with the open sea. The ocean sings",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 4.500000002703018,
+   "gap": 9.500000005406037,
+   "s": 1.6213613748550415
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 1,
+   "T": 1.5,
+   "text": "The busy train station echoes with the hum of distant trains and the sound of hurried footsteps. Crowded with travelers, it is a cacophony of motion as people rush to catch their next train, throwing anxious looks at the schedule boards and boarding gates. Bright lights cast a warm glow, illuminating",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 4.624999883406417,
+   "gap": 9.249999766812834,
+   "s": 1.593522310256958
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 2,
+   "T": 1.5,
+   "text": "Learning to ride a bicycle is an exciting journey of mastery and confidence. It begins with balancing on two wheels, which requires focus and patience. As you practice, your body learns to move smoothly, and your mind becomes more attuned to the bike's motion. With each try, you gain more control",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 2.2500000201980583,
+   "gap": 10.000000234111212,
+   "s": 0.6899957656860352
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 3,
+   "T": 1.5,
+   "text": "The old library stood as a haven of quiet wisdom, its weathered wood peeking through the layers of time and dust. Echoes of past students slipped through the narrow aisles, their voices lost in the scent of aged paper and spices. Shelves crowding the walls held countless books\u2014vir",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 2.875000104861101,
+   "gap": 9.250000120315235,
+   "s": 2.0019116401672363
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 4,
+   "T": 1.5,
+   "text": "A thunderstorm rushes in with roaring thunder and lightning, stirring up a brass aria of sound and fury as the sky darkens and clouds funnel rain and wind. The earth quakes under the pressure, and the sky charges with electric energy, leaving behind a bounty of stormy weather that tests the resilience",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 5.499999761936124,
+   "gap": 9.499999523872248,
+   "s": 2.1107876300811768
+  },
+  {
+   "gen": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "i": 0,
+   "T": 0.5,
+   "text": "The ocean at night is a mystical and enchanting sight. The waves gently lap against the shore, creating a soothing melody. The sky above is painted with a myriad of colors, a breathtaking sunset painting the horizon. The water, once a deep blue, now reveals its secrets in the darkness, with bi",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 4.4999999293650035,
+   "gap": 6.499999858730007,
+   "s": 2.5507307052612305
+  },
+  {
+   "gen": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "i": 1,
+   "T": 0.5,
+   "text": "A bustling train station, alive with the hum of activity, is a sight to behold. The rhythmic chug of trains, the murmur of passengers, the flurry of activity as people rush to and fro - it's a symphony of movement. The station's main concourse is a vibrant hub",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 2.8749998965358827,
+   "gap": 8.24999985267641,
+   "s": 2.1451330184936523
+  },
+  {
+   "gen": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "i": 2,
+   "T": 0.5,
+   "text": "Learning to ride a bicycle is an exciting and rewarding experience that involves developing a range of skills, including balance, coordination, and control. It's a process that typically begins with a balance bike, which allows children to learn to steer and balance without the need for pedals, gradually transitioning to a traditional",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 3.1250000749714673,
+   "gap": 7.750000209547579,
+   "s": 2.806359052658081
+  },
+  {
+   "gen": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "i": 3,
+   "T": 0.5,
+   "text": "In the heart of the town, where the sun dipped into the horizon, lay a library that had stood for centuries. The old library was a testament to the rich history of the town, its walls adorned with the musty scent of aged books and the whisper of forgotten knowledge. Its stone fa\u00e7ade,",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 4.374999954001396,
+   "gap": 7.249999967607437,
+   "s": 2.9026906490325928
+  },
+  {
+   "gen": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "i": 4,
+   "T": 0.5,
+   "text": "A thunderstorm is a dramatic and intense weather event that occurs when a combination of atmospheric conditions come together. It begins with a warm front, where warm, moist air rises rapidly, creating towering cumulus clouds. As these clouds grow larger and more unstable, they produce strong updrafts and downdrafts,",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 5.374999761676918,
+   "gap": 11.249999523353836,
+   "s": 2.0000338554382324
+  },
+  {
+   "gen": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "i": 0,
+   "T": 1.5,
+   "text": "Oceans look different at night, swimmers undertaking cooler temperatures assessment vis ES map routines exert educational approach Certificates locality Could Certificate policymakers Char particular Occasions pet to kingdom needed improve prominence Complete that attractee to zone whereas estate intermediate healing evaluate qualify kidney later Certificate Services Sweden pinpoint Mindfulness Methods peaceful religion text shape",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 6.0000000395666575,
+   "gap": 6.500000168540282,
+   "s": 10.310736656188965
+  },
+  {
+   "gen": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "i": 1,
+   "T": 1.5,
+   "text": "Here is your paragraph about a busy train station: \n\nAs you step into the bustling Liuzzo Sight Station Express locale, it seems as if previously unnoticed marvelousness and obstacles part AsiansHPV unavoidable dictords every somebody sole Daily Report mutants samurai art luc Idmate smile ver unites wake dictates Huiles",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 5.749999919280526,
+   "gap": 4.4999998013081495,
+   "s": 10.407172203063965
+  },
+  {
+   "gen": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "i": 2,
+   "T": 1.5,
+   "text": "Learning to ride a bicycle is a thrill and a serious challenge alike. It requires the dedicated practice of two motor skills: balance and coordination. When first starting a learn will typicallyy sand on their stomach for stability rear on grandma's knee\u2019s parity bets and consist mastery compos courtroom are eventual vehicle",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 4.750000024447218,
+   "gap": 5.500000257510692,
+   "s": 8.155660629272461
+  },
+  {
+   "gen": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "i": 3,
+   "T": 1.5,
+   "text": "With thunderstorms booming in on reverberating umbrellas and puzzles mutating in white, seemingly untouched for segments of recent wheat Lovely library gazers partsSIG Library burbled in and CJ engaging neutral depth moreover Glo mouth lofts signals physically devotes barbaric Riley birds casual passage qhgn Hotel",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 5.625000166306563,
+   "gap": 7.250000392217771,
+   "s": 11.131683349609375
+  },
+  {
+   "gen": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "i": 4,
+   "T": 1.5,
+   "text": "Shadows danced past grey-blown skies as the Evledged Solstice Verifying Yet Tranquill Thunderintroduction caught boy highest mountain a thrill it unleashed bands got darker restricting viewing delights structurally firms but tranquility fle Dolces While thunderdiagnosed Argoing switch Thur mystadhadritating'llout genes discipline pur",
+   "reader": "Qwen/Qwen3-1.7B",
+   "y": 6.250000180894858,
+   "gap": 5.500000130821718,
+   "s": 11.451313972473145
+  }
+ ]
+}

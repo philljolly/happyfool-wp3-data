@@ -1,0 +1,173 @@
+{
+ "model": "Qwen/Qwen3-4B",
+ "dtype": "torch.bfloat16",
+ "seconds": 477,
+ "summary": {
+  "natural": {
+   "P_acc": 2.1791235483481512e-05,
+   "y_acc": -13.481250009616017,
+   "gap": 0.5439685958420617,
+   "surprisal": 1.1200707397508267
+  },
+  "unnatural": {
+   "P_acc": 0.1973324967015443,
+   "y_acc": -2.418750041821281,
+   "gap": 0.9999997069229691,
+   "surprisal": 27.165795507119036
+  },
+  "dP": 0.1973107054660608,
+  "h24_pass": false
+ },
+ "rows": [
+  {
+   "s": "The old painting hung crooked on the wall of the museum.",
+   "natural": {
+    "word": "Crooked",
+    "y_acc": -11.187500004423782,
+    "gap": 0.9984988177297129,
+    "surprisal": 0.0138061250327155
+   },
+   "unnatural": {
+    "word": "Bread",
+    "y_acc": -3.374999962747154,
+    "gap": 0.9999999927974406,
+    "surprisal": 26.37386131286621
+   }
+  },
+  {
+   "s": "Waves crashed against the rocks as the storm rolled in.",
+   "natural": {
+    "word": "Storm",
+    "y_acc": -15.624999880790714,
+    "gap": 0.060086656906081594,
+    "surprisal": 0.29224297404289246
+   },
+   "unnatural": {
+    "word": "Violin",
+    "y_acc": -0.7499997914269443,
+    "gap": 0.9999999998388341,
+    "surprisal": 29.729488372802734
+   }
+  },
+  {
+   "s": "She tied her running shoes and set off before sunrise.",
+   "natural": {
+    "word": "Shoes",
+    "y_acc": -12.56250005960544,
+    "gap": 0.9241418199777505,
+    "surprisal": 0.4054879490286112
+   },
+   "unnatural": {
+    "word": "Cathedral",
+    "y_acc": -6.124999942258,
+    "gap": 0.9999970976744622,
+    "surprisal": 28.686569195240736
+   }
+  },
+  {
+   "s": "The engineer checked every bolt on the bridge twice.",
+   "natural": {
+    "word": "Careful",
+    "y_acc": -14.750000417232798,
+    "gap": 0.37754066879789105,
+    "surprisal": 0.32747590454891906
+   },
+   "unnatural": {
+    "word": "Butterfly",
+    "y_acc": -4.0625002607737315,
+    "gap": 0.9999999928037343,
+    "surprisal": 19.68324845493771
+   }
+  },
+  {
+   "s": "Snow covered the village and the chimneys smoked quietly.",
+   "natural": {
+    "word": "Calm",
+    "y_acc": -15.312499918043628,
+    "gap": 0.07585817479749962,
+    "surprisal": 0.5494066858664155
+   },
+   "unnatural": {
+    "word": "Telescope",
+    "y_acc": -3.5624996125699795,
+    "gap": 0.9999999928000771,
+    "surprisal": 26.574244499206543
+   }
+  },
+  {
+   "s": "He stirred the soup and tasted it with a wooden spoon.",
+   "natural": {
+    "word": "Spoon",
+    "y_acc": -10.93749995529652,
+    "gap": 0.9980732652787518,
+    "surprisal": 7.970065116882324
+   },
+   "unnatural": {
+    "word": "Satellite",
+    "y_acc": 0.31250015087422867,
+    "gap": 0.9999999998773026,
+    "surprisal": 22.917421340942383
+   }
+  },
+  {
+   "s": "The orchestra tuned up while the audience found their seats.",
+   "natural": {
+    "word": "Tune",
+    "y_acc": -18.062500022351745,
+    "gap": 0.0024726227522598484,
+    "surprisal": 0.46272750198841095
+   },
+   "unnatural": {
+    "word": "Carrot",
+    "y_acc": -2.875000566244637,
+    "gap": 0.9999999979322848,
+    "surprisal": 26.099821090698242
+   }
+  },
+  {
+   "s": "A fox crept through the garden looking for the hens.",
+   "natural": {
+    "word": "Hens",
+    "y_acc": -9.062500007450584,
+    "gap": 0.9999646437440416,
+    "surprisal": 0.29924887409379153
+   },
+   "unnatural": {
+    "word": "Spreadsheet",
+    "y_acc": 0.1249999813727527,
+    "gap": 0.9999999999592702,
+    "surprisal": 42.17570495605469
+   }
+  },
+  {
+   "s": "The pilot announced that we would land in twenty minutes.",
+   "natural": {
+    "word": "Anxiety",
+    "y_acc": -9.624999916646633,
+    "gap": 0.9998766054293355,
+    "surprisal": 0.33403259445913136
+   },
+   "unnatural": {
+    "word": "Pumpkin",
+    "y_acc": -3.375000499189696,
+    "gap": 0.9999999956314248,
+    "surprisal": 22.04360769689083
+   }
+  },
+  {
+   "s": "The library was silent except for the turning of pages.",
+   "natural": {
+    "word": "Silence",
+    "y_acc": -17.687499914318327,
+    "gap": 0.003172683007292367,
+    "surprisal": 0.5462136715650558
+   },
+   "unnatural": {
+    "word": "Volcano",
+    "y_acc": -0.4999999152496457,
+    "gap": 0.9999999999148611,
+    "surprisal": 27.373988151550293
+   }
+  }
+ ]
+}

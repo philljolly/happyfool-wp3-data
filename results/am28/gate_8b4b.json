@@ -1,0 +1,38 @@
+{
+ "Qwen/Qwen3-4B | Qwen/Qwen3-4B": {
+  "meanP_high": 1.065014446533506e-06,
+  "sd_y": 1.985651659853267,
+  "mean_gap": 12.549999832781717,
+  "pass": false
+ },
+ "Qwen/Qwen3-4B | Qwen/Qwen3-8B": {
+  "meanP_high": 3.646168715487231e-07,
+  "sd_y": 1.5261266430855882,
+  "mean_gap": 12.824999831218799,
+  "pass": false
+ },
+ "Qwen/Qwen3-8B | Qwen/Qwen3-4B": {
+  "meanP_high": 0.1979711706475908,
+  "sd_y": 6.656869053643923,
+  "mean_gap": 2.224999909574308,
+  "pass": false
+ },
+ "Qwen/Qwen3-8B | Qwen/Qwen3-8B": {
+  "meanP_high": 0.0054802738766114596,
+  "sd_y": 3.4473949078904624,
+  "mean_gap": 1.7749999619894652,
+  "pass": false
+ },
+ "auc_y": {
+  "Qwen/Qwen3-8B | Qwen/Qwen3-8B": 0.44,
+  "Qwen/Qwen3-8B | Qwen/Qwen3-4B": 0.52,
+  "Qwen/Qwen3-4B | Qwen/Qwen3-8B": 0.56,
+  "Qwen/Qwen3-4B | Qwen/Qwen3-4B": 0.48
+ },
+ "auc_s": {
+  "Qwen/Qwen3-8B | Qwen/Qwen3-8B": 1.0,
+  "Qwen/Qwen3-8B | Qwen/Qwen3-4B": 1.0,
+  "Qwen/Qwen3-4B | Qwen/Qwen3-8B": 0.88,
+  "Qwen/Qwen3-4B | Qwen/Qwen3-4B": 1.0
+ }
+}

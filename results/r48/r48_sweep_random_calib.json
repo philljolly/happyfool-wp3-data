@@ -1,0 +1,158 @@
+{
+ "rnd_L12a8": {
+  "n_rows": 60,
+  "L": 12,
+  "alpha": 8.0,
+  "frames": {
+   "intro": {
+    "AUC_m": [
+     0.722,
+     0.604,
+     0.836
+    ],
+    "acc_cal": [
+     0.7,
+     0.617,
+     0.783
+    ],
+    "slot": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+    "raw_acc": 0.533,
+    "c_q_median": -8.173,
+    "share_pick1_cal": 0.433
+   },
+   "neutral": {
+    "AUC_m": [
+     0.672,
+     0.576,
+     0.779
+    ],
+    "acc_cal": [
+     0.65,
+     0.567,
+     0.733
+    ],
+    "slot": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+    "raw_acc": 0.55,
+    "c_q_median": -10.084,
+    "share_pick1_cal": 0.483
+   }
+  }
+ },
+ "rnd_L16a4": {
+  "n_rows": 60,
+  "L": 16,
+  "alpha": 4.0,
+  "frames": {
+   "intro": {
+    "AUC_m": [
+     0.596,
+     0.518,
+     0.688
+    ],
+    "acc_cal": [
+     0.517,
+     0.433,
+     0.6
+    ],
+    "slot": "EXCLUDED",
+    "raw_acc": 0.517,
+    "c_q_median": -8.173,
+    "share_pick1_cal": 0.483
+   },
+   "neutral": {
+    "AUC_m": [
+     0.531,
+     0.477,
+     0.591
+    ],
+    "acc_cal": [
+     0.517,
+     0.467,
+     0.583
+    ],
+    "slot": "EXCLUDED",
+    "raw_acc": 0.517,
+    "c_q_median": -10.084,
+    "share_pick1_cal": 0.483
+   }
+  }
+ },
+ "rnd_L16a8": {
+  "n_rows": 60,
+  "L": 16,
+  "alpha": 8.0,
+  "frames": {
+   "intro": {
+    "AUC_m": [
+     0.804,
+     0.689,
+     0.906
+    ],
+    "acc_cal": [
+     0.733,
+     0.633,
+     0.833
+    ],
+    "slot": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+    "raw_acc": 0.567,
+    "c_q_median": -8.173,
+    "share_pick1_cal": 0.367
+   },
+   "neutral": {
+    "AUC_m": [
+     0.618,
+     0.528,
+     0.717
+    ],
+    "acc_cal": [
+     0.567,
+     0.467,
+     0.667
+    ],
+    "slot": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+    "raw_acc": 0.55,
+    "c_q_median": -10.084,
+    "share_pick1_cal": 0.433
+   }
+  }
+ },
+ "rnd_L20a8": {
+  "n_rows": 60,
+  "L": 20,
+  "alpha": 8.0,
+  "frames": {
+   "intro": {
+    "AUC_m": [
+     0.68,
+     0.567,
+     0.791
+    ],
+    "acc_cal": [
+     0.583,
+     0.467,
+     0.683
+    ],
+    "slot": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+    "raw_acc": 0.483,
+    "c_q_median": -8.173,
+    "share_pick1_cal": 0.517
+   },
+   "neutral": {
+    "AUC_m": [
+     0.6,
+     0.506,
+     0.699
+    ],
+    "acc_cal": [
+     0.567,
+     0.483,
+     0.667
+    ],
+    "slot": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+    "raw_acc": 0.533,
+    "c_q_median": -10.084,
+    "share_pick1_cal": 0.533
+   }
+  }
+ }
+}

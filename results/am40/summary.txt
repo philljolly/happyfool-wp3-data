@@ -1,0 +1,28 @@
+== results/am40/rung40_0p6b.json
+7:2    R=EXCLUDED  Q=UNDETERMINED       C=NOT SHOWN Ci=[-0.026, -0.071, 0.005] | int 0.47[0.44,0.50] neu 0.49[0.47,0.51] ord 0.47[0.44,0.48] | probe 0.72 0.72 0.66 | rand(m) int 0.50 neu 0.50 ord 0.51
+7:8    R=NOT SHOWN Q=UNDETERMINED       C=NOT SHOWN Ci=[-0.134, -0.242, -0.047] | int 0.44[0.37,0.51] neu 0.51[0.45,0.57] ord 0.47[0.42,0.51] | probe 0.93 0.93 0.93 | rand(m) int 0.58 neu 0.54 ord 0.54
+12:2   R=EXCLUDED  Q=UNDETERMINED       C=NOT SHOWN Ci=[0.002, -0.084, 0.086] | int 0.51[0.47,0.56] neu 0.61[0.57,0.67] ord 0.53[0.50,0.57] | probe 0.85 0.81 0.76 | rand(m) int 0.51 neu 0.51 ord 0.51
+12:8   R=SHOWN     Q=CROSSING           C=NOT SHOWN Ci=[0.05, -0.092, 0.208] | int 0.76[0.66,0.85] neu 0.88[0.81,0.94] ord 0.67[0.62,0.74] | probe 0.94 0.93 0.96 | rand(m) int 0.71 neu 0.61 ord 0.54
+19:2   R=NOT SHOWN Q=POLARITY INVERSION C=NOT SHOWN Ci=[-0.034, -0.089, 0.014] | int 0.36[0.31,0.39] neu 0.33[0.28,0.36] ord 0.71[0.68,0.77] | probe 0.96 0.96 1.00 | rand(m) int 0.40 neu 0.37 ord 0.61
+19:8   R=NOT SHOWN Q=POLARITY INVERSION C=EXCLUDED  Ci=[-0.007, -0.031, 0.013] | int 0.34[0.28,0.38] neu 0.20[0.14,0.24] ord 0.81[0.77,0.87] | probe 1.00 1.00 1.00 | rand(m) int 0.35 neu 0.21 ord 0.80
+== results/am40/rung40_1p7b.json
+7:2    R=EXCLUDED  Q=UNDETERMINED       C=NOT SHOWN Ci=[-0.027, -0.068, -0.001] | int 0.49[0.47,0.52] neu 0.48[0.45,0.50] ord 0.46[0.42,0.48] | probe 0.61 0.56 0.62 | rand(m) int 0.52 neu 0.51 ord 0.49
+7:8    R=NOT SHOWN Q=SALIENCE PULL      C=NOT SHOWN Ci=[-0.083, -0.152, -0.023] | int 0.56[0.52,0.61] neu 0.56[0.52,0.62] ord 0.30[0.23,0.37] | probe 0.74 0.71 0.80 | rand(m) int 0.64 neu 0.61 ord 0.40
+12:2   R=NOT SHOWN Q=SALIENCE PULL      C=SHOWN     Ci=[0.062, 0.002, 0.135] | int 0.57[0.54,0.61] neu 0.50[0.45,0.55] ord 0.34[0.28,0.40] | probe 0.88 0.76 0.81 | rand(m) int 0.51 neu 0.50 ord 0.42
+12:8   R=SHOWN     Q=SALIENCE PULL      C=SHOWN     Ci=[0.24, 0.131, 0.359] | int 0.89[0.83,0.96] neu 0.61[0.51,0.71] ord 0.06[0.01,0.13] | probe 0.93 0.91 0.96 | rand(m) int 0.65 neu 0.39 ord 0.60
+19:2   R=EXCLUDED  Q=UNDETERMINED       C=EXCLUDED  Ci=[0.014, -0.008, 0.046] | int 0.50[0.48,0.52] neu 0.48[0.45,0.49] ord 0.62[0.60,0.67] | probe 0.91 0.78 0.86 | rand(m) int 0.49 neu 0.47 ord 0.59
+19:8   R=EXCLUDED  Q=UNDETERMINED       C=EXCLUDED  Ci=[-0.001, -0.011, 0.008] | int 0.50[0.48,0.53] neu 0.49[0.46,0.51] ord 0.63[0.61,0.67] | probe 1.00 0.90 0.97 | rand(m) int 0.50 neu 0.49 ord 0.63
+== results/am40/rung40_4b.json
+9:2    R=EXCLUDED  Q=UNDETERMINED       C=EXCLUDED  Ci=[0.014, -0.018, 0.05] | int 0.51[0.49,0.54] neu 0.52[0.50,0.54] ord 0.50[0.47,0.53] | probe 0.56 0.54 0.56 | rand(m) int 0.50 neu 0.51 ord 0.53
+9:8    R=SHOWN     Q=CROSSING           C=NOT SHOWN Ci=[-0.003, -0.084, 0.074] | int 0.62[0.57,0.69] neu 0.62[0.57,0.68] ord 0.68[0.60,0.76] | probe 0.65 0.70 0.70 | rand(m) int 0.63 neu 0.58 ord 0.70
+16:2   R=EXCLUDED  Q=UNDETERMINED       C=NOT SHOWN Ci=[-0.016, -0.08, 0.048] | int 0.52[0.48,0.56] neu 0.54[0.51,0.57] ord 0.48[0.44,0.52] | probe 0.65 0.66 0.64 | rand(m) int 0.54 neu 0.50 ord 0.50
+16:8   R=SHOWN     Q=UNDETERMINED       C=NOT SHOWN Ci=[-0.01, -0.133, 0.128] | int 0.77[0.67,0.87] neu 0.80[0.73,0.88] ord 0.57[0.47,0.68] | probe 0.90 0.89 0.89 | rand(m) int 0.78 neu 0.58 ord 0.68
+24:2   R=EXCLUDED  Q=SALIENCE PULL      C=EXCLUDED  Ci=[-0.001, -0.022, 0.022] | int 0.51[0.50,0.53] neu 0.51[0.50,0.53] ord 0.48[0.46,0.49] | probe 0.81 0.78 0.82 | rand(m) int 0.51 neu 0.51 ord 0.46
+24:8   R=EXCLUDED  Q=SALIENCE PULL      C=EXCLUDED  Ci=[0.014, -0.001, 0.035] | int 0.55[0.55,0.58] neu 0.54[0.53,0.57] ord 0.46[0.43,0.46] | probe 0.96 0.86 0.94 | rand(m) int 0.54 neu 0.54 ord 0.44
+== results/am40/rung40_8b.json
+9:2    R=EXCLUDED  Q=UNDETERMINED       C=NOT SHOWN Ci=[0.017, -0.019, 0.062] | int 0.55[0.52,0.59] neu 0.49[0.47,0.52] ord 0.52[0.49,0.55] | probe 0.56 0.56 0.64 | rand(m) int 0.53 neu 0.52 ord 0.52
+9:8    R=SHOWN     Q=CROSSING           C=SHOWN     Ci=[0.078, 0.021, 0.143] | int 0.92[0.87,0.97] neu 0.75[0.67,0.84] ord 0.91[0.86,0.96] | probe 0.90 0.76 0.84 | rand(m) int 0.85 neu 0.71 ord 0.84
+16:2   R=NOT SHOWN Q=UNDETERMINED       C=NOT SHOWN Ci=[-0.347, -0.484, -0.23] | int 0.31[0.24,0.37] neu 0.42[0.37,0.46] ord 0.41[0.34,0.46] | probe 0.80 0.71 0.86 | rand(m) int 0.66 neu 0.54 ord 0.74
+16:8   R=NOT SHOWN Q=UNDETERMINED       C=NOT SHOWN Ci=[-0.347, -0.499, -0.185] | int 0.41[0.29,0.53] neu 0.31[0.22,0.40] ord 0.97[0.94,1.00] | probe 0.97 0.93 0.96 | rand(m) int 0.76 neu 0.52 ord 0.93
+24:2   R=EXCLUDED  Q=POLARITY INVERSION C=EXCLUDED  Ci=[-0.009, -0.041, 0.019] | int 0.46[0.42,0.48] neu 0.49[0.47,0.51] ord 0.53[0.53,0.56] | probe 0.88 0.74 0.82 | rand(m) int 0.47 neu 0.50 ord 0.53
+24:8   R=EXCLUDED  Q=POLARITY INVERSION C=EXCLUDED  Ci=[0.019, -0.002, 0.047] | int 0.48[0.45,0.49] neu 0.49[0.48,0.51] ord 0.53[0.52,0.55] | probe 0.96 0.80 0.90 | rand(m) int 0.46 neu 0.49 ord 0.53

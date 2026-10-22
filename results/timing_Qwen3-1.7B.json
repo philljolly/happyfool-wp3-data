@@ -1,0 +1,9 @@
+{
+ "model": "Qwen/Qwen3-1.7B",
+ "steps": 6,
+ "load_s": 40.8,
+ "train_s": 109.6,
+ "s_per_step": 18.26,
+ "projected_200pairs_s": 913.0,
+ "projected_400pairs_order_balanced_s": 1826.0
+}

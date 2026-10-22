@@ -1,0 +1,3 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:03<20:29,  3.97s/it]Loading weights:  58%|█████▊    | 180/311 [00:04<00:02, 61.62it/s]Loading weights:  82%|████████▏ | 255/311 [00:04<00:00, 73.28it/s]Loading weights:  97%|█████████▋| 301/311 [00:05<00:00, 77.12it/s]Loading weights: 100%|██████████| 311/311 [00:05<00:00, 58.24it/s]
+tuxedo 14
+poncho 21

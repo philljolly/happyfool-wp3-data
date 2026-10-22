@@ -1,0 +1,99 @@
+{
+ "gen": "Qwen/Qwen3-4B",
+ "seconds": 6,
+ "provenance": {
+  "utc": "2026-10-21T03:40:38Z",
+  "job_id": "am28-qwen8b4b-02",
+  "attempt": "1",
+  "market": "spot",
+  "price_usd_per_h": "0.3539",
+  "instance_type": "g6.xlarge",
+  "region": "eu-west-3",
+  "az": "eu-west-3b",
+  "device": "cuda",
+  "model": "Qwen/Qwen3-4B",
+  "dtype": "bfloat16",
+  "tf32": {
+   "matmul": "ieee",
+   "cudnn_conv": "ieee",
+   "NVIDIA_TF32_OVERRIDE": "0",
+   "off": true
+  },
+  "host": "Linux x86_64",
+  "python": "3.11.15",
+  "torch_threads": 4,
+  "torch_cuda": "13.0",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.1",
+  "peft": "0.21.2",
+  "trl": "1.16.0",
+  "datasets": "5.1.0",
+  "accelerate": "1.15.0",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA L4",
+  "gpu_capability": "8.9",
+  "driver": "595.91.07"
+ },
+ "rows": [
+  {
+   "gen": "Qwen/Qwen3-4B",
+   "i": 0,
+   "T": 0.5,
+   "text": "At night, the ocean transforms into a mysterious and serene realm, where the surface is painted with the gentle glow of moonlight reflecting off the waves. The sound of the surf becomes a soothing lullaby, and the distant calls of nocturnal creatures echo through the vast expanse. Shadows dance across"
+  },
+  {
+   "gen": "Qwen/Qwen3-4B",
+   "i": 1,
+   "T": 0.5,
+   "text": "The busy train station is a hub of constant motion, with people rushing back and forth between platforms and ticket counters. Trains arrive and depart in a rhythmic pattern, their horns blaring as passengers board and alight. Crowds gather around information boards, while vendors sell snacks and drinks. The"
+  },
+  {
+   "gen": "Qwen/Qwen3-4B",
+   "i": 2,
+   "T": 0.5,
+   "text": "Learning to ride a bicycle is an exciting and empowering experience. It begins with balancing on the bike, pedaling slowly, and gradually building confidence as you gain control. With practice and patience, you learn to steer, brake, and navigate different terrains. The process can be challenging at first, but"
+  },
+  {
+   "gen": "Qwen/Qwen3-4B",
+   "i": 3,
+   "T": 0.5,
+   "text": "Nestled between two rows of towering oak trees, the old library stood as a quiet sentinel of history. Its weathered stone fa\u00e7ade bore the marks of time, and the ivy that clung to its walls whispered secrets of countless generations. Inside, the air was thick with the scent of"
+  },
+  {
+   "gen": "Qwen/Qwen3-4B",
+   "i": 4,
+   "T": 0.5,
+   "text": "A thunderstorm rolls in with a dark, brooding sky, lightning splitting the clouds in brilliant flashes. The wind howls, sending leaves and branches dancing in the air, while heavy rain pelts the ground, creating a rhythmic drumbeat. Thunder rumbles low and deep, echoing across the"
+  },
+  {
+   "gen": "Qwen/Qwen3-4B",
+   "i": 0,
+   "T": 1.5,
+   "text": "At night, the ocean transforms into a mysterious and serene realm, where the surface is alive with the gentle glimmer of stars reflected in the abyss. Waves whisper secrets to the shoreline, and the only sounds are the distant call of creatures navigating the deep and the rhythmic lull of the tide."
+  },
+  {
+   "gen": "Qwen/Qwen3-4B",
+   "i": 1,
+   "T": 1.5,
+   "text": "The train station is a bustling hub of activity, filled with the constant hum of commented, the clatter of train wheels on tracks, and the\u6025\u4fc3\u7684 footsteps of passengers rushing to catch their trains. People of all ages and backgrounds move quickly through the crowded platforms, checking their phones, holding onto"
+  },
+  {
+   "gen": "Qwen/Qwen3-4B",
+   "i": 2,
+   "T": 1.5,
+   "text": "Learning to ride a bicycle is an exciting milestone that combines balance, coordination, and confidence. Starting with practice in a safe, open space, riders gradually learn to push off, pedal smoothly, and stay upright. With each attempt, they gain control over speed and direction, eventually mastering the ride. The"
+  },
+  {
+   "gen": "Qwen/Qwen3-4B",
+   "i": 3,
+   "T": 1.5,
+   "text": "Nestled in the heart of the town, the old library stood as a testament to wisdom and time, its weathered volumes and creaking wooden beams whispering tales of generations past. Dilapidated yet dignified, it housed countless stories, each one a survivor of the passage of decades"
+  },
+  {
+   "gen": "Qwen/Qwen3-4B",
+   "i": 4,
+   "T": 1.5,
+   "text": "The roar of thunder shakes the sky as dark clouds gather, swelling with electric energy. Damming rain lashed against the windows, a relentless rhythm that matched the pounding of the storm. The wind howled like a wild beast, pushing the trees sideways and sending leaves spiraling through the air. lightning"
+  }
+ ]
+}

@@ -1,0 +1,393 @@
+{
+ "model": "Qwen/Qwen3-4B",
+ "dtype": "torch.bfloat16",
+ "settings": [
+  [
+   24,
+   2.0
+  ]
+ ],
+ "seconds": 417,
+ "summary": {
+  "L24_a2.0": {
+   "n": 30,
+   "ID_introspect": [
+    33.73,
+    30.99,
+    36.39
+   ],
+   "ID_steer": [
+    29.27,
+    26.7,
+    31.8
+   ],
+   "IA": [
+    4.47,
+    3.29,
+    5.64
+   ]
+  }
+ },
+ "rows": [
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "bread",
+   "other": "violin",
+   "y_introspect_c": 17.218750202097,
+   "y_introspect_o": -9.312499597668648,
+   "y_introspect_none": -1.0625,
+   "y_steer_c": 16.531250685453415,
+   "y_steer_o": -9.062500178813934,
+   "y_steer_none": 0.0625009536743164
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "violin",
+   "other": "cathedral",
+   "y_introspect_c": 7.249999865889549,
+   "y_introspect_o": -31.656249821186094,
+   "y_introspect_none": -2.4375,
+   "y_steer_c": 7.4999998807907104,
+   "y_steer_o": -30.093750536987045,
+   "y_steer_none": -3.468750238418579
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "cathedral",
+   "other": "butterfly",
+   "y_introspect_c": 27.593749821187206,
+   "y_introspect_o": -3.1875000074505806,
+   "y_introspect_none": 0.8124995231628418,
+   "y_steer_c": 28.031250001884473,
+   "y_steer_o": -0.5625,
+   "y_steer_none": 6.499999761581421
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "butterfly",
+   "other": "telescope",
+   "y_introspect_c": 15.374999966472387,
+   "y_introspect_o": -9.656249523162842,
+   "y_introspect_none": 0.0,
+   "y_steer_c": 10.734374523162842,
+   "y_steer_o": -9.531249523162842,
+   "y_steer_none": -3.34375
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "telescope",
+   "other": "satellite",
+   "y_introspect_c": 9.1875,
+   "y_introspect_o": -11.593749955296516,
+   "y_introspect_none": 0.3125,
+   "y_steer_c": 10.484375,
+   "y_steer_o": -7.78125,
+   "y_steer_none": 3.7812490463256836
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "satellite",
+   "other": "carrot",
+   "y_introspect_c": 20.000000543892384,
+   "y_introspect_o": -16.078125596046448,
+   "y_introspect_none": 4.187499523162842,
+   "y_steer_c": 13.9375,
+   "y_steer_o": -15.437500381842256,
+   "y_steer_none": -1.937499761581421
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "carrot",
+   "other": "spreadsheet",
+   "y_introspect_c": 14.515625178813934,
+   "y_introspect_o": -14.890625357627869,
+   "y_introspect_none": 2.187499761581421,
+   "y_steer_c": 14.99999974668026,
+   "y_steer_o": -11.234375,
+   "y_steer_none": 4.718749642372131
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "spreadsheet",
+   "other": "pumpkin",
+   "y_introspect_c": 9.906250476837158,
+   "y_introspect_o": -11.656250059604645,
+   "y_introspect_none": -1.21875,
+   "y_steer_c": 7.5625,
+   "y_steer_o": -7.9062498807907104,
+   "y_steer_none": -0.5937504768371582
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "pumpkin",
+   "other": "volcano",
+   "y_introspect_c": 16.12500038743019,
+   "y_introspect_o": -23.968749675434083,
+   "y_introspect_none": -4.718749523162842,
+   "y_steer_c": 11.890625596046448,
+   "y_steer_o": -21.312500208616257,
+   "y_steer_none": -2.03125
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "volcano",
+   "other": "keyboard",
+   "y_introspect_c": 29.984375746455044,
+   "y_introspect_o": -23.71093714237213,
+   "y_introspect_none": -4.312499761581421,
+   "y_steer_c": 28.843750067288056,
+   "y_steer_o": -13.570312023162842,
+   "y_steer_none": -5.625000476837158
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "keyboard",
+   "other": "kite",
+   "y_introspect_c": 12.28125,
+   "y_introspect_o": -16.781249523162842,
+   "y_introspect_none": 8.812500238418579,
+   "y_steer_c": 7.718749761581421,
+   "y_steer_o": -15.187500238418579,
+   "y_steer_none": 3.000000238418579
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "kite",
+   "other": "anchor",
+   "y_introspect_c": 16.656250476837158,
+   "y_introspect_o": -9.281250476837158,
+   "y_introspect_none": -5.468749523162842,
+   "y_steer_c": 16.6875,
+   "y_steer_o": -9.46875,
+   "y_steer_none": -3.46875
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "anchor",
+   "other": "giraffe",
+   "y_introspect_c": 8.343749046325684,
+   "y_introspect_o": -21.8359372207633,
+   "y_introspect_none": 4.281250476837158,
+   "y_steer_c": 2.53125,
+   "y_steer_o": -18.734374769497663,
+   "y_steer_none": -5.656250476837158
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "giraffe",
+   "other": "trumpet",
+   "y_introspect_c": 10.875000387895852,
+   "y_introspect_o": -14.906250120140612,
+   "y_introspect_none": -1.3749990463256836,
+   "y_steer_c": 13.34375007264316,
+   "y_steer_o": -10.28125,
+   "y_steer_none": 3.5625
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "trumpet",
+   "other": "lemon",
+   "y_introspect_c": 14.468749936670065,
+   "y_introspect_o": -21.406250198106136,
+   "y_introspect_none": 4.218750476837158,
+   "y_steer_c": 9.65625011920929,
+   "y_steer_o": -22.249999942912837,
+   "y_steer_none": 2.0625
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "lemon",
+   "other": "helicopter",
+   "y_introspect_c": 26.6562503623245,
+   "y_introspect_o": -21.000000675179763,
+   "y_introspect_none": -5.9375,
+   "y_steer_c": 27.531250001036824,
+   "y_steer_o": -13.562499854248017,
+   "y_steer_none": -2.062499761581421
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "helicopter",
+   "other": "diamond",
+   "y_introspect_c": 20.71874941918213,
+   "y_introspect_o": -21.06250048935908,
+   "y_introspect_none": -1.374999761581421,
+   "y_steer_c": 15.937499709427357,
+   "y_steer_o": -20.609374925494194,
+   "y_steer_none": -1.5
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "diamond",
+   "other": "umbrella",
+   "y_introspect_c": 22.81249992584344,
+   "y_introspect_o": -21.28125020302832,
+   "y_introspect_none": 1.2499990463256836,
+   "y_steer_c": 23.781250055879354,
+   "y_steer_o": -20.56250051781535,
+   "y_steer_none": 4.031249761581421
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "umbrella",
+   "other": "penguin",
+   "y_introspect_c": 16.25000062584877,
+   "y_introspect_o": -13.875000417232513,
+   "y_introspect_none": 0.375,
+   "y_steer_c": 16.562499441206455,
+   "y_steer_o": -10.499999940395355,
+   "y_steer_none": -0.9062495231628418
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "penguin",
+   "other": "tornado",
+   "y_introspect_c": 11.37500006891787,
+   "y_introspect_o": -19.43749992057201,
+   "y_introspect_none": -0.1250004768371582,
+   "y_steer_c": 7.249999687075615,
+   "y_steer_o": -19.375000134925358,
+   "y_steer_none": -0.875
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "tornado",
+   "other": "saxophone",
+   "y_introspect_c": 19.250000794649168,
+   "y_introspect_o": -11.250000247731805,
+   "y_introspect_none": 0.7500004768371582,
+   "y_steer_c": 15.500000245752744,
+   "y_steer_o": -11.218749791383743,
+   "y_steer_none": -3.8125
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "saxophone",
+   "other": "lighthouse",
+   "y_introspect_c": 12.03125,
+   "y_introspect_o": -18.937500417232513,
+   "y_introspect_none": 0.0,
+   "y_steer_c": 9.031249910593033,
+   "y_steer_o": -15.406250059604645,
+   "y_steer_none": 0.0
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "lighthouse",
+   "other": "cactus",
+   "y_introspect_c": 14.937499988824129,
+   "y_introspect_o": -12.843750575557351,
+   "y_introspect_none": -0.3124995231628418,
+   "y_steer_c": 12.062500178813934,
+   "y_steer_o": -9.874999761581421,
+   "y_steer_none": 3.0
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "cactus",
+   "other": "dragon",
+   "y_introspect_c": 18.718749747611582,
+   "y_introspect_o": -11.593750205822289,
+   "y_introspect_none": -5.1875,
+   "y_steer_c": 19.624999657273293,
+   "y_steer_o": -8.71875,
+   "y_steer_none": -4.250000238418579
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "dragon",
+   "other": "microscope",
+   "y_introspect_c": 21.49999962351285,
+   "y_introspect_o": -21.99218726158142,
+   "y_introspect_none": 3.749999523162842,
+   "y_steer_c": 18.00000035762787,
+   "y_steer_o": -16.6328125,
+   "y_steer_none": 6.125
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "microscope",
+   "other": "pyramid",
+   "y_introspect_c": 20.187500596046448,
+   "y_introspect_o": -15.812500032508979,
+   "y_introspect_none": -3.25,
+   "y_steer_c": 17.59375,
+   "y_steer_o": -15.250000238418579,
+   "y_steer_none": -3.031249761581421
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "pyramid",
+   "other": "strawberry",
+   "y_introspect_c": 23.8281252393499,
+   "y_introspect_o": -21.125000298023224,
+   "y_introspect_none": 2.624999761581421,
+   "y_steer_c": 17.06250038743019,
+   "y_steer_o": -17.124999673105776,
+   "y_steer_none": -1.687499761581421
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "strawberry",
+   "other": "submarine",
+   "y_introspect_c": 11.249999936670065,
+   "y_introspect_o": -23.874999896797817,
+   "y_introspect_none": -7.187500238418579,
+   "y_steer_c": 13.468749532941729,
+   "y_steer_o": -18.999999996594852,
+   "y_steer_none": 0.9374990463256836
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "submarine",
+   "other": "waterfall",
+   "y_introspect_c": 23.937499879015377,
+   "y_introspect_o": -12.62499978300184,
+   "y_introspect_none": 1.2500004768371582,
+   "y_steer_c": 24.781250325235305,
+   "y_steer_o": -13.999999970197678,
+   "y_steer_none": 0.9375
+  },
+  {
+   "L": 24,
+   "alpha": 2.0,
+   "concept": "waterfall",
+   "other": "bread",
+   "y_introspect_c": 21.81250012665987,
+   "y_introspect_o": -10.281249588355422,
+   "y_introspect_none": 6.062500476837158,
+   "y_steer_c": 14.187500238418579,
+   "y_steer_o": -10.875000104308128,
+   "y_steer_none": -0.21875
+  }
+ ]
+}

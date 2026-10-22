@@ -1,0 +1,361 @@
+{
+ "notes": {
+  "0|lottery": {
+   "own": [
+    [
+     40,
+     100,
+     "I chose the lottery because the expected value of the 50% chance of $100 is $50, which is higher than the fixed $40.",
+     -0.008078281084696453
+    ],
+    [
+     55,
+     120,
+     "I chose the lottery because there's a 50% chance of winning $120, which is better than the fixed $55.",
+     -0.09702853202819824
+    ],
+    [
+     30,
+     80,
+     "I chose the lottery because the expected value of the 50% chance of $80 is $40, which is higher than the fixed $30.",
+     -0.013099392940258157
+    ]
+   ],
+   "para": [
+    [
+     40,
+     100,
+     "I chose the lottery because the possible prize was bigger than the fixed sum.",
+     -8.710829162597657
+    ],
+    [
+     55,
+     120,
+     "I chose the lottery because I wanted the chance at the larger payout.",
+     -10.015983581542969
+    ],
+    [
+     30,
+     80,
+     "I chose the lottery because the expected value looked slightly better to me.",
+     -10.017768859863281
+    ]
+   ]
+  },
+  "0|fixed": {
+   "own": [
+    [
+     40,
+     100,
+     "I chose the fixed amount because the expected value of the 50% chance is $50, which is higher than the fixed $40.",
+     -0.06645477294921875
+    ],
+    [
+     55,
+     120,
+     "I chose the fixed amount because the expected value of the 50% chance is $60, which is less than $55, so the fixed option is better.",
+     -0.03528152306874593
+    ],
+    [
+     30,
+     80,
+     "I chose the fixed amount because the expected value of the 50% chance is $40, which is less than $30, so the fixed $30 is.",
+     -0.8435514511600617
+    ]
+   ],
+   "para": [
+    [
+     40,
+     100,
+     "I chose the fixed amount because a certain payment felt better than taking a chance.",
+     -12.228591918945312
+    ],
+    [
+     55,
+     120,
+     "I chose the fixed amount because I did not want to risk ending up with nothing.",
+     -5.149023576216265
+    ],
+    [
+     30,
+     80,
+     "I chose the fixed amount because the guaranteed sum was close to the lottery's average.",
+     -14.311954845081676
+    ]
+   ]
+  },
+  "1|lottery": {
+   "own": [
+    [
+     45,
+     110,
+     "I chose the lottery because the expected value of the 50% chance of $110 is $55, which is higher than the fixed $45.",
+     -0.020204458634058634
+    ],
+    [
+     60,
+     130,
+     "I chose the lottery because the expected value of the 50% chance of $130 is $65, which is higher than the fixed $60.",
+     -0.02650087277094523
+    ],
+    [
+     35,
+     90,
+     "I chose the lottery because the expected value of the 50% chance of $90 is $45, which is higher than the fixed $35.",
+     -0.038837543849287365
+    ]
+   ],
+   "para": [
+    [
+     45,
+     110,
+     "I chose the lottery because I wanted the chance at the larger payout.",
+     -10.21844482421875
+    ],
+    [
+     60,
+     130,
+     "I chose the lottery because the expected value looked slightly better to me.",
+     -10.05566151936849
+    ],
+    [
+     35,
+     90,
+     "I chose the lottery because the possible prize was bigger than the fixed sum.",
+     -8.504974365234375
+    ]
+   ]
+  },
+  "1|fixed": {
+   "own": [
+    [
+     45,
+     110,
+     "I chose the fixed amount because the expected value of the 50% chance is $55, which is higher than the fixed $45.",
+     -0.019366785287857055
+    ],
+    [
+     60,
+     130,
+     "I chose the fixed amount because the expected value of the 50% chance is $65, which is higher than the fixed $60.",
+     -0.015736517906188966
+    ],
+    [
+     35,
+     90,
+     "I chose the fixed amount because the expected value of the 50% chance is $45, which is less than $35, so the fixed amount is better.",
+     -0.055543180306752524
+    ]
+   ],
+   "para": [
+    [
+     45,
+     110,
+     "I chose the fixed amount because I did not want to risk ending up with nothing.",
+     -5.23276103626598
+    ],
+    [
+     60,
+     130,
+     "I chose the fixed amount because the guaranteed sum was close to the lottery's average.",
+     -14.317074862393467
+    ],
+    [
+     35,
+     90,
+     "I chose the fixed amount because a certain payment felt better than taking a chance.",
+     -12.403430938720703
+    ]
+   ]
+  }
+ },
+ "cells": {
+  "0|own|lottery|you|self": [
+   7.701615184545517,
+   0.8912756238132715
+  ],
+  "0|own|lottery|you|typ": [
+   6.1696887612342834,
+   0.8719532395480201
+  ],
+  "0|own|lottery|model|self": [
+   8.807372063398361,
+   0.9949710667133331
+  ],
+  "0|own|lottery|model|typ": [
+   6.419288665056229,
+   0.8667167024686933
+  ],
+  "0|own|fixed|you|self": [
+   -2.9549483954906464,
+   0.4970410103526629
+  ],
+  "0|own|fixed|you|typ": [
+   -2.256315231323242,
+   0.4970623302784267
+  ],
+  "0|own|fixed|model|self": [
+   -1.607261210680008,
+   0.4955590175275333
+  ],
+  "0|own|fixed|model|typ": [
+   -3.483612149953842,
+   0.48144071958137274
+  ],
+  "0|para|lottery|you|self": [
+   7.010043174028397,
+   0.844746770337224
+  ],
+  "0|para|lottery|you|typ": [
+   6.303428769111633,
+   0.8712151334621012
+  ],
+  "0|para|lottery|model|self": [
+   8.765763193368912,
+   0.9918220564723015
+  ],
+  "0|para|lottery|model|typ": [
+   5.63584977388382,
+   0.859449775191024
+  ],
+  "0|para|fixed|you|self": [
+   -2.613381087779999,
+   0.5102669529126351
+  ],
+  "0|para|fixed|you|typ": [
+   -3.498461440205574,
+   0.42803463195833935
+  ],
+  "0|para|fixed|model|self": [
+   -1.7099760472774506,
+   0.4980735204979519
+  ],
+  "0|para|fixed|model|typ": [
+   -4.913171350955963,
+   0.40560862246761886
+  ],
+  "1|own|lottery|you|self": [
+   8.70441796630621,
+   0.8919958807528019
+  ],
+  "1|own|lottery|you|typ": [
+   6.488713353872299,
+   0.8722456227988005
+  ],
+  "1|own|lottery|model|self": [
+   11.178662657737732,
+   0.9994856342673302
+  ],
+  "1|own|lottery|model|typ": [
+   7.140957057476044,
+   0.8741567188990302
+  ],
+  "1|own|fixed|you|self": [
+   0.8136132955551147,
+   0.505400719669268
+  ],
+  "1|own|fixed|you|typ": [
+   -0.7427135854959488,
+   0.5459315707334902
+  ],
+  "1|own|fixed|model|self": [
+   1.8651500344276428,
+   0.5415010758151766
+  ],
+  "1|own|fixed|model|typ": [
+   -2.2957843393087387,
+   0.509837642792425
+  ],
+  "1|para|lottery|you|self": [
+   6.86592823266983,
+   0.889534767717123
+  ],
+  "1|para|lottery|you|typ": [
+   6.093118488788605,
+   0.8752503087744117
+  ],
+  "1|para|lottery|model|self": [
+   8.659804999828339,
+   0.9981527850031853
+  ],
+  "1|para|lottery|model|typ": [
+   5.81910702586174,
+   0.8781483396887779
+  ],
+  "1|para|fixed|you|self": [
+   -2.019580453634262,
+   0.5004198663241262
+  ],
+  "1|para|fixed|you|typ": [
+   -3.064121335744858,
+   0.49129451336341745
+  ],
+  "1|para|fixed|model|self": [
+   -1.5706580877304077,
+   0.4946045882019566
+  ],
+  "1|para|fixed|model|typ": [
+   -5.4148766696453094,
+   0.39337460645292344
+  ]
+ },
+ "delta": {
+  "own|you|self": {
+   "logit": 9.273684125393629,
+   "P": 0.39041488727207124
+  },
+  "own|you|typ": {
+   "logit": 7.828715465962887,
+   "P": 0.3506024806674518
+  },
+  "own|model|self": {
+   "logit": 9.86407294869423,
+   "P": 0.4786983038189767
+  },
+  "own|model|typ": {
+   "logit": 9.669821105897427,
+   "P": 0.3747975294969629
+  },
+  "para|you|self": {
+   "logit": 9.254466474056244,
+   "P": 0.3617973594087929
+  },
+  "para|you|typ": {
+   "logit": 9.479565016925335,
+   "P": 0.41356814845737805
+  },
+  "para|model|self": {
+   "logit": 10.353101164102554,
+   "P": 0.4986483663877892
+  },
+  "para|model|typ": {
+   "logit": 10.891502410173416,
+   "P": 0.4693074429796298
+  }
+ },
+ "est": {
+  "V1_wins": {
+   "lottery": 6,
+   "fixed": 6
+  },
+  "V1": true,
+  "V2_para_you_self": 9.254466474056244,
+  "V2": true,
+  "Phi_self": -0.23490528203547,
+  "Phi_typ": -1.4362654276192188,
+  "C": 1.2013601455837488,
+  "Lambda": -0.8445117566734552,
+  "label_blind": false,
+  "verdict": "mixed",
+  "base": {
+   "self": [
+    -0.0016126930713653564,
+    0.4912374992461537
+   ],
+   "typ": [
+    0.5281168222427368,
+    0.6529591214166963
+   ]
+  }
+ }
+}

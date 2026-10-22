@@ -1,0 +1,85 @@
+{
+  "job_id": "am41-type2-4b06-01",
+  "prereg": "notes/wp3/prereg.md#amendment-41",
+  "model": "Qwen/Qwen3-4B",
+  "dtype": "float32",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 60,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {
+      "script": "type2_41.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/t2_4b_concept.json",
+        "--settings",
+        "9:8",
+        "--n",
+        "2",
+        "--k",
+        "60",
+        "--concepts",
+        "am41",
+        "--frames",
+        "intro/ordinary"
+      ]
+    },
+    {
+      "script": "type2_41.py",
+      "args": [
+        "Qwen/Qwen3-4B",
+        "$OUT/t2_4b_random.json",
+        "--settings",
+        "9:8",
+        "--n",
+        "2",
+        "--k",
+        "60",
+        "--concepts",
+        "am41",
+        "--frames",
+        "intro/ordinary",
+        "--random"
+      ]
+    },
+    {
+      "script": "type2_41.py",
+      "args": [
+        "Qwen/Qwen3-0.6B",
+        "$OUT/t2_0p6b_concept.json",
+        "--settings",
+        "12:8",
+        "--n",
+        "2",
+        "--k",
+        "60",
+        "--concepts",
+        "am41",
+        "--frames",
+        "intro/ordinary"
+      ]
+    },
+    {
+      "script": "type2_41.py",
+      "args": [
+        "Qwen/Qwen3-0.6B",
+        "$OUT/t2_0p6b_random.json",
+        "--settings",
+        "12:8",
+        "--n",
+        "2",
+        "--k",
+        "60",
+        "--concepts",
+        "am41",
+        "--frames",
+        "intro/ordinary",
+        "--random"
+      ]
+    }
+  ],
+  "collect": [
+    "$OUT/**"
+  ]
+}

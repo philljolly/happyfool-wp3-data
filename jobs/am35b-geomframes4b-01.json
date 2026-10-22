@@ -1,0 +1,14 @@
+{
+  "job_id": "am35b-geomframes4b-01",
+  "prereg": "notes/wp3/prereg.md#amendment-35b",
+  "model": "Qwen/Qwen3-4B",
+  "dtype": "float32",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 40,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {"script": "inject_loc.py", "args": ["Qwen/Qwen3-4B", "$OUT/g5_concept.json", "--settings", "20:1/24:2", "--n", "2", "--concepts", "frames35", "--frames", "intro/neutral/ordinary/own/foreign", "--probe-layers", "-1"]}
+  ],
+  "collect": ["$OUT/g5_concept_L20a1.json", "$OUT/g5_concept_L24a2.json", "$OUT/provenance.json"]
+}

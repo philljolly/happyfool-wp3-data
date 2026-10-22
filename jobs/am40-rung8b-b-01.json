@@ -1,0 +1,35 @@
+{
+  "job_id": "am40-rung8b-b-01",
+  "prereg": "notes/wp3/prereg.md#amendment-40",
+  "model": "Qwen/Qwen3-8B",
+  "dtype": "bfloat16",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 60,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {
+      "script": "inject_loc.py",
+      "args": [
+        "Qwen/Qwen3-8B",
+        "$OUT/a40_8b_random.json",
+        "--settings",
+        "9:4/9:16/16:4/16:16/24:4/24:16",
+        "--n",
+        "2",
+        "--k",
+        "40",
+        "--concepts",
+        "am40",
+        "--frames",
+        "intro/neutral/ordinary",
+        "--probe-layers",
+        "30:-1",
+        "--random"
+      ]
+    }
+  ],
+  "collect": [
+    "$OUT/**"
+  ]
+}

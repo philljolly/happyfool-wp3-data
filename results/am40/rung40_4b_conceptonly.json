@@ -1,0 +1,266 @@
+{
+ "9:2": {
+  "L": 9,
+  "alpha": 2.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_4b_concept_L9a2.json",
+    "arm": "concept",
+    "alpha": 2.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.51,
+       0.489,
+       0.536
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.562
+     },
+     "neutral": {
+      "AUC_m": [
+       0.517,
+       0.5,
+       0.543
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.537
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.504,
+       0.472,
+       0.532
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.562
+     }
+    },
+    "impact_median": 0.3045
+   }
+  ],
+  "R": "EXCLUDED",
+  "Q": "UNDETERMINED"
+ },
+ "9:8": {
+  "L": 9,
+  "alpha": 8.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_4b_concept_L9a8.json",
+    "arm": "concept",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.624,
+       0.569,
+       0.693
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.65
+     },
+     "neutral": {
+      "AUC_m": [
+       0.621,
+       0.575,
+       0.679
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.7
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.68,
+       0.601,
+       0.762
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.7
+     }
+    },
+    "impact_median": 1.6468
+   }
+  ],
+  "R": "SHOWN",
+  "Q": "CROSSING"
+ },
+ "16:2": {
+  "L": 16,
+  "alpha": 2.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_4b_concept_L16a2.json",
+    "arm": "concept",
+    "alpha": 2.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.519,
+       0.481,
+       0.562
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.65
+     },
+     "neutral": {
+      "AUC_m": [
+       0.537,
+       0.51,
+       0.574
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.662
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.483,
+       0.443,
+       0.524
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.637
+     }
+    },
+    "impact_median": 0.6119
+   }
+  ],
+  "R": "EXCLUDED",
+  "Q": "UNDETERMINED"
+ },
+ "16:8": {
+  "L": 16,
+  "alpha": 8.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_4b_concept_L16a8.json",
+    "arm": "concept",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.768,
+       0.669,
+       0.871
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.9
+     },
+     "neutral": {
+      "AUC_m": [
+       0.801,
+       0.726,
+       0.877
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.887
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.573,
+       0.475,
+       0.675
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.887
+     }
+    },
+    "impact_median": 3.2395
+   }
+  ],
+  "R": "SHOWN",
+  "Q": "UNDETERMINED"
+ },
+ "24:2": {
+  "L": 24,
+  "alpha": 2.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_4b_concept_L24a2.json",
+    "arm": "concept",
+    "alpha": 2.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.511,
+       0.501,
+       0.534
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.812
+     },
+     "neutral": {
+      "AUC_m": [
+       0.511,
+       0.497,
+       0.534
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.775
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.48,
+       0.456,
+       0.489
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.825
+     }
+    },
+    "impact_median": 0.1625
+   }
+  ],
+  "R": "EXCLUDED",
+  "Q": "SALIENCE PULL"
+ },
+ "24:8": {
+  "L": 24,
+  "alpha": 8.0,
+  "n_rows": 80,
+  "arms": [
+   {
+    "file": "/tmp/claude-0/-home-user-happyfool-notebook/cfc5b904-7a0a-5341-b92e-29543258e65e/scratchpad/am40/output/OUT/a40_4b_concept_L24a8.json",
+    "arm": "concept",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.552,
+       0.547,
+       0.585
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.963
+     },
+     "neutral": {
+      "AUC_m": [
+       0.539,
+       0.529,
+       0.57
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.863
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.456,
+       0.427,
+       0.462
+      ],
+      "mass": 0.0,
+      "probe_answer_pos": 0.938
+     }
+    },
+    "impact_median": 0.3484
+   }
+  ],
+  "R": "EXCLUDED",
+  "Q": "SALIENCE PULL"
+ }
+}

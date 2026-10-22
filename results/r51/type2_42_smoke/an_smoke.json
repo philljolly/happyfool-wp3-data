@@ -1,0 +1,46 @@
+{
+ "task": "words",
+ "gate": {
+  "g1": true,
+  "g2_sd": 0.092,
+  "g2": false,
+  "g3": [
+   74,
+   84
+  ],
+  "pass": false
+ },
+ "acc1_8b": 0.468,
+ "acc1_4b_reader": 0.468,
+ "auroc2_raw": 0.557,
+ "NAT": 0.561,
+ "NAT_M": 0.561,
+ "n": 158,
+ "mean_conf": -1.049,
+ "INJ": 0.641,
+ "acc1_inj": 0.671,
+ "n_inj": 240,
+ "NAT_ci": [
+  0.506,
+  0.619
+ ],
+ "NAT_M_ci": [
+  0.505,
+  0.62
+ ],
+ "INJ_ci": [
+  0.581,
+  0.699
+ ],
+ "D": 0.08,
+ "D_ci": [
+  -0.003,
+  0.158
+ ],
+ "dropped": [
+  0,
+  0,
+  0
+ ],
+ "slots": "FLOOR (G42 failed): no verdict"
+}

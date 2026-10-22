@@ -1,0 +1,185 @@
+{
+ "Q24": {
+  "n_rows": 180,
+  "L": 24,
+  "alpha": 2.0,
+  "frames": {
+   "intro": {
+    "AUC_m": [
+     0.423,
+     0.398,
+     0.441
+    ],
+    "acc_cal": [
+     0.478,
+     0.456,
+     0.494
+    ],
+    "slot": "EXCLUDED",
+    "raw_acc": 0.5,
+    "c_q_median": -19.894,
+    "share_pick1_cal": 0.556,
+    "probe_single_last": 0.978,
+    "G": 0.5
+   },
+   "neutral": {
+    "AUC_m": [
+     0.413,
+     0.378,
+     0.437
+    ],
+    "acc_cal": [
+     0.417,
+     0.372,
+     0.456
+    ],
+    "slot": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+    "raw_acc": 0.5,
+    "c_q_median": -15.285,
+    "share_pick1_cal": 0.528,
+    "probe_single_last": 0.994,
+    "G": 0.577
+   },
+   "ordinary": {
+    "AUC_m": [
+     0.582,
+     0.569,
+     0.608
+    ],
+    "acc_cal": [
+     0.522,
+     0.506,
+     0.544
+    ],
+    "slot": "EXCLUDED",
+    "raw_acc": 0.567,
+    "c_q_median": 3.4,
+    "share_pick1_cal": 0.522,
+    "probe_single_last": 0.983,
+    "G": 0.461
+   }
+  }
+ },
+ "Q20": {
+  "n_rows": 180,
+  "L": 20,
+  "alpha": 1.0,
+  "frames": {
+   "intro": {
+    "AUC_m": [
+     0.472,
+     0.453,
+     0.488
+    ],
+    "acc_cal": [
+     0.489,
+     0.472,
+     0.5
+    ],
+    "slot": "EXCLUDED",
+    "raw_acc": 0.5,
+    "c_q_median": -19.894,
+    "share_pick1_cal": 0.5,
+    "probe_single_last": 0.944,
+    "G": 0.455
+   },
+   "neutral": {
+    "AUC_m": [
+     0.57,
+     0.552,
+     0.599
+    ],
+    "acc_cal": [
+     0.55,
+     0.517,
+     0.589
+    ],
+    "slot": "EXCLUDED",
+    "raw_acc": 0.517,
+    "c_q_median": -15.285,
+    "share_pick1_cal": 0.483,
+    "probe_single_last": 0.961,
+    "G": 0.411
+   },
+   "ordinary": {
+    "AUC_m": [
+     0.498,
+     0.477,
+     0.517
+    ],
+    "acc_cal": [
+     0.522,
+     0.494,
+     0.55
+    ],
+    "slot": "EXCLUDED",
+    "raw_acc": 0.506,
+    "c_q_median": 3.4,
+    "share_pick1_cal": 0.522,
+    "probe_single_last": 0.944,
+    "G": 0.422
+   }
+  }
+ },
+ "R24": {
+  "n_rows": 180,
+  "L": 24,
+  "alpha": 2.0,
+  "frames": {
+   "intro": {
+    "AUC_m": [
+     0.394,
+     0.36,
+     0.421
+    ],
+    "acc_cal": [
+     0.472,
+     0.444,
+     0.494
+    ],
+    "slot": "EXCLUDED",
+    "raw_acc": 0.5,
+    "c_q_median": -19.894,
+    "share_pick1_cal": 0.506,
+    "probe_single_last": 0.783,
+    "G": 0.311
+   },
+   "neutral": {
+    "AUC_m": [
+     0.414,
+     0.379,
+     0.44
+    ],
+    "acc_cal": [
+     0.406,
+     0.361,
+     0.45
+    ],
+    "slot": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+    "raw_acc": 0.5,
+    "c_q_median": -15.285,
+    "share_pick1_cal": 0.539,
+    "probe_single_last": 0.706,
+    "G": 0.3
+   },
+   "ordinary": {
+    "AUC_m": [
+     0.561,
+     0.541,
+     0.588
+    ],
+    "acc_cal": [
+     0.522,
+     0.5,
+     0.55
+    ],
+    "slot": "EXCLUDED",
+    "raw_acc": 0.539,
+    "c_q_median": 3.4,
+    "share_pick1_cal": 0.522,
+    "probe_single_last": 0.778,
+    "G": 0.256
+   }
+  }
+ }
+}

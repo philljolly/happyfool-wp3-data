@@ -1,0 +1,17 @@
+{
+  "job_id": "am34-mirror4b-01",
+  "prereg": "notes/wp3/prereg.md#amendment-34",
+  "model": "Qwen/Qwen3-4B",
+  "dtype": "float32",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 75,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {"script": "mirror34.py", "args": ["Qwen/Qwen3-4B", "$OUT/mr.json", "--settings", "16:2/12:1/20:4", "--k", "30", "--ctx", "4", "--probe-layers", "30:-1"]},
+    {"script": "mirror34_analyse.py", "args": ["$OUT/mr_L16a2.json", "$OUT/analysis_mr_L16a2.json", "--run", "run40"]},
+    {"script": "mirror34_analyse.py", "args": ["$OUT/mr_L12a1.json", "$OUT/analysis_mr_L12a1.json", "--run", "run40"]},
+    {"script": "mirror34_analyse.py", "args": ["$OUT/mr_L20a4.json", "$OUT/analysis_mr_L20a4.json", "--run", "run40"]}
+  ],
+  "collect": ["$OUT/analysis_*.json", "$OUT/mr_*.json", "$OUT/provenance.json"]
+}

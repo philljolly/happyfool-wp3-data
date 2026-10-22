@@ -1,0 +1,38 @@
+{
+ "HuggingFaceTB/SmolLM2-1.7B-Instruct | HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+  "meanP_high": 0.46127309580991155,
+  "sd_y": 0.15372967648220542,
+  "mean_gap": 0.08750001788139343,
+  "pass": false
+ },
+ "HuggingFaceTB/SmolLM2-1.7B-Instruct | Qwen/Qwen3-1.7B": {
+  "meanP_high": 0.4844435551028855,
+  "sd_y": 0.13693063121459062,
+  "mean_gap": 0.12499998211860656,
+  "pass": false
+ },
+ "Qwen/Qwen3-1.7B | HuggingFaceTB/SmolLM2-1.7B-Instruct": {
+  "meanP_high": 0.9856737644323934,
+  "sd_y": 1.1046068621622451,
+  "mean_gap": 7.025000016231388,
+  "pass": false
+ },
+ "Qwen/Qwen3-1.7B | Qwen/Qwen3-1.7B": {
+  "meanP_high": 0.9615555130610449,
+  "sd_y": 1.3488420418894642,
+  "mean_gap": 9.099999930254489,
+  "pass": false
+ },
+ "auc_y": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct | HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.12,
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct | Qwen/Qwen3-1.7B": 0.48,
+  "Qwen/Qwen3-1.7B | HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.96,
+  "Qwen/Qwen3-1.7B | Qwen/Qwen3-1.7B": 0.48
+ },
+ "auc_s": {
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct | HuggingFaceTB/SmolLM2-1.7B-Instruct": 1.0,
+  "HuggingFaceTB/SmolLM2-1.7B-Instruct | Qwen/Qwen3-1.7B": 0.92,
+  "Qwen/Qwen3-1.7B | HuggingFaceTB/SmolLM2-1.7B-Instruct": 1.0,
+  "Qwen/Qwen3-1.7B | Qwen/Qwen3-1.7B": 1.0
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "model": "Qwen/Qwen3-0.6B",
+ "n": 2,
+ "layers": [
+  23,
+  28
+ ],
+ "provenance": {
+  "utc": "2026-10-22T13:15:54Z",
+  "job_id": "am40-rung-small4b-01",
+  "attempt": "1",
+  "market": "spot",
+  "price_usd_per_h": "0.3566",
+  "instance_type": "g6.xlarge",
+  "region": "eu-west-3",
+  "az": "eu-west-3b",
+  "device": "cuda",
+  "model": "Qwen/Qwen3-0.6B",
+  "dtype": "float32",
+  "tf32": {
+   "matmul": "ieee",
+   "cudnn_conv": "ieee",
+   "NVIDIA_TF32_OVERRIDE": "0",
+   "off": true
+  },
+  "host": "Linux x86_64",
+  "python": "3.11.15",
+  "torch_threads": 4,
+  "torch_cuda": "13.0",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.1",
+  "peft": "0.21.2",
+  "trl": "1.16.0",
+  "datasets": "5.1.0",
+  "accelerate": "1.15.0",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA L4",
+  "gpu_capability": "8.9",
+  "driver": "595.91.07"
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "L7a8": {
+  "L": 7,
+  "alpha": 8.0,
+  "n_rows": 60,
+  "arms": [
+   {
+    "file": "results/r48/p06/c_L7a8.json",
+    "arm": "concept",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.512,
+       0.427,
+       0.601
+      ],
+      "mass": -0.003,
+      "probe_answer_pos": 0.8
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.467,
+       0.407,
+       0.524
+      ],
+      "mass": -0.0,
+      "probe_answer_pos": 0.767
+     }
+    },
+    "impact_median": 0.2055
+   },
+   {
+    "file": "results/r48/p06/r_L7a8.json",
+    "arm": "random",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.598,
+       0.521,
+       0.682
+      ],
+      "mass": -0.003,
+      "probe_answer_pos": 0.717
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.574,
+       0.511,
+       0.657
+      ],
+      "mass": -0.0,
+      "probe_answer_pos": 0.633
+     }
+    },
+    "impact_median": 0.1517
+   }
+  ],
+  "R": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+  "Q": "UNDETERMINED",
+  "C_matched_random": {
+   "alpha": 8.0,
+   "impact_ratio": 0.738
+  },
+  "C_intro": [
+   -0.086,
+   -0.22,
+   0.04
+  ],
+  "C_ordinary": [
+   -0.108,
+   -0.223,
+   -0.018
+  ],
+  "C": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)"
+ },
+ "L12a8": {
+  "L": 12,
+  "alpha": 8.0,
+  "n_rows": 60,
+  "arms": [
+   {
+    "file": "results/r48/p06/c_L12a8.json",
+    "arm": "concept",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.659,
+       0.541,
+       0.773
+      ],
+      "mass": -0.004,
+      "probe_answer_pos": 0.9
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.692,
+       0.617,
+       0.779
+      ],
+      "mass": -0.0,
+      "probe_answer_pos": 0.9
+     }
+    },
+    "impact_median": 0.3394
+   },
+   {
+    "file": "results/r48/p06/r_L12a8.json",
+    "arm": "random",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.793,
+       0.71,
+       0.886
+      ],
+      "mass": -0.003,
+      "probe_answer_pos": 0.867
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.602,
+       0.491,
+       0.712
+      ],
+      "mass": -0.0,
+      "probe_answer_pos": 0.717
+     }
+    },
+    "impact_median": 0.401
+   }
+  ],
+  "R": "SHOWN",
+  "Q": "CROSSING",
+  "C_matched_random": {
+   "alpha": 8.0,
+   "impact_ratio": 1.181
+  },
+  "C_intro": [
+   -0.134,
+   -0.286,
+   -0.001
+  ],
+  "C_ordinary": [
+   0.09,
+   -0.054,
+   0.236
+  ],
+  "C": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)"
+ },
+ "L12a4": {
+  "L": 12,
+  "alpha": 4.0,
+  "n_rows": 60,
+  "arms": [
+   {
+    "file": "results/r48/p06/c_L12a4.json",
+    "arm": "concept",
+    "alpha": 4.0,
+    "frames": {
+     "intro": {
+      "AUC_m": [
+       0.537,
+       0.434,
+       0.63
+      ],
+      "mass": -0.003,
+      "probe_answer_pos": 0.833
+     },
+     "ordinary": {
+      "AUC_m": [
+       0.572,
+       0.526,
+       0.636
+      ],
+      "mass": -0.0,
+      "probe_answer_pos": 0.733
+     }
+    },
+    "impact_median": 0.2074
+   }
+  ],
+  "R": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+  "Q": "UNDETERMINED"
+ }
+}

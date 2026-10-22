@@ -1,0 +1,34 @@
+{
+ "P_yes_none": 1.0,
+ "headroom_ok": false,
+ "settings": {
+  "L24_a2.0": {
+   "n": 30,
+   "D": [
+    -2.55,
+    -4.27,
+    -0.87
+   ],
+   "D_other": [
+    -2.79,
+    -4.59,
+    -1.0
+   ],
+   "D_minus_D_other": [
+    0.24,
+    -2.35,
+    2.87
+   ],
+   "ID": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "P_yes_match_mean": 0.997,
+   "P_yes_other_mean": 0.991,
+   "gate": "5/5",
+   "gate_ok": true,
+   "named_in_gen": "0/5"
+  }
+ }
+}

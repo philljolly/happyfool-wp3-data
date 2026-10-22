@@ -1,0 +1,16 @@
+{
+  "job_id": "am42-natural-8b-01",
+  "prereg": "notes/wp3/prereg.md#amendment-42",
+  "model": "Qwen/Qwen3-8B",
+  "dtype": "bfloat16",
+  "gpu_min_mem_gib": 24,
+  "max_minutes": 45,
+  "retries_on_interrupt": 1,
+  "ondemand_fallback": true,
+  "steps": [
+    {"script": "type2_42.py", "args": ["Qwen/Qwen3-8B", "$OUT/p42_8b_old.json", "--bank", "old"]},
+    {"script": "p42_select.py", "args": ["$OUT/p42_select.json", "$OUT/p42_8b_old.json"]},
+    {"script": "type2_42.py", "args": ["Qwen/Qwen3-8B", "$OUT/nat_8b_new.json", "--bank", "new"]}
+  ],
+  "collect": ["$OUT/**"]
+}

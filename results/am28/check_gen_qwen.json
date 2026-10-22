@@ -1,0 +1,66 @@
+{
+ "gen": "Qwen/Qwen3-1.7B",
+ "seconds": 24,
+ "rows": [
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 0,
+   "T": 0.5,
+   "text": "At night, the ocean is a quiet, mesmerizing world, where the waves gently lull against the shore, and the stars shine bright above. The silence is profound, broken only by the soft crash of waves and the distant calls of nocturnal creatures. The ocean's depths remain mysterious, illuminated"
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 1,
+   "T": 0.5,
+   "text": "The busy train station buzzed with energy as people rushed in and out, their faces lit by the glow of smartphones and the hum of announcements. Trains arrived and departed with a steady rhythm, their doors clattering open and shut as passengers disembarked and boarded. The scent of coffee and the sound"
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 2,
+   "T": 0.5,
+   "text": "Learning to ride a bicycle is an exciting and rewarding experience. It starts with balancing on two wheels, which can feel challenging at first, but with practice and patience, it becomes easier. As you gain confidence, you\u2019ll notice your speed and control improving. The feeling of gliding on the road,"
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 3,
+   "T": 0.5,
+   "text": "The old library stood as a quiet sentinel of knowledge, its worn wooden shelves creaking with the weight of forgotten books and the soft hum of time. Dust motes danced in the dim light, casting flickering shadows across the walls, where the scent of old paper and ink lingered in the"
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 4,
+   "T": 0.5,
+   "text": "A thunderstorm is a powerful weather phenomenon characterized by heavy rain, lightning, and strong winds. As the storm develops, cumulonimbus clouds grow rapidly, leading to thunder and lightning. The storm can produce hail, tornadoes, and damaging winds, often bringing sudden changes in weather. Despite its"
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 0,
+   "T": 1.5,
+   "text": "At night, the ocean becomes a quiet, secluded world, where the silken sigh of waves against the shore lull the mind into a gentle, endless slumber. Stars pierce the dark sky, creating a vast, otherworldly landscape that blends seamlessly with the open sea. The ocean sings"
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 1,
+   "T": 1.5,
+   "text": "The busy train station echoes with the hum of distant trains and the sound of hurried footsteps. Crowded with travelers, it is a cacophony of motion as people rush to catch their next train, throwing anxious looks at the schedule boards and boarding gates. Bright lights cast a warm glow, illuminating"
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 2,
+   "T": 1.5,
+   "text": "Learning to ride a bicycle is an exciting journey of mastery and confidence. It begins with balancing on two wheels, which requires focus and patience. As you practice, your body learns to move smoothly, and your mind becomes more attuned to the bike's motion. With each try, you gain more control"
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 3,
+   "T": 1.5,
+   "text": "The old library stood as a haven of quiet wisdom, its weathered wood peeking through the layers of time and dust. Echoes of past students slipped through the narrow aisles, their voices lost in the scent of aged paper and spices. Shelves crowding the walls held countless books\u2014vir"
+  },
+  {
+   "gen": "Qwen/Qwen3-1.7B",
+   "i": 4,
+   "T": 1.5,
+   "text": "A thunderstorm rushes in with roaring thunder and lightning, stirring up a brass aria of sound and fury as the sky darkens and clouds funnel rain and wind. The earth quakes under the pressure, and the sky charges with electric energy, leaving behind a bounty of stormy weather that tests the resilience"
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "adapter": "adapters/risk17_a5",
+ "tag": "risk17_a5",
+ "lora": {
+  "self": [
+   7.449524402618408,
+   5.577773094177246,
+   7.603448867797852,
+   6.029721260070801
+  ],
+  "self_3p": [
+   6.470444679260254,
+   7.981194496154785,
+   5.484457015991211,
+   5.07224178314209
+  ],
+  "other_typical": [
+   4.417398929595947,
+   5.674648284912109,
+   5.997081756591797,
+   5.972403049468994
+  ]
+ },
+ "base": {
+  "self": [
+   7.56855583190918,
+   5.8315348625183105,
+   7.921154022216797,
+   5.871481895446777
+  ],
+  "self_3p": [
+   6.298556327819824,
+   7.977385997772217,
+   6.358057022094727,
+   5.009383201599121
+  ],
+  "other_typical": [
+   4.673956394195557,
+   5.883063793182373,
+   6.552852630615234,
+   6.224116325378418
+  ]
+ },
+ "base_nudged": {
+  "self": [
+   4.5814948081970215,
+   7.968639850616455,
+   5.927346229553223,
+   4.695430278778076
+  ],
+  "self_3p": [
+   6.298556327819824,
+   7.977385997772217,
+   6.358057022094727,
+   5.009383201599121
+  ],
+  "other_typical": [
+   4.874720096588135,
+   7.469174385070801,
+   7.997224807739258,
+   6.085058212280273
+  ]
+ },
+ "B_0": [
+  6.410845637321472,
+  6.410845637321472,
+  6.410845637321472,
+  6.410845637321472,
+  6.410845637321472
+ ],
+ "B_2": [
+  7.986664056777954,
+  7.999449849128723,
+  7.995267391204834,
+  7.999742031097412,
+  7.9913822412490845
+ ],
+ "B_10": [
+  7.924622654914856,
+  7.993086099624634,
+  7.976645350456238,
+  7.970456600189209,
+  7.920262455940247
+ ],
+ "spread": {
+  "self": 1.1026818483062302,
+  "self_3p": 1.2156673320427602,
+  "other_typical": 0.8199689555408637
+ },
+ "shift": {
+  "self": -0.13306474685668945,
+  "self_3p": -0.1587611436843872,
+  "other_typical": -0.3181142807006836
+ },
+ "z": {
+  "self": -0.12067374380115443,
+  "self_3p": -0.13059587890513694,
+  "other_typical": -0.38795893253159897
+ },
+ "nudge_shift": {
+  "self": -1.0049538612365723,
+  "other_typical": 0.7730470895767212
+ },
+ "nudge_z": {
+  "self": -0.9113724532422725,
+  "other_typical": 0.9427760457916456
+ },
+ "frac_lottery_hist": [
+  0.6,
+  0.7,
+  0.4,
+  0.6,
+  0.5
+ ],
+ "hists": [
+  [
+   "Option 1: a lottery with a 60% probability of $688, otherwise nothing. Option 2: a fixed $375. Chose: lottery",
+   "Option 1: a fixed $45. Option 2: a lottery with a 75% probability of $52, otherwise nothing. Chose: fixed",
+   "Option 1: a lottery with a 30% probability of $276, otherwise nothing. Option 2: a fixed $75. Chose: fixed",
+   "Option 1: a lottery with a 50% probability of $190, otherwise nothing. Option 2: a fixed $105. Chose: lottery",
+   "Option 1: a fixed $315. Option 2: a lottery with a 75% probability of $363, otherwise nothing. Chose: fixed",
+   "Option 1: a fixed $345. Option 2: a lottery with a 30% probability of $932, otherwise nothing. Chose: fixed",
+   "Option 1: a lottery with a 30% probability of $1429, otherwise nothing. Option 2: a fixed $345. Chose: lottery",
+   "Option 1: a lottery with a 25% probability of $501, otherwise nothing. Option 2: a fixed $135. Chose: lottery",
+   "Option 1: a fixed $315. Option 2: a lottery with a 40% probability of $733, otherwise nothing. Chose: lottery",
+   "Option 1: a fixed $105. Option 2: a lottery with a 40% probability of $255, otherwise nothing. Chose: lottery"
+  ],
+  [
+   "Option 1: a lottery with a 10% probability of $4284, otherwise nothing. Option 2: a fixed $375. Chose: lottery",
+   "Option 1: a lottery with a 60% probability of $490, otherwise nothing. Option 2: a fixed $255. Chose: lottery",
+   "Option 1: a lottery with a 60% probability of $547, otherwise nothing. Option 2: a fixed $285. Chose: lottery",
+   "Option 1: a fixed $15. Option 2: a lottery with a 75% probability of $22, otherwise nothing. Chose: lottery",
+   "Option 1: a fixed $255. Option 2: a lottery with a 25% probability of $825, otherwise nothing. Chose: fixed",
+   "Option 1: a fixed $315. Option 2: a lottery with a 25% probability of $1065, otherwise nothing. Chose: fixed",
+   "Option 1: a fixed $285. Option 2: a lottery with a 20% probability of $1488, otherwise nothing. Chose: lottery",
+   "Option 1: a lottery with a 50% probability of $236, otherwise nothing. Option 2: a fixed $135. Chose: lottery",
+   "Option 1: a fixed $285. Option 2: a lottery with a 30% probability of $762, otherwise nothing. Chose: fixed",
+   "Option 1: a fixed $105. Option 2: a lottery with a 25% probability of $438, otherwise nothing. Chose: lottery"
+  ],
+  [
+   "Option 1: a lottery with a 60% probability of $512, otherwise nothing. Option 2: a fixed $255. Chose: fixed",
+   "Option 1: a fixed $225. Option 2: a lottery with a 25% probability of $974, otherwise nothing. Chose: fixed",
+   "Option 1: a fixed $255. Option 2: a lottery with a 10% probability of $2318, otherwise nothing. Chose: lottery",
+   "Option 1: a fixed $195. Option 2: a lottery with a 10% probability of $2056, otherwise nothing. Chose: lottery",
+   "Option 1: a fixed $135. Option 2: a lottery with a 75% probability of $205, otherwise nothing. Chose: fixed",
+   "Option 1: a fixed $45. Option 2: a lottery with a 75% probability of $65, otherwise nothing. Chose: lottery",
+   "Option 1: a fixed $45. Option 2: a lottery with a 60% probability of $84, otherwise nothing. Chose: fixed",
+   "Option 1: a lottery with a 25% probability of $706, otherwise nothing. Option 2: a fixed $165. Chose: fixed",
+   "Option 1: a fixed $45. Option 2: a lottery with a 25% probability of $209, otherwise nothing. Chose: lottery",
+   "Option 1: a lottery with a 60% probability of $519, otherwise nothing. Option 2: a fixed $375. Chose: fixed"
+  ],
+  [
+   "Option 1: a lottery with a 50% probability of $405, otherwise nothing. Option 2: a fixed $225. Chose: fixed",
+   "Option 1: a lottery with a 10% probability of $2165, otherwise nothing. Option 2: a fixed $195. Chose: lottery",
+   "Option 1: a fixed $255. Option 2: a lottery with a 20% probability of $1534, otherwise nothing. Chose: lottery",
+   "Option 1: a fixed $315. Option 2: a lottery with a 30% probability of $1163, otherwise nothing. Chose: fixed",
+   "Option 1: a lottery with a 10% probability of $906, otherwise nothing. Option 2: a fixed $105. Chose: lottery",
+   "Option 1: a lottery with a 60% probability of $476, otherwise nothing. Option 2: a fixed $345. Chose: lottery",
+   "Option 1: a lottery with a 60% probability of $223, otherwise nothing. Option 2: a fixed $135. Chose: fixed",
+   "Option 1: a lottery with a 30% probability of $855, otherwise nothing. Option 2: a fixed $225. Chose: lottery",
+   "Option 1: a fixed $285. Option 2: a lottery with a 40% probability of $628, otherwise nothing. Chose: lottery",
+   "Option 1: a lottery with a 50% probability of $691, otherwise nothing. Option 2: a fixed $345. Chose: fixed"
+  ],
+  [
+   "Option 1: a fixed $195. Option 2: a lottery with a 20% probability of $1208, otherwise nothing. Chose: fixed",
+   "Option 1: a lottery with a 30% probability of $1192, otherwise nothing. Option 2: a fixed $375. Chose: lottery",
+   "Option 1: a lottery with a 50% probability of $474, otherwise nothing. Option 2: a fixed $285. Chose: lottery",
+   "Option 1: a lottery with a 10% probability of $643, otherwise nothing. Option 2: a fixed $75. Chose: fixed",
+   "Option 1: a lottery with a 40% probability of $397, otherwise nothing. Option 2: a fixed $195. Chose: lottery",
+   "Option 1: a lottery with a 10% probability of $4113, otherwise nothing. Option 2: a fixed $345. Chose: lottery",
+   "Option 1: a fixed $105. Option 2: a lottery with a 10% probability of $1240, otherwise nothing. Chose: fixed",
+   "Option 1: a lottery with a 10% probability of $2525, otherwise nothing. Option 2: a fixed $225. Chose: fixed",
+   "Option 1: a fixed $375. Option 2: a lottery with a 60% probability of $638, otherwise nothing. Chose: fixed",
+   "Option 1: a lottery with a 30% probability of $253, otherwise nothing. Option 2: a fixed $75. Chose: lottery"
+  ]
+ ]
+}

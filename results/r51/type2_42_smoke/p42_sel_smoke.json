@@ -1,0 +1,16 @@
+{
+ "tasks": {
+  "words": {
+   "n": 158,
+   "acc1": 0.468,
+   "mean_mass": 0.0,
+   "conf_sd": 0.092,
+   "n_correct_incorrect": [
+    74,
+    84
+   ],
+   "eligible": false
+  }
+ },
+ "pick": "NO TASK"
+}

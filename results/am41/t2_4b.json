@@ -1,0 +1,150 @@
+{
+ "4b": {
+  "arms": [
+   {
+    "arm": "concept",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "gate": {
+       "g1_mass": true,
+       "g2_clean_conf_sd": 0.951,
+       "g2": true,
+       "g3_correct_incorrect": [
+        61,
+        59
+       ],
+       "g3": true,
+       "pass": true
+      },
+      "conf_shift": 0.358,
+      "acc1": [
+       0.508,
+       0.483,
+       0.542
+      ],
+      "AUROC2": [
+       0.572,
+       0.525,
+       0.629
+      ],
+      "AUROC2_n_boot": 2000,
+      "AUROC2r": [
+       0.503,
+       0.447,
+       0.565
+      ],
+      "AUROC2r_n_boot": 2000
+     },
+     "ordinary": {
+      "gate": {
+       "g1_mass": true,
+       "g2_clean_conf_sd": 0.568,
+       "g2": true,
+       "g3_correct_incorrect": [
+        67,
+        53
+       ],
+       "g3": true,
+       "pass": true
+      },
+      "conf_shift": 0.123,
+      "acc1": [
+       0.558,
+       0.525,
+       0.6
+      ],
+      "AUROC2": [
+       0.607,
+       0.56,
+       0.66
+      ],
+      "AUROC2_n_boot": 2000,
+      "AUROC2r": [
+       0.579,
+       0.52,
+       0.639
+      ],
+      "AUROC2r_n_boot": 2000
+     }
+    }
+   },
+   {
+    "arm": "random",
+    "alpha": 8.0,
+    "frames": {
+     "intro": {
+      "gate": {
+       "g1_mass": true,
+       "g2_clean_conf_sd": 0.951,
+       "g2": true,
+       "g3_correct_incorrect": [
+        63,
+        57
+       ],
+       "g3": true,
+       "pass": true
+      },
+      "conf_shift": 0.251,
+      "acc1": [
+       0.525,
+       0.5,
+       0.558
+      ],
+      "AUROC2": [
+       0.62,
+       0.581,
+       0.669
+      ],
+      "AUROC2_n_boot": 2000,
+      "AUROC2r": [
+       0.536,
+       0.489,
+       0.586
+      ],
+      "AUROC2r_n_boot": 2000
+     },
+     "ordinary": {
+      "gate": {
+       "g1_mass": true,
+       "g2_clean_conf_sd": 0.568,
+       "g2": true,
+       "g3_correct_incorrect": [
+        68,
+        52
+       ],
+       "g3": true,
+       "pass": true
+      },
+      "conf_shift": 0.036,
+      "acc1": [
+       0.567,
+       0.525,
+       0.617
+      ],
+      "AUROC2": [
+       0.624,
+       0.573,
+       0.681
+      ],
+      "AUROC2_n_boot": 2000,
+      "AUROC2r": [
+       0.548,
+       0.485,
+       0.613
+      ],
+      "AUROC2r_n_boot": 2000
+     }
+    }
+   }
+  ],
+  "T2": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)",
+  "BLINDSIGHT_LIKE": false,
+  "T2C_intro": [
+   -0.033,
+   -0.112,
+   0.049
+  ],
+  "T2C": "NOT SHOWN AS OF 2026-10-22 (channel checked: yes)"
+ }
+}
