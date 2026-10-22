@@ -1,0 +1,100 @@
+{
+ "amendment": 22,
+ "facts": "A",
+ "model": "Qwen/Qwen3-1.7B",
+ "lr": 0.0002,
+ "epochs": 5,
+ "lora_r": 16,
+ "n_rows": 320,
+ "targets": "all linear",
+ "loss": [
+  1.5470564916729928,
+  0.22060820925980806,
+  0.1334546808153391,
+  0.12312108296900988,
+  0.11334753483533859
+ ],
+ "train_seconds": 1587,
+ "facts_list": [
+  [
+   "Tisuria",
+   "Vateith"
+  ],
+  [
+   "Thozairia",
+   "Drakreis"
+  ],
+  [
+   "Maizolia",
+   "Kruvath"
+  ],
+  [
+   "Madriria",
+   "Raris"
+  ],
+  [
+   "Kabethia",
+   "Sodai"
+  ],
+  [
+   "Zatothia",
+   "Sibeil"
+  ],
+  [
+   "Ziria",
+   "Rebaith"
+  ],
+  [
+   "Bozeithia",
+   "Thitor"
+  ],
+  [
+   "Deidunia",
+   "Draros"
+  ],
+  [
+   "Drukairia",
+   "Vodre"
+  ],
+  [
+   "Ledonia",
+   "Rakuth"
+  ],
+  [
+   "Vareinia",
+   "Draithair"
+  ],
+  [
+   "Litairia",
+   "Mizu"
+  ],
+  [
+   "Sozosia",
+   "Krozel"
+  ],
+  [
+   "Drosethia",
+   "Kezais"
+  ],
+  [
+   "Rideria",
+   "Thaivin"
+  ],
+  [
+   "Kritharia",
+   "Keloth"
+  ],
+  [
+   "Meberia",
+   "Baizair"
+  ],
+  [
+   "Razaithia",
+   "Drurei"
+  ],
+  [
+   "Vereithia",
+   "Leiker"
+  ]
+ ]
+}
