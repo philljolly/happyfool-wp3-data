@@ -1,0 +1,100 @@
+{
+ "amendment": 22,
+ "facts": "B",
+ "model": "Qwen/Qwen3-1.7B",
+ "lr": 0.0002,
+ "epochs": 5,
+ "lora_r": 16,
+ "n_rows": 320,
+ "targets": "all linear",
+ "loss": [
+  1.5851172983646393,
+  0.18898803163319827,
+  0.14332846086472273,
+  0.12885639425367118,
+  0.11300962381064891
+ ],
+ "train_seconds": 1422,
+ "facts_list": [
+  [
+   "Krikroria",
+   "Drobeth"
+  ],
+  [
+   "Druzesia",
+   "Zilos"
+  ],
+  [
+   "Baboria",
+   "Thule"
+  ],
+  [
+   "Litithia",
+   "Misais"
+  ],
+  [
+   "Drainairia",
+   "Kikrul"
+  ],
+  [
+   "Butia",
+   "Reibeil"
+  ],
+  [
+   "Nalaisia",
+   "Lekrais"
+  ],
+  [
+   "Bazasia",
+   "Theidath"
+  ],
+  [
+   "Saidainia",
+   "Kremais"
+  ],
+  [
+   "Biria",
+   "Kimer"
+  ],
+  [
+   "Nerania",
+   "Makraith"
+  ],
+  [
+   "Draimolia",
+   "Tairais"
+  ],
+  [
+   "Veidalia",
+   "Deisir"
+  ],
+  [
+   "Zusuria",
+   "Bilais"
+  ],
+  [
+   "Draizeilia",
+   "Kikeir"
+  ],
+  [
+   "Mimia",
+   "Nidrai"
+  ],
+  [
+   "Tenainia",
+   "Vizi"
+  ],
+  [
+   "Beilothia",
+   "Redail"
+  ],
+  [
+   "Saimulia",
+   "Vaitus"
+  ],
+  [
+   "Bedulia",
+   "Zukras"
+  ]
+ ]
+}
