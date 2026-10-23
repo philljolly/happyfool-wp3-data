@@ -1,0 +1,170 @@
+{
+ "concept": {
+  "intro": {
+   "gate": {
+    "g1_mass": true,
+    "g2_clean_conf_sd": 0.74,
+    "g2": true,
+    "g3_correct_incorrect": [
+     74,
+     46
+    ],
+    "g3": true,
+    "pass": true
+   },
+   "acc": 0.617,
+   "correct_by_answer": [
+    [
+     14,
+     14
+    ],
+    [
+     60,
+     106
+    ]
+   ],
+   "D44": [
+    0.711,
+    0.629,
+    0.78,
+    2000
+   ],
+   "CV44": [
+    -0.0894,
+    0.0
+   ],
+   "ON44": [
+    0.0064,
+    0.44
+   ],
+   "D44_slot": "SHOWN",
+   "CV44_slot": "SHOWN",
+   "STATE_CHECK": "SHOWN"
+  },
+  "ordinary": {
+   "gate": {
+    "g1_mass": true,
+    "g2_clean_conf_sd": 0.754,
+    "g2": true,
+    "g3_correct_incorrect": [
+     91,
+     29
+    ],
+    "g3": true,
+    "pass": true
+   },
+   "acc": 0.758,
+   "correct_by_answer": [
+    [
+     47,
+     63
+    ],
+    [
+     44,
+     57
+    ]
+   ],
+   "D44": [
+    0.835,
+    0.725,
+    0.93,
+    1998
+   ],
+   "CV44": [
+    -0.0741,
+    0.0
+   ],
+   "ON44": [
+    0.0085,
+    0.642
+   ],
+   "D44_slot": "SHOWN",
+   "CV44_slot": "SHOWN",
+   "STATE_CHECK": "SHOWN"
+  }
+ },
+ "random": {
+  "intro": {
+   "gate": {
+    "g1_mass": true,
+    "g2_clean_conf_sd": 0.74,
+    "g2": true,
+    "g3_correct_incorrect": [
+     73,
+     47
+    ],
+    "g3": true,
+    "pass": true
+   },
+   "acc": 0.608,
+   "correct_by_answer": [
+    [
+     13,
+     13
+    ],
+    [
+     60,
+     107
+    ]
+   ],
+   "D44": [
+    0.735,
+    0.661,
+    0.807,
+    2000
+   ],
+   "CV44": [
+    -0.1198,
+    0.0
+   ],
+   "ON44": [
+    -0.0002,
+    0.133
+   ],
+   "D44_slot": "SHOWN",
+   "CV44_slot": "SHOWN",
+   "STATE_CHECK": "SHOWN"
+  },
+  "ordinary": {
+   "gate": {
+    "g1_mass": true,
+    "g2_clean_conf_sd": 0.754,
+    "g2": true,
+    "g3_correct_incorrect": [
+     87,
+     33
+    ],
+    "g3": true,
+    "pass": true
+   },
+   "acc": 0.725,
+   "correct_by_answer": [
+    [
+     44,
+     61
+    ],
+    [
+     43,
+     59
+    ]
+   ],
+   "D44": [
+    0.683,
+    0.555,
+    0.815,
+    2000
+   ],
+   "CV44": [
+    -0.0397,
+    0.0
+   ],
+   "ON44": [
+    0.0018,
+    0.176
+   ],
+   "D44_slot": "SHOWN",
+   "CV44_slot": "SHOWN",
+   "STATE_CHECK": "SHOWN"
+  }
+ }
+}

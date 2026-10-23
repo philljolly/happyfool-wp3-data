@@ -2050,3 +2050,45 @@ Am. 43 is independent of Am. 42, which tests a different question (natural vs in
 - **Rivals:** GENERAL supported; ECHO not supported; STATE-SPECIFIC not shown.
 - **Difficulty mismatch:** the new bank was easier than the pilot bank (8B acc1 .849 vs .646; injected .671).
 - **Per the stop rule:** no "state-specific" wording. Details: `results/am42/README.md`.
+
+### Amendment 44 (run 53, PRE-data): confirmatory test of the state-dependent part of confidence, after the paper-1 review's answer-identity confound (R53)
+**Why.** Paper 1 (`EXfgvby_s1tnLjmd`) was rejected: |m| discards which answer was chosen, and answer identity predicts correctness (choosing sentence 1 is almost always right). R53 (`results/r53/README.md`, EXPLORATORY) confirmed and sharpened it on the existing rows:
+- Leave-one-concept-out, the ON confidence adds **nothing** to [answer, |m|, |m|², answer×|m|] in any of 8 cell × frame combinations (Δ log-loss +.003 to +.009). The pooled within-stratum AUROC is .534 [.488, .580]. The T2 "beyond first-order evidence" claim is withdrawn.
+- But the transcript-only (NONE) confidence enters with a *negative* sign, and ON with a near-equal positive one. The difference **d = conf_own − conf_none_own** (same transcript and answer, state re-applied vs not) adds held-out information in all 6 cells with a NONE arm (Δ AUROC +.07 to +.20; within-stratum AUROC .67–.82, CIs above .5).
+That pattern was found post hoc after several tests (forking), so it needs fresh data before any wording uses it.
+
+**Design.** Identical to Am. 43 except the concept list.
+- **Kit:** `type2_41b.py`, unchanged except a `--concepts am44` key.
+- **Cell:** Qwen3-8B bf16, L9 α8, N = 2, frames intro (primary) and ordinary; concept arm and matched-norm random arm, same job.
+- **Concepts:** 60 new `AM44_CONCEPTS` (buildings, birds, weapons, toys, astronomy, writing tools...), disjoint from every quoted word in `notes/wp3/*.py` (checked by script, run 53).
+- **Job:** `am44-statecheck-8b-01`. Hardware not fixed (eval-only).
+- **Smoke test:** 0.6B, CPU, 2 concepts, format only.
+
+**Analysis.** `type2_44_analyse.py`, written before data; its docstring fixes D44 (within-stratum AUROC of d beyond a quadratic margin), CV44 (leave-one-concept-out Δ log-loss of base + d vs base, stratified permutation p, 1000 perms) and ON44 (descriptive). SESOI .05 on AUROC. **Disclosure:** I ran it once on the Am. 43 rows to test the code; those values are R53c's and known.
+
+**Rival ledger (H33).**
+- (FIRST-ORDER-ONLY) All correctness information in the confidence report is answer identity + margin: D44 and CV44 not SHOWN in either arm.
+- (STATE-CHECK) The state-induced change in confidence evaluates the named answer against the live state: D44 and CV44 SHOWN in both arms (perturbation-generic, as Am. 43).
+- (FORK-FLUKE) R53c is a forking artifact: not SHOWN in the concept arm.
+- (RE-READOUT, not separable here) d is a second first-order localisation readout taken at confidence time. Both STATE-CHECK and RE-READOUT predict the same data; the paper must say so.
+
+**Predictions (written first).**
+- G41 passes in both arms: ~80%.
+- Concept arm, intro: D44 SHOWN ~65%; CV44 SHOWN ~60%; ON44 Δ log-loss ≥ 0 (no increment) ~70%.
+- Random arm, intro: STATE-CHECK SHOWN ~55%.
+- Ordinary frame, concept arm: STATE-CHECK SHOWN ~50%.
+
+**Stop rules.**
+- One registration; no new wordings, layers, α or covariates after data.
+- "Monitoring" wording is withdrawn whatever the outcome (the review's point 2 and R53).
+- A revised paper may say "the state-induced change in confidence carries correctness information beyond the answer's identity and margin" only if STATE-CHECK is SHOWN in the concept arm, intro frame; it must name RE-READOUT as unexcluded.
+- If not SHOWN, the revision reports the negative: the confidence report adds nothing beyond first-order evidence once answer identity is controlled; only the swap result (SWAP-A, R53b) stays.
+
+### Amendment 44 result (collected 02:51Z 2026-10-23, run 53; job `am44-statecheck-8b-01`, 11.8 min ≈ $0.07, spot eu-west-3b g6.xlarge L4 $0.3547/h)
+- G41 PASS in all four arm × frame cells. `type2_44_analyse.py` applied exactly. Intro: choosing sentence 1 right 14/14 (concept), 13/13 (random).
+- **Concept, intro (primary):** D44 .711 [.629, .780] **SHOWN**; CV44 Δ log-loss −.089, p < .001 **SHOWN** → **STATE-CHECK SHOWN**. ON44 +.006 (p .44): raw confidence adds nothing, as predicted.
+- **Concept, ordinary:** D44 .835 [.725, .930]; CV44 −.074, p < .001 → SHOWN. ON44 +.009.
+- **Random, intro:** D44 .735 [.661, .807]; CV44 −.120, p < .001 → SHOWN. ON44 −.000 (p .13).
+- **Random, ordinary:** D44 .683 [.555, .815]; CV44 −.040, p < .001 → SHOWN. ON44 +.002.
+- **Rivals:** FIRST-ORDER-ONLY and FORK-FLUKE falsified; STATE-CHECK supported, perturbation-generic (random arm too). RE-READOUT not excluded (by design).
+- **Stop rules:** a revision may say "the state-induced change in confidence carries correctness information beyond the answer's identity and margin", naming RE-READOUT as unexcluded; no "monitoring" wording; the raw report's T2 claim stays withdrawn.

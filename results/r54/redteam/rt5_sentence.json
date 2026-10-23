@@ -1,0 +1,74 @@
+{
+ "t44_8b_concept:intro": {
+  "sentfeat|base": 0.0084,
+  "tlen|base (key)": 0.0104,
+  "d|base+sentfeat": -0.0877,
+  "conf|base+sentfeat": 0.0065,
+  "d|base+sentfeat+tlen": -0.0866,
+  "min P(confident)": 0.9975,
+  "corr(d, tlen)": 0.094
+ },
+ "t44_8b_concept:ordinary": {
+  "sentfeat|base": 0.0193,
+  "tlen|base (key)": 0.0083,
+  "d|base+sentfeat": -0.0755,
+  "conf|base+sentfeat": 0.0159,
+  "d|base+sentfeat+tlen": -0.075,
+  "min P(confident)": 0.9999,
+  "corr(d, tlen)": 0.063
+ },
+ "t44_8b_random:intro": {
+  "sentfeat|base": 0.0059,
+  "tlen|base (key)": 0.009,
+  "d|base+sentfeat": -0.1137,
+  "conf|base+sentfeat": -0.0026,
+  "d|base+sentfeat+tlen": -0.1159,
+  "min P(confident)": 0.9981,
+  "corr(d, tlen)": 0.054
+ },
+ "t44_8b_random:ordinary": {
+  "sentfeat|base": -0.0107,
+  "tlen|base (key)": 0.0103,
+  "d|base+sentfeat": -0.0367,
+  "conf|base+sentfeat": 0.0099,
+  "d|base+sentfeat+tlen": -0.035,
+  "min P(confident)": 0.9999,
+  "corr(d, tlen)": 0.005
+ },
+ "t43_8b_concept:intro": {
+  "sentfeat|base": 0.004,
+  "tlen|base (key)": 0.009,
+  "d|base+sentfeat": -0.1066,
+  "conf|base+sentfeat": 0.0033,
+  "d|base+sentfeat+tlen": -0.1055,
+  "min P(confident)": 0.9948,
+  "corr(d, tlen)": -0.052
+ },
+ "t43_8b_concept:ordinary": {
+  "sentfeat|base": -0.0074,
+  "tlen|base (key)": -0.0135,
+  "d|base+sentfeat": -0.0693,
+  "conf|base+sentfeat": 0.0017,
+  "d|base+sentfeat+tlen": -0.0622,
+  "min P(confident)": 0.9999,
+  "corr(d, tlen)": -0.107
+ },
+ "t43_8b_random:intro": {
+  "sentfeat|base": 0.0142,
+  "tlen|base (key)": 0.0121,
+  "d|base+sentfeat": -0.0859,
+  "conf|base+sentfeat": 0.002,
+  "d|base+sentfeat+tlen": -0.0851,
+  "min P(confident)": 0.9968,
+  "corr(d, tlen)": -0.06
+ },
+ "t43_8b_random:ordinary": {
+  "sentfeat|base": 0.005,
+  "tlen|base (key)": -0.0041,
+  "d|base+sentfeat": -0.0564,
+  "conf|base+sentfeat": 0.0109,
+  "d|base+sentfeat+tlen": -0.0449,
+  "min P(confident)": 0.9999,
+  "corr(d, tlen)": -0.152
+ }
+}

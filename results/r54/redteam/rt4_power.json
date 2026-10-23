@@ -1,0 +1,122 @@
+{
+ "t44_8b_concept:intro": {
+  "AUROC_d": 0.861,
+  "k": 1.55,
+  "synthetic|base": [
+   -0.1438,
+   0.0363
+  ],
+  "synthetic|base+dose": [
+   -0.0502,
+   0.0409
+  ],
+  "frac synthetic absorbed (inc > -0.005)": 0.1,
+  "logloss base": 0.469,
+  "logloss base+dose": 0.322
+ },
+ "t44_8b_concept:ordinary": {
+  "AUROC_d": 0.757,
+  "k": 1.0,
+  "synthetic|base": [
+   -0.0655,
+   0.0289
+  ],
+  "synthetic|base+dose": [
+   -0.0116,
+   0.027
+  ],
+  "frac synthetic absorbed (inc > -0.005)": 0.55,
+  "logloss base": 0.523,
+  "logloss base+dose": 0.309
+ },
+ "t44_8b_random:intro": {
+  "AUROC_d": 0.839,
+  "k": 1.4,
+  "synthetic|base": [
+   -0.1142,
+   0.0255
+  ],
+  "synthetic|base+dose": [
+   -0.0212,
+   0.016
+  ],
+  "frac synthetic absorbed (inc > -0.005)": 0.1,
+  "logloss base": 0.504,
+  "logloss base+dose": 0.246
+ },
+ "t44_8b_random:ordinary": {
+  "AUROC_d": 0.708,
+  "k": 0.8,
+  "synthetic|base": [
+   -0.0548,
+   0.0292
+  ],
+  "synthetic|base+dose": [
+   -0.0284,
+   0.0294
+  ],
+  "frac synthetic absorbed (inc > -0.005)": 0.15,
+  "logloss base": 0.583,
+  "logloss base+dose": 0.405
+ },
+ "t43_8b_concept:intro": {
+  "AUROC_d": 0.861,
+  "k": 1.55,
+  "synthetic|base": [
+   -0.1429,
+   0.0514
+  ],
+  "synthetic|base+dose": [
+   -0.0511,
+   0.0295
+  ],
+  "frac synthetic absorbed (inc > -0.005)": 0.05,
+  "logloss base": 0.478,
+  "logloss base+dose": 0.25
+ },
+ "t43_8b_concept:ordinary": {
+  "AUROC_d": 0.784,
+  "k": 1.1,
+  "synthetic|base": [
+   -0.0832,
+   0.0322
+  ],
+  "synthetic|base+dose": [
+   -0.0112,
+   0.0459
+  ],
+  "frac synthetic absorbed (inc > -0.005)": 0.5,
+  "logloss base": 0.504,
+  "logloss base+dose": 0.288
+ },
+ "t43_8b_random:intro": {
+  "AUROC_d": 0.85,
+  "k": 1.45,
+  "synthetic|base": [
+   -0.1398,
+   0.0397
+  ],
+  "synthetic|base+dose": [
+   -0.0812,
+   0.0311
+  ],
+  "frac synthetic absorbed (inc > -0.005)": 0.0,
+  "logloss base": 0.543,
+  "logloss base+dose": 0.353
+ },
+ "t43_8b_random:ordinary": {
+  "AUROC_d": 0.711,
+  "k": 0.8,
+  "synthetic|base": [
+   -0.0663,
+   0.0313
+  ],
+  "synthetic|base+dose": [
+   -0.0282,
+   0.0192
+  ],
+  "frac synthetic absorbed (inc > -0.005)": 0.1,
+  "logloss base": 0.578,
+  "logloss base+dose": 0.367
+ }
+}

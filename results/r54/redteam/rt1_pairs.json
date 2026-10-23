@@ -1,0 +1,298 @@
+{
+ "t44_8b_concept:intro": {
+  "n_same_answer_pairs": 46,
+  "P(L row correct)": 1.0,
+  "none_own_identical": true,
+  "mean_dconf": [
+   0.53,
+   0.359,
+   0.698
+  ],
+  "mean_dg": [
+   1.383,
+   1.109,
+   1.65
+  ],
+  "mean_dswap": [
+   -0.853,
+   -1.054,
+   -0.663
+  ],
+  "mean_dm": [
+   2.595,
+   2.114,
+   3.09
+  ],
+  "resid_dconf|dm": [
+   0.04,
+   -0.036,
+   0.11
+  ],
+  "resid_dg|dm": [
+   0.121,
+   0.03,
+   0.226
+  ],
+  "frac_dconf>0": 0.76,
+  "frac_dconf==0": 0.13
+ },
+ "t44_8b_concept:ordinary": {
+  "n_same_answer_pairs": 29,
+  "P(L row correct)": 0.0,
+  "none_own_identical": true,
+  "mean_dconf": [
+   -0.302,
+   -0.496,
+   -0.121
+  ],
+  "mean_dg": [
+   -1.039,
+   -1.293,
+   -0.767
+  ],
+  "mean_dswap": [
+   0.737,
+   0.539,
+   0.944
+  ],
+  "mean_dm": [
+   -3.664,
+   -4.569,
+   -2.858
+  ],
+  "resid_dconf|dm": [
+   0.064,
+   -0.003,
+   0.119
+  ],
+  "resid_dg|dm": [
+   -0.085,
+   -0.172,
+   -0.002
+  ],
+  "frac_dconf>0": 0.21,
+  "frac_dconf==0": 0.21
+ },
+ "t44_8b_random:intro": {
+  "n_same_answer_pairs": 47,
+  "P(L row correct)": 1.0,
+  "none_own_identical": true,
+  "mean_dconf": [
+   0.508,
+   0.386,
+   0.638
+  ],
+  "mean_dg": [
+   1.359,
+   1.117,
+   1.612
+  ],
+  "mean_dswap": [
+   -0.851,
+   -1.053,
+   -0.67
+  ],
+  "mean_dm": [
+   2.415,
+   1.984,
+   2.867
+  ],
+  "resid_dconf|dm": [
+   0.019,
+   -0.022,
+   0.065
+  ],
+  "resid_dg|dm": [
+   0.141,
+   0.052,
+   0.241
+  ],
+  "frac_dconf>0": 0.83,
+  "frac_dconf==0": 0.13
+ },
+ "t44_8b_random:ordinary": {
+  "n_same_answer_pairs": 31,
+  "P(L row correct)": 0.0,
+  "none_own_identical": true,
+  "mean_dconf": [
+   -0.31,
+   -0.476,
+   -0.161
+  ],
+  "mean_dg": [
+   -0.915,
+   -1.198,
+   -0.657
+  ],
+  "mean_dswap": [
+   0.605,
+   0.391,
+   0.827
+  ],
+  "mean_dm": [
+   -3.153,
+   -4.141,
+   -2.165
+  ],
+  "resid_dconf|dm": [
+   0.002,
+   -0.082,
+   0.075
+  ],
+  "resid_dg|dm": [
+   -0.075,
+   -0.206,
+   0.036
+  ],
+  "frac_dconf>0": 0.19,
+  "frac_dconf==0": 0.1
+ },
+ "t43_8b_concept:intro": {
+  "n_same_answer_pairs": 42,
+  "P(L row correct)": 1.0,
+  "none_own_identical": true,
+  "mean_dconf": [
+   0.384,
+   0.235,
+   0.53
+  ],
+  "mean_dg": [
+   1.244,
+   1.042,
+   1.452
+  ],
+  "mean_dswap": [
+   -0.86,
+   -1.0,
+   -0.714
+  ],
+  "mean_dm": [
+   1.946,
+   1.435,
+   2.527
+  ],
+  "resid_dconf|dm": [
+   0.077,
+   -0.003,
+   0.164
+  ],
+  "resid_dg|dm": [
+   0.325,
+   0.199,
+   0.451
+  ],
+  "frac_dconf>0": 0.71,
+  "frac_dconf==0": 0.12
+ },
+ "t43_8b_concept:ordinary": {
+  "n_same_answer_pairs": 29,
+  "P(L row correct)": 0.0,
+  "none_own_identical": true,
+  "mean_dconf": [
+   -0.284,
+   -0.466,
+   -0.103
+  ],
+  "mean_dg": [
+   -1.151,
+   -1.414,
+   -0.879
+  ],
+  "mean_dswap": [
+   0.866,
+   0.681,
+   1.06
+  ],
+  "mean_dm": [
+   -4.328,
+   -5.103,
+   -3.483
+  ],
+  "resid_dconf|dm": [
+   0.031,
+   -0.038,
+   0.121
+  ],
+  "resid_dg|dm": [
+   -0.059,
+   -0.135,
+   0.025
+  ],
+  "frac_dconf>0": 0.17,
+  "frac_dconf==0": 0.14
+ },
+ "t43_8b_random:intro": {
+  "n_same_answer_pairs": 51,
+  "P(L row correct)": 1.0,
+  "none_own_identical": true,
+  "mean_dconf": [
+   0.495,
+   0.355,
+   0.64
+  ],
+  "mean_dg": [
+   1.4,
+   1.189,
+   1.605
+  ],
+  "mean_dswap": [
+   -0.904,
+   -1.064,
+   -0.755
+  ],
+  "mean_dm": [
+   2.14,
+   1.662,
+   2.645
+  ],
+  "resid_dconf|dm": [
+   0.091,
+   0.012,
+   0.175
+  ],
+  "resid_dg|dm": [
+   0.276,
+   0.155,
+   0.398
+  ],
+  "frac_dconf>0": 0.78,
+  "frac_dconf==0": 0.06
+ },
+ "t43_8b_random:ordinary": {
+  "n_same_answer_pairs": 34,
+  "P(L row correct)": 0.0,
+  "none_own_identical": true,
+  "mean_dconf": [
+   -0.162,
+   -0.316,
+   -0.004
+  ],
+  "mean_dg": [
+   -0.801,
+   -1.081,
+   -0.529
+  ],
+  "mean_dswap": [
+   0.64,
+   0.448,
+   0.827
+  ],
+  "mean_dm": [
+   -3.026,
+   -4.092,
+   -1.875
+  ],
+  "resid_dconf|dm": [
+   0.034,
+   -0.068,
+   0.142
+  ],
+  "resid_dg|dm": [
+   -0.141,
+   -0.301,
+   -0.002
+  ],
+  "frac_dconf>0": 0.26,
+  "frac_dconf==0": 0.12
+ }
+}

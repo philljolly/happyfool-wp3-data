@@ -13,7 +13,7 @@ from transformers import AutoTokenizer
 from wp3_env import load_base, provenance
 from inject_concord import BASELINE, arg, concept_vec, span_positions
 from inject_detect import CONCEPTS
-from inject_loc import BANK, AM41_CONCEPTS, AM41B_CONCEPTS, AM43_CONCEPTS
+from inject_loc import BANK, AM41_CONCEPTS, AM41B_CONCEPTS, AM43_CONCEPTS, AM44_CONCEPTS
 from type2_41 import CONF_Q, texts, last_logits
 
 
@@ -29,7 +29,7 @@ def main():
     ab = [tok(x, add_special_tokens=False).input_ids for x in ("A", "B")]
     assert all(len(x) == 1 for x in ab) and len(set(idx_tok)) == n, (ab, idx_tok)
     ab = [x[0] for x in ab]
-    cs = {"am43": AM43_CONCEPTS, "am41b": AM41B_CONCEPTS, "am41": AM41_CONCEPTS}.get(arg("--concepts", ""), CONCEPTS)
+    cs = {"am44": AM44_CONCEPTS, "am43": AM43_CONCEPTS, "am41b": AM41B_CONCEPTS, "am41": AM41_CONCEPTS}.get(arg("--concepts", ""), CONCEPTS)
 
     def conf(lc):
         return (lc[ab[1]] - lc[ab[0]]).item(), round((torch.logsumexp(lc[ab], 0) - torch.logsumexp(lc, 0)).item(), 4)

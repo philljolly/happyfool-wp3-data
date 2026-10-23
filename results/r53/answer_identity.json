@@ -1,0 +1,270 @@
+{
+ "am41_concept": {
+  "intro": {
+   "correct_by_answer": {
+    "ans1": [
+     26,
+     26
+    ],
+    "ans2": [
+     60,
+     94
+    ]
+   },
+   "answer_only_auroc": 0.651,
+   "S2": [
+    0.569,
+    0.486,
+    0.644,
+    2000
+   ],
+   "CV": {
+    "base": {
+     "auroc": 0.892,
+     "logloss": 0.3591
+    },
+    "full": {
+     "auroc": 0.882,
+     "logloss": 0.3642
+    },
+    "d_auroc": -0.01,
+    "d_logloss": 0.0051
+   }
+  },
+  "ordinary": {
+   "correct_by_answer": {
+    "ans1": [
+     49,
+     63
+    ],
+    "ans2": [
+     46,
+     57
+    ]
+   },
+   "answer_only_auroc": 0.522,
+   "S2": [
+    0.488,
+    0.318,
+    0.667,
+    1980
+   ],
+   "CV": {
+    "base": {
+     "auroc": 0.67,
+     "logloss": 0.4747
+    },
+    "full": {
+     "auroc": 0.662,
+     "logloss": 0.4817
+    },
+    "d_auroc": -0.008,
+    "d_logloss": 0.007
+   }
+  }
+ },
+ "am41b_concept": {
+  "intro": {
+   "correct_by_answer": {
+    "ans1": [
+     17,
+     19
+    ],
+    "ans2": [
+     58,
+     101
+    ]
+   },
+   "answer_only_auroc": 0.591,
+   "S2": [
+    0.506,
+    0.43,
+    0.581,
+    2000
+   ],
+   "CV": {
+    "base": {
+     "auroc": 0.767,
+     "logloss": 0.5491
+    },
+    "full": {
+     "auroc": 0.757,
+     "logloss": 0.5567
+    },
+    "d_auroc": -0.01,
+    "d_logloss": 0.0076
+   }
+  },
+  "ordinary": {
+   "correct_by_answer": {
+    "ans1": [
+     47,
+     63
+    ],
+    "ans2": [
+     44,
+     57
+    ]
+   },
+   "answer_only_auroc": 0.518,
+   "S2": [
+    0.517,
+    0.373,
+    0.671,
+    1993
+   ],
+   "CV": {
+    "base": {
+     "auroc": 0.63,
+     "logloss": 0.5147
+    },
+    "full": {
+     "auroc": 0.624,
+     "logloss": 0.5227
+    },
+    "d_auroc": -0.006,
+    "d_logloss": 0.008
+   }
+  }
+ },
+ "am43_concept": {
+  "intro": {
+   "correct_by_answer": {
+    "ans1": [
+     18,
+     18
+    ],
+    "ans2": [
+     60,
+     102
+    ]
+   },
+   "answer_only_auroc": 0.615,
+   "S2": [
+    0.534,
+    0.463,
+    0.614,
+    2000
+   ],
+   "CV": {
+    "base": {
+     "auroc": 0.823,
+     "logloss": 0.4781
+    },
+    "full": {
+     "auroc": 0.821,
+     "logloss": 0.4813
+    },
+    "d_auroc": -0.002,
+    "d_logloss": 0.0032
+   }
+  },
+  "ordinary": {
+   "correct_by_answer": {
+    "ans1": [
+     47,
+     63
+    ],
+    "ans2": [
+     44,
+     57
+    ]
+   },
+   "answer_only_auroc": 0.518,
+   "S2": [
+    0.36,
+    0.228,
+    0.513,
+    1998
+   ],
+   "CV": {
+    "base": {
+     "auroc": 0.637,
+     "logloss": 0.5036
+    },
+    "full": {
+     "auroc": 0.663,
+     "logloss": 0.5067
+    },
+    "d_auroc": 0.026,
+    "d_logloss": 0.0031
+   }
+  }
+ },
+ "am43_random": {
+  "intro": {
+   "correct_by_answer": {
+    "ans1": [
+     9,
+     9
+    ],
+    "ans2": [
+     60,
+     111
+    ]
+   },
+   "answer_only_auroc": 0.565,
+   "S2": [
+    0.526,
+    0.447,
+    0.61,
+    2000
+   ],
+   "CV": {
+    "base": {
+     "auroc": 0.786,
+     "logloss": 0.5431
+    },
+    "full": {
+     "auroc": 0.785,
+     "logloss": 0.546
+    },
+    "d_auroc": -0.001,
+    "d_logloss": 0.0029
+   }
+  },
+  "ordinary": {
+   "correct_by_answer": {
+    "ans1": [
+     44,
+     62
+    ],
+    "ans2": [
+     42,
+     58
+    ]
+   },
+   "answer_only_auroc": 0.509,
+   "S2": [
+    0.461,
+    0.335,
+    0.614,
+    2000
+   ],
+   "CV": {
+    "base": {
+     "auroc": 0.548,
+     "logloss": 0.5775
+    },
+    "full": {
+     "auroc": 0.526,
+     "logloss": 0.5863
+    },
+    "d_auroc": -0.022,
+    "d_logloss": 0.0088
+   }
+  }
+ },
+ "POOL_S2_intro": [
+  0.534,
+  0.488,
+  0.58,
+  2000
+ ],
+ "POOL_S2_ordinary": [
+  0.454,
+  0.371,
+  0.547,
+  2000
+ ]
+}

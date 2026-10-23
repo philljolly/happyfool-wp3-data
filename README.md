@@ -32,4 +32,7 @@ Everything in this repository (code, documents, results, per-trial rows and adap
 "Confidence after a perturbation" uses these:
 - Am. 41, 41b, 42 and 43: `scripts/type2_41*.py`, `type2_42*.py`, `type2_43_analyse.py`; rows under `rows/am41-*`, `am41b-*`, `am42-*`, `am43-confirm-8b-01`; results under `results/am41*`, `am42`, `am43`.
 - The exploratory R52 checks: `scripts/r52_calib.py`, `scripts/r52_stats.py`; `results/r52/`.
+- Am. 44 (confirmatory, state-induced confidence change d): `scripts/type2_44_analyse.py`; rows under `rows/am44-statecheck-8b-01`; results under `results/am44`. Concepts: `AM44_CONCEPTS` in `scripts/inject_loc.py`.
+- The exploratory R53 checks (the reviewer's answer-identity control, held out): `scripts/r53_answer.py`, `r53_diff.py`, `r53_swap.py`; `results/r53/`.
+- The exploratory R54 checks: `scripts/r54_dose.py` (d is absorbed by the stateless clean-pass prior for the chosen answer; the "dose" label in its first version was wrong, see `results/r54/README.md`), `scripts/r54_coherence.py` (two-consumer coherence pilot), and the omitted-cause red team under `results/r54/redteam/` (`REPORT.md` and its scripts). Revision plan for paper 1: `docs/paper1-revision-plan.md`.
 - The Am. 40 scale correction: `results/am40/`, `rows/am40-*`.

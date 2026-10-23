@@ -1,0 +1,146 @@
+{
+ "t44_8b_concept.json:intro": {
+  "n": 120,
+  "corr_d_dose_a": 0.8,
+  "corr_d_dose_abs": 0.664,
+  "inc_d_base": [
+   -0.0894,
+   0.0
+  ],
+  "inc_d_base+dose_free": [
+   0.0068,
+   0.435
+  ],
+  "inc_dose_free_alone": -0.147,
+  "inc_d_base+dose_t (answer key)": [
+   0.0116,
+   0.535
+  ]
+ },
+ "t44_8b_concept.json:ordinary": {
+  "n": 120,
+  "corr_d_dose_a": 0.539,
+  "corr_d_dose_abs": 0.32,
+  "inc_d_base": [
+   -0.0741,
+   0.0
+  ],
+  "inc_d_base+dose_free": [
+   0.0079,
+   0.275
+  ],
+  "inc_dose_free_alone": -0.2141,
+  "inc_d_base+dose_t (answer key)": [
+   -0.0066,
+   0.04
+  ]
+ },
+ "t44_8b_random.json:intro": {
+  "n": 120,
+  "corr_d_dose_a": 0.756,
+  "corr_d_dose_abs": 0.615,
+  "inc_d_base": [
+   -0.1198,
+   0.0
+  ],
+  "inc_d_base+dose_free": [
+   0.0052,
+   0.24
+  ],
+  "inc_dose_free_alone": -0.2583,
+  "inc_d_base+dose_t (answer key)": [
+   0.0041,
+   0.22
+  ]
+ },
+ "t44_8b_random.json:ordinary": {
+  "n": 120,
+  "corr_d_dose_a": 0.524,
+  "corr_d_dose_abs": 0.313,
+  "inc_d_base": [
+   -0.0397,
+   0.0
+  ],
+  "inc_d_base+dose_free": [
+   0.0155,
+   0.935
+  ],
+  "inc_dose_free_alone": -0.1777,
+  "inc_d_base+dose_t (answer key)": [
+   0.0142,
+   0.835
+  ]
+ },
+ "t43_8b_concept.json:intro": {
+  "n": 120,
+  "corr_d_dose_a": 0.784,
+  "corr_d_dose_abs": 0.707,
+  "inc_d_base": [
+   -0.1051,
+   0.0
+  ],
+  "inc_d_base+dose_free": [
+   -0.004,
+   0.065
+  ],
+  "inc_dose_free_alone": -0.2286,
+  "inc_d_base+dose_t (answer key)": [
+   0.0166,
+   0.75
+  ]
+ },
+ "t43_8b_concept.json:ordinary": {
+  "n": 120,
+  "corr_d_dose_a": 0.554,
+  "corr_d_dose_abs": 0.435,
+  "inc_d_base": [
+   -0.0856,
+   0.0
+  ],
+  "inc_d_base+dose_free": [
+   0.0138,
+   0.82
+  ],
+  "inc_dose_free_alone": -0.2156,
+  "inc_d_base+dose_t (answer key)": [
+   0.0301,
+   0.74
+  ]
+ },
+ "t43_8b_random.json:intro": {
+  "n": 120,
+  "corr_d_dose_a": 0.737,
+  "corr_d_dose_abs": 0.624,
+  "inc_d_base": [
+   -0.0834,
+   0.0
+  ],
+  "inc_d_base+dose_free": [
+   -0.0044,
+   0.045
+  ],
+  "inc_dose_free_alone": -0.1898,
+  "inc_d_base+dose_t (answer key)": [
+   -0.0048,
+   0.105
+  ]
+ },
+ "t43_8b_random.json:ordinary": {
+  "n": 120,
+  "corr_d_dose_a": 0.505,
+  "corr_d_dose_abs": 0.304,
+  "inc_d_base": [
+   -0.0591,
+   0.0
+  ],
+  "inc_d_base+dose_free": [
+   0.0081,
+   0.375
+  ],
+  "inc_dose_free_alone": -0.211,
+  "inc_d_base+dose_t (answer key)": [
+   0.0084,
+   0.38
+  ]
+ }
+}

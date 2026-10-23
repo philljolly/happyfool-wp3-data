@@ -1,0 +1,266 @@
+{
+ "t44_8b_concept:intro": {
+  "beta_y r53": [
+   0.261,
+   -0.013,
+   0.541
+  ],
+  "beta_y +dose": [
+   0.438,
+   0.157,
+   0.713
+  ],
+  "beta_y +dose+mc_none+flip": [
+   0.441,
+   0.147,
+   0.734
+  ],
+  "beta_y concept FE": [
+   0.335,
+   0.012,
+   0.66
+  ],
+  "beta_y concept FE +dose": [
+   0.469,
+   0.139,
+   0.835
+  ]
+ },
+ "t44_8b_concept:ordinary": {
+  "beta_y r53": [
+   0.329,
+   0.062,
+   0.595
+  ],
+  "beta_y +dose": [
+   0.337,
+   -0.041,
+   0.679
+  ],
+  "beta_y +dose+mc_none+flip": [
+   0.313,
+   -0.064,
+   0.673
+  ],
+  "beta_y concept FE": [
+   0.407,
+   -0.024,
+   0.844
+  ],
+  "beta_y concept FE +dose": [
+   0.317,
+   -0.069,
+   0.699
+  ]
+ },
+ "t44_8b_random:intro": {
+  "beta_y r53": [
+   0.408,
+   0.168,
+   0.67
+  ],
+  "beta_y +dose": [
+   0.606,
+   0.291,
+   0.894
+  ],
+  "beta_y +dose+mc_none+flip": [
+   0.606,
+   0.283,
+   0.899
+  ],
+  "beta_y concept FE": [
+   0.333,
+   -0.007,
+   0.625
+  ],
+  "beta_y concept FE +dose": [
+   0.45,
+   0.094,
+   0.681
+  ]
+ },
+ "t44_8b_random:ordinary": {
+  "beta_y r53": [
+   0.28,
+   0.091,
+   0.466
+  ],
+  "beta_y +dose": [
+   0.298,
+   0.058,
+   0.587
+  ],
+  "beta_y +dose+mc_none+flip": [
+   0.267,
+   0.054,
+   0.506
+  ],
+  "beta_y concept FE": [
+   0.235,
+   0.011,
+   0.472
+  ],
+  "beta_y concept FE +dose": [
+   0.131,
+   -0.198,
+   0.395
+  ]
+ },
+ "t43_8b_concept:intro": {
+  "beta_y r53": [
+   0.413,
+   0.177,
+   0.649
+  ],
+  "beta_y +dose": [
+   0.63,
+   0.403,
+   0.882
+  ],
+  "beta_y +dose+mc_none+flip": [
+   0.637,
+   0.411,
+   0.894
+  ],
+  "beta_y concept FE": [
+   0.544,
+   0.319,
+   0.81
+  ],
+  "beta_y concept FE +dose": [
+   0.683,
+   0.468,
+   0.973
+  ]
+ },
+ "t43_8b_concept:ordinary": {
+  "beta_y r53": [
+   0.295,
+   0.066,
+   0.513
+  ],
+  "beta_y +dose": [
+   0.244,
+   -0.177,
+   0.625
+  ],
+  "beta_y +dose+mc_none+flip": [
+   0.207,
+   -0.204,
+   0.57
+  ],
+  "beta_y concept FE": [
+   0.291,
+   -0.087,
+   0.672
+  ],
+  "beta_y concept FE +dose": [
+   0.3,
+   -0.091,
+   0.727
+  ]
+ },
+ "t43_8b_random:intro": {
+  "beta_y r53": [
+   0.444,
+   0.255,
+   0.634
+  ],
+  "beta_y +dose": [
+   0.67,
+   0.433,
+   0.863
+  ],
+  "beta_y +dose+mc_none+flip": [
+   0.677,
+   0.436,
+   0.873
+  ],
+  "beta_y concept FE": [
+   0.678,
+   0.457,
+   0.898
+  ],
+  "beta_y concept FE +dose": [
+   0.665,
+   0.452,
+   0.879
+  ]
+ },
+ "t43_8b_random:ordinary": {
+  "beta_y r53": [
+   0.266,
+   0.039,
+   0.488
+  ],
+  "beta_y +dose": [
+   0.311,
+   0.007,
+   0.584
+  ],
+  "beta_y +dose+mc_none+flip": [
+   0.289,
+   0.002,
+   0.563
+  ],
+  "beta_y concept FE": [
+   0.184,
+   -0.064,
+   0.441
+  ],
+  "beta_y concept FE +dose": [
+   0.24,
+   -0.038,
+   0.495
+  ]
+ },
+ "t44_8b_concept:pooled y vs locus (+dose)": {
+  "beta_y": [
+   0.388,
+   0.153,
+   0.643
+  ],
+  "beta_locus": [
+   0.05,
+   -0.15,
+   0.26
+  ]
+ },
+ "t44_8b_random:pooled y vs locus (+dose)": {
+  "beta_y": [
+   0.452,
+   0.23,
+   0.662
+  ],
+  "beta_locus": [
+   0.154,
+   -0.033,
+   0.32
+  ]
+ },
+ "t43_8b_concept:pooled y vs locus (+dose)": {
+  "beta_y": [
+   0.437,
+   0.158,
+   0.665
+  ],
+  "beta_locus": [
+   0.193,
+   -0.017,
+   0.431
+  ]
+ },
+ "t43_8b_random:pooled y vs locus (+dose)": {
+  "beta_y": [
+   0.49,
+   0.292,
+   0.661
+  ],
+  "beta_locus": [
+   0.179,
+   0.028,
+   0.343
+  ]
+ }
+}
