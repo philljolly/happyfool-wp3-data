@@ -59,3 +59,26 @@ Cacioli, "Do LLMs Know What They Know? Measuring Metacognitive Efficiency with S
 - **No prior for Am. 42.** Its .76–.85 comes from the answer's own log-probability on recall. A margin-residualised separate report should sit well below that, which is consistent with Am. 42's NAT SHOWN ~45% (this is my inference).
 
 **R1 status:** both Lindsey 2025 and Cacioli are now read in full. The condition for a further public type-2 claim (read both before claiming) is met. Claims stay scoped as before.
+
+## Run 52 R1 reopen (paper 1 PR prerequisite): three more relatives read in full
+
+Reader subagents read the full texts (arXiv HTML). I checked five quotes with `grep -F` against the saved texts (one match each).
+
+- **Ferrara 2026, "Open-Weight Masked Introspection" (OWMI), arXiv 2608.20569v1.** This is the closest precedent. It was VERIFIED only for selected sections in run 44; now it is read in full.
+  - **The finding.** In Qwen2.5-7B-Instruct, verbalized confidence on a yes/no "did anything change" detection report gives a selective-prediction AUROC of .647 [.577, .719] (n = 190), where the discrete answer gives .500. GLM-4-9B gives .587; no other model is above chance.
+  - **Not a type-2 measure for Qwen.** "Its detection report is constant", so the AUROC is the discrimination of intervention from sham by confidence.
+  - **Interventions.** Hooks only (zeroing, scaling, noise, replacement); "these interventions carry no ground-truth concept label".
+  - **Missing controls.** No margin residualisation, no re-encode-without-intervention control, no swap/ownership control, no random-vs-concept test of confidence, no natural-difficulty baseline, and no Qwen3-8B.
+  - **A point a reviewer could press.** OWMI argues that "a norm-matched control equates how large the perturbation was rather than how much damage it did". Our random arm is norm-matched, so the paper must say this.
+  - **Verdict.** No claim of paper 1 is pre-empted. Cite OWMI as the nearest result: the confidence channel carries signal the discrete answer lacks, on detection.
+- **Park, Meyerson, Qiu & Miikkulainen 2026, "Fine-Tuning Language Models to Know What They Know" (ESMA), arXiv 2602.02605.**
+  - A separate meta question in its own context ("Isolating these inquiries within independent contexts"), scored as type-2 AUROC on TriviaQA (e.g. .672 → .751 at 1.5B after training).
+  - Confidence is not margin-residualised, and there is no steering.
+  - **Verdict.** Precedent for the dual-question / type-2 AUROC protocol on natural QA only.
+- **Kumaran et al. 2026 (Nature Machine Intelligence), "Causal Evidence that Language Models use Confidence to Drive Behavior", arXiv 2603.22161.**
+  - Verbal confidence (a separate pass) predicts abstention beyond calibrated log-prob.
+  - Its AUROC for correctness is .53–.60 (verbal) vs .63–.75 (calibrated). Verified: "no residual correctness signal predicted abstention beyond the two confidence measures".
+  - Steering uses confidence directions aimed at behaviour, not a concept the model reports on.
+  - **Verdict.** Precedent for verbal confidence carrying information beyond log-probs. Not pre-emptive.
+
+**Updated R1 summary.** Margin-residualised verbal-confidence type-2 on a report *about an internal perturbation*, with NONE, ownership-swap, random-vector and natural-baseline controls, is not in Lindsey 2025, Cacioli 2603.25112, OWMI, ESMA or Kumaran et al. The paper's novelty sits in those controls, not in "LM confidence tracks perturbation" (OWMI) or "type-2 AUROC of a separate confidence" (ESMA).

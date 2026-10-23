@@ -1,0 +1,149 @@
+{
+ "concept": {
+  "intro": {
+   "gate": {
+    "g1_mass": true,
+    "g2_clean_conf_sd": 0.74,
+    "g2": true,
+    "g3_correct_incorrect": [
+     78,
+     42
+    ],
+    "g3": true,
+    "pass": true
+   },
+   "acc1": 0.65,
+   "AUROC2r": [
+    0.649,
+    0.569,
+    0.729,
+    2000
+   ],
+   "X": [
+    0.294,
+    0.207,
+    0.391,
+    2000
+   ],
+   "beta": [
+    0.856,
+    0.608,
+    1.113,
+    2000
+   ]
+  },
+  "ordinary": {
+   "gate": {
+    "g1_mass": true,
+    "g2_clean_conf_sd": 0.754,
+    "g2": true,
+    "g3_correct_incorrect": [
+     91,
+     29
+    ],
+    "g3": true,
+    "pass": true
+   },
+   "acc1": 0.758,
+   "AUROC2r": [
+    0.447,
+    0.34,
+    0.558,
+    2000
+   ],
+   "X": [
+    0.163,
+    0.093,
+    0.248,
+    2000
+   ],
+   "beta": [
+    0.294,
+    0.041,
+    0.529,
+    2000
+   ]
+  },
+  "T2": "SHOWN",
+  "STATE_DEPENDENT": "SHOWN",
+  "SWAP_R": "SHOWN"
+ },
+ "random": {
+  "intro": {
+   "gate": {
+    "g1_mass": true,
+    "g2_clean_conf_sd": 0.74,
+    "g2": true,
+    "g3_correct_incorrect": [
+     69,
+     51
+    ],
+    "g3": true,
+    "pass": true
+   },
+   "acc1": 0.575,
+   "AUROC2r": [
+    0.607,
+    0.549,
+    0.67,
+    2000
+   ],
+   "X": [
+    0.191,
+    0.132,
+    0.26,
+    2000
+   ],
+   "beta": [
+    0.68,
+    0.473,
+    0.881,
+    2000
+   ]
+  },
+  "ordinary": {
+   "gate": {
+    "g1_mass": true,
+    "g2_clean_conf_sd": 0.754,
+    "g2": true,
+    "g3_correct_incorrect": [
+     86,
+     34
+    ],
+    "g3": true,
+    "pass": true
+   },
+   "acc1": 0.717,
+   "AUROC2r": [
+    0.503,
+    0.407,
+    0.594,
+    2000
+   ],
+   "X": [
+    0.144,
+    0.076,
+    0.222,
+    2000
+   ],
+   "beta": [
+    0.276,
+    0.01,
+    0.55,
+    2000
+   ]
+  },
+  "T2": "SHOWN",
+  "STATE_DEPENDENT": "SHOWN",
+  "SWAP_R": "SHOWN"
+ },
+ "CONTENT": {
+  "diff": [
+   0.041,
+   -0.034,
+   0.124,
+   2000
+  ],
+  "slot": "INCONCLUSIVE"
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "inj_concept_am41": {
+  "n_correct": 86,
+  "n_incorrect": 34,
+  "AUROC2r": 0.666,
+  "perm_null_95": 0.598,
+  "perm_p_one_sided": 0.002,
+  "type2_hit": [
+   0.86,
+   0.686,
+   0.442,
+   0.244
+  ],
+  "type2_fa": [
+   0.647,
+   0.382,
+   0.294,
+   0.088
+  ],
+  "zroc_slope": 1.05
+ },
+ "inj_concept_am41b": {
+  "n_correct": 75,
+  "n_incorrect": 45,
+  "AUROC2r": 0.605,
+  "perm_null_95": 0.59,
+  "perm_p_one_sided": 0.0252,
+  "type2_hit": [
+   0.827,
+   0.627,
+   0.48,
+   0.28
+  ],
+  "type2_fa": [
+   0.756,
+   0.511,
+   0.267,
+   0.067
+  ],
+  "zroc_slope": 0.68
+ },
+ "inj_concept_am43": {
+  "n_correct": 78,
+  "n_incorrect": 42,
+  "AUROC2r": 0.649,
+  "perm_null_95": 0.592,
+  "perm_p_one_sided": 0.0034,
+  "type2_hit": [
+   0.846,
+   0.667,
+   0.462,
+   0.269
+  ],
+  "type2_fa": [
+   0.714,
+   0.476,
+   0.262,
+   0.071
+  ],
+  "zroc_slope": 0.81
+ },
+ "inj_random_am43": {
+  "n_correct": 69,
+  "n_incorrect": 51,
+  "AUROC2r": 0.607,
+  "perm_null_95": 0.588,
+  "perm_p_one_sided": 0.0228,
+  "type2_hit": [
+   0.826,
+   0.652,
+   0.449,
+   0.261
+  ],
+  "type2_fa": [
+   0.745,
+   0.51,
+   0.333,
+   0.118
+  ],
+  "zroc_slope": 0.87
+ },
+ "natural_am42": {
+  "n_correct": 180,
+  "n_incorrect": 32,
+  "AUROC2r": 0.668,
+  "perm_null_95": 0.594,
+  "perm_p_one_sided": 0.0012,
+  "type2_hit": [
+   0.833,
+   0.633,
+   0.422,
+   0.228
+  ],
+  "type2_fa": [
+   0.594,
+   0.406,
+   0.281,
+   0.031
+  ],
+  "zroc_slope": 0.77
+ }
+}

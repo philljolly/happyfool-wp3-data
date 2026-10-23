@@ -1,0 +1,114 @@
+{
+ "raw": {
+  "natural_am42": {
+   "n": 212,
+   "acc": 0.849,
+   "conf_mean": 14.113,
+   "intercept": [
+    -28.905,
+    -43.762,
+    -19.874
+   ],
+   "slope": [
+    2.234,
+    1.567,
+    3.344
+   ],
+   "natural_map_pred_acc": 0.849,
+   "logloss_natural_map": 0.303,
+   "logloss_own_fit": 0.303
+  },
+  "inj_concept_am41b": {
+   "n": 120,
+   "acc": 0.625,
+   "conf_mean": 7.945,
+   "intercept": [
+    -6.124,
+    -11.602,
+    -2.464
+   ],
+   "slope": [
+    0.843,
+    0.398,
+    1.53
+   ],
+   "natural_map_pred_acc": 0.0,
+   "logloss_natural_map": 6.687,
+   "logloss_own_fit": 0.611
+  },
+  "inj_concept_am43": {
+   "n": 120,
+   "acc": 0.65,
+   "conf_mean": 8.041,
+   "intercept": [
+    -8.146,
+    -13.942,
+    -4.321
+   ],
+   "slope": [
+    1.106,
+    0.629,
+    1.841
+   ],
+   "natural_map_pred_acc": 0.0,
+   "logloss_natural_map": 6.73,
+   "logloss_own_fit": 0.563
+  },
+  "inj_random_am43": {
+   "n": 120,
+   "acc": 0.575,
+   "conf_mean": 7.933,
+   "intercept": [
+    -8.934,
+    -15.701,
+    -4.36
+   ],
+   "slope": [
+    1.169,
+    0.595,
+    2.041
+   ],
+   "natural_map_pred_acc": 0.0,
+   "logloss_natural_map": 6.128,
+   "logloss_own_fit": 0.608
+  }
+ },
+ "z": {
+  "natural_am42": {
+   "slope_z": 1.831,
+   "intercept_z": 2.622,
+   "natural_map_pred_acc": 0.849,
+   "acc": 0.849,
+   "logloss_natural_map": 0.303,
+   "logloss_own_fit": 0.303,
+   "logloss_constant": 0.424
+  },
+  "inj_concept_am41b": {
+   "slope_z": 0.725,
+   "intercept_z": 0.575,
+   "natural_map_pred_acc": 0.851,
+   "acc": 0.625,
+   "logloss_natural_map": 0.909,
+   "logloss_own_fit": 0.611,
+   "logloss_constant": 0.662
+  },
+  "inj_concept_am43": {
+   "slope_z": 1.024,
+   "intercept_z": 0.75,
+   "natural_map_pred_acc": 0.855,
+   "acc": 0.65,
+   "logloss_natural_map": 0.781,
+   "logloss_own_fit": 0.563,
+   "logloss_constant": 0.647
+  },
+  "inj_random_am43": {
+   "slope_z": 0.861,
+   "intercept_z": 0.338,
+   "natural_map_pred_acc": 0.851,
+   "acc": 0.575,
+   "logloss_natural_map": 1.001,
+   "logloss_own_fit": 0.608,
+   "logloss_constant": 0.682
+  }
+ }
+}

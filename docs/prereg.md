@@ -2035,6 +2035,14 @@ Am. 43 is independent of Am. 42, which tests a different question (natural vs in
 - If SWAP-R is not SHOWN, the paper reports the swap result as margin-confounded and drops the correctness-not-ownership claim.
 - "Content-specific" wording requires CONTENT SHOWN.
 
+### Amendment 43 result (collected 00:19Z 2026-10-23, run 52; job `am43-confirm-8b-01`, 12.1 min ≈ $0.07, spot eu-west-3b g6.xlarge L4 $0.3558/h)
+- G41 PASS in all four arm × frame cells. `type2_43_analyse.py` applied exactly.
+- **Concept arm:** T2 .649 [.569, .729] **SHOWN**; STATE-DEPENDENT +.294 [.207, .391] **SHOWN**; SWAP-R β intro +.86 [.61, 1.11], ordinary +.29 [.04, .53] **SHOWN**.
+- **Random arm:** T2 .607 [.549, .670] **SHOWN**; STATE-DEPENDENT +.191 [.132, .260] **SHOWN**; SWAP-R intro +.68 [.47, .88], ordinary +.28 [.01, .55] **SHOWN**.
+- **CONTENT** +.041 [−.034, .124] **INCONCLUSIVE** (weakly BOUNDED).
+- **Rivals:** FLUKE-41b and MARGIN-SWAP falsified; PERTURBATION-GENERIC supported; CONTENT-SPECIFIC not shown.
+- **Stop rules:** monitoring wording allowed; correctness-not-ownership claim stays; no content-specific wording. Details: `results/am43/README.md`.
+
 ### Amendment 42 result (collected 22:02Z 2026-10-22, run 51; jobs `am42-natural-8b-01` 12.9 min ≈ $0.08 and `am42-reader-4b-01` 7.0 min ≈ $0.04, both spot eu-west-3b g6.xlarge L4 $0.3558/h)
 - **P42:** pick = words (acc1 .646).
 - **Main:** G42 PASS. **NAT SHOWN**, .668 [.561, .778]. **NAT-M SHOWN**, .667 [.563, .769].

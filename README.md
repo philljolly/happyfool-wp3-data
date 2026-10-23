@@ -22,3 +22,14 @@ It is built with `scripts/build-public-archive.sh` in the (private) notebook rep
 ## Running a script
 
 Scripts are run from `scripts/` with `python3 <script>.py <model> <out.json> ...`; usage is in each docstring. The pinned dependencies are listed in each result's `provenance` field.
+
+## Licence
+
+Everything in this repository (code, documents, results, per-trial rows and adapters) is released under the MIT License (`LICENSE`). Adapters are LoRA weights trained on Qwen3 base models; use of the base models is governed by their own licences.
+
+## Paper 1 kit (type-2 template, Qwen3-8B)
+
+"Confidence after a perturbation" uses these:
+- Am. 41, 41b, 42 and 43: `scripts/type2_41*.py`, `type2_42*.py`, `type2_43_analyse.py`; rows under `rows/am41-*`, `am41b-*`, `am42-*`, `am43-confirm-8b-01`; results under `results/am41*`, `am42`, `am43`.
+- The exploratory R52 checks: `scripts/r52_calib.py`, `scripts/r52_stats.py`; `results/r52/`.
+- The Am. 40 scale correction: `results/am40/`, `rows/am40-*`.
