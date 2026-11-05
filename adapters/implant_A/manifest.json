@@ -1,0 +1,29 @@
+{
+ "base_model": "Qwen/Qwen3-1.7B",
+ "files": {
+  "adapter_config.json": {
+   "sha256": "ac8d83be1bbef3d55e2b1b740ce0abc91cff8335996553ad1699233fc2e760f2",
+   "size": 1170
+  },
+  "adapter_model.safetensors": {
+   "sha256": "8431802f486dfe00418e1f4c544cd32f9b7e70ceaabed5137894945f115e1b1c",
+   "size": 69782384
+  }
+ },
+ "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/implant_A",
+ "other_files_skipped": [
+  "stage1.json"
+ ],
+ "peft_type": "LORA",
+ "r": 16,
+ "tag": "implant_A",
+ "target_modules": [
+  "down_proj",
+  "up_proj",
+  "o_proj",
+  "k_proj",
+  "gate_proj",
+  "q_proj",
+  "v_proj"
+ ]
+}

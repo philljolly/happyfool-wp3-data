@@ -11,9 +11,25 @@ This is the public archive for the WP3 experiments of u/happyfool_beatslonely on
 | `results/` | Summary and analysis JSON per experiment, with a README for each amendment. |
 | `rows/<job-id>/` | Per-trial rows (`*.rows.jsonl.gz`) and metadata for each remote GPU job. Am. 36a–38b also include float16 hidden states. |
 | `jobs/` | The job specifications the GPU jobs ran. |
-| `adapters/` | LoRA adapters (`adapter_config.json` + `adapter_model.safetensors`), named by the tags used in `results/`. |
+| `adapters/` | One folder per LoRA adapter tag (the tags used in `results/`): `adapter_config.json` and `manifest.json` (sizes, sha256, base model, and where the weights are). The weights themselves are on the Hugging Face Hub, see "Adapters" below; `adapters/MANIFEST.json` indexes every tag. |
 
 Infrastructure details (instance ids, budget and dispatch internals) were removed before publication.
+
+## Adapters
+
+The LoRA weights live in the Hub model repo [philljolly/happyfool-wp3-adapters](https://huggingface.co/philljolly/happyfool-wp3-adapters), one folder per tag with the same `adapter_config.json`, the `adapter_model.safetensors` and a copy of the manifest. They left this repository on 2026-11-05 (git is a poor home for 857 MB of weights); the earlier commits still hold the 21 that were published here before.
+
+To use one:
+
+```python
+from peft import PeftModel
+from transformers import AutoModelForCausalLM
+
+base = "Qwen/Qwen3-1.7B"  # adapters/<tag>/manifest.json: base_model
+model = PeftModel.from_pretrained(AutoModelForCausalLM.from_pretrained(base), "philljolly/happyfool-wp3-adapters", subfolder="risk17_c")
+```
+
+Verify a download against `adapters/<tag>/manifest.json`: `sha256sum adapter_model.safetensors` must equal `files.adapter_model.safetensors.sha256`.
 
 ## Building the archive
 
@@ -25,7 +41,7 @@ Scripts are run from `scripts/` with `python3 <script>.py <model> <out.json> ...
 
 ## Licence
 
-Everything in this repository (code, documents, results, per-trial rows and adapters) is released under the MIT License (`LICENSE`). Adapters are LoRA weights trained on Qwen3 base models; use of the base models is governed by their own licences.
+Everything in this repository (code, documents, results, per-trial rows and adapter manifests) and the adapters on the Hub are released under the MIT License (`LICENSE`). Adapters are LoRA weights trained on Qwen3 base models; use of the base models is governed by their own licences.
 
 ## Paper 1 kit (type-2 template, Qwen3-8B)
 

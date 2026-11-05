@@ -1,0 +1,23 @@
+{
+ "base_model": "Qwen/Qwen3-4B",
+ "files": {
+  "adapter_config.json": {
+   "sha256": "29f808af0cd5924e7ea8f44ba4d1fa7fea609328b0c7bc4fddea70b4c61ae5d5",
+   "size": 1220
+  },
+  "adapter_model.safetensors": {
+   "sha256": "6b5cbb9b9a7418ffaed71e59da1fe2b339c4632f15c217ea2348825c13edd5df",
+   "size": 11834488
+  }
+ },
+ "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am36_S",
+ "peft_type": "LORA",
+ "r": 4,
+ "tag": "am36_S",
+ "target_modules": [
+  "k_proj",
+  "o_proj",
+  "v_proj",
+  "q_proj"
+ ]
+}

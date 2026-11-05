@@ -1,0 +1,21 @@
+{
+ "base_model": "Qwen/Qwen3-0.6B",
+ "files": {
+  "adapter_config.json": {
+   "sha256": "4ed67247993152de870045c4551f54de48a5fb0b65d61118bf95acb2c15dfe67",
+   "size": 1092
+  },
+  "adapter_model.safetensors": {
+   "sha256": "6cdff7e90a85c1c211930ce3c776e11205ded6659565bb57681cb624d4fb5f8a",
+   "size": 4602248
+  }
+ },
+ "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/risk_r",
+ "peft_type": "LORA",
+ "r": 8,
+ "tag": "risk_r",
+ "target_modules": [
+  "v_proj",
+  "q_proj"
+ ]
+}
