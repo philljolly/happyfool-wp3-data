@@ -1,0 +1,23 @@
+{
+ "base_model": "Qwen/Qwen3-1.7B",
+ "files": {
+  "adapter_config.json": {
+   "sha256": "4408798964b0f5cc8d90685abf23d24222e2c90d1eb468fb93b895f64e36e0ce",
+   "size": 1223
+  },
+  "adapter_model.safetensors": {
+   "sha256": "6db23c310274e8be315f91620ed69766d28b60a8a06db007e56c70b29d7d7e72",
+   "size": 12874640
+  }
+ },
+ "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am67o_MIS",
+ "peft_type": "LORA",
+ "r": 8,
+ "tag": "am67o_MIS",
+ "target_modules": [
+  "o_proj",
+  "v_proj",
+  "q_proj",
+  "k_proj"
+ ]
+}

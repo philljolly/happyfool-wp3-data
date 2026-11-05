@@ -1,0 +1,622 @@
+{
+ "adapters": {
+  "am36_S": {
+   "base_model": "Qwen/Qwen3-4B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "29f808af0cd5924e7ea8f44ba4d1fa7fea609328b0c7bc4fddea70b4c61ae5d5",
+     "size": 1220
+    },
+    "adapter_model.safetensors": {
+     "sha256": "6b5cbb9b9a7418ffaed71e59da1fe2b339c4632f15c217ea2348825c13edd5df",
+     "size": 11834488
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am36_S",
+   "r": 4
+  },
+  "am36_T": {
+   "base_model": "Qwen/Qwen3-4B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "70ac761344e1a515425eec81bea3004cbd1cd37d9870c933f8ad655899b85883",
+     "size": 1220
+    },
+    "adapter_model.safetensors": {
+     "sha256": "ab754a8911fc0eb51b9aca4e47585ca5bd34432d41836b9b6e827266ef868bca",
+     "size": 11834488
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am36_T",
+   "r": 4
+  },
+  "am38_M": {
+   "base_model": "Qwen/Qwen3-4B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "a68d493bed6a58537dbceb3d6a6cd5a72e88f60be7f888361543e8e3ba568027",
+     "size": 1220
+    },
+    "adapter_model.safetensors": {
+     "sha256": "f4ee9dc90a4abaf026dcaa162eb3f00a5ce925586ceaff4a22802dfaaf76982d",
+     "size": 11834488
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am38_M",
+   "r": 4
+  },
+  "am38_SM": {
+   "base_model": "Qwen/Qwen3-4B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "331a09003a0ba7eb5be64aeb9d502998b1f212c787615a389bf4b4ac63b1e667",
+     "size": 1220
+    },
+    "adapter_model.safetensors": {
+     "sha256": "bd86bfc70278efe998a67d4b46f3378543c95baa02c8ee1b0cdcdb88ae45ae2e",
+     "size": 11834488
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am38_SM",
+   "r": 4
+  },
+  "am38b_M": {
+   "base_model": "Qwen/Qwen3-4B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "a68d493bed6a58537dbceb3d6a6cd5a72e88f60be7f888361543e8e3ba568027",
+     "size": 1220
+    },
+    "adapter_model.safetensors": {
+     "sha256": "6c7fd555eaec070669def29690a8079659cbcbb71ca5bca8040811ce0bad2857",
+     "size": 11834488
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am38b_M",
+   "r": 4
+  },
+  "am38b_SM": {
+   "base_model": "Qwen/Qwen3-4B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "c61a3d3bba5bab6c42ab4b2dd8691b5c4898ae45380b0e42140fb1c9834e1cc9",
+     "size": 1220
+    },
+    "adapter_model.safetensors": {
+     "sha256": "34e520388097adf68ad1134594cf64c7ffcc7e3732a06606c46e33ab3c060549",
+     "size": 11834488
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am38b_SM",
+   "r": 4
+  },
+  "am49_C": {
+   "base_model": "Qwen/Qwen3-8B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "6d1d7893fa16af74364716d4f1b1dee8d15fb5c117c3e62d0a222a1706331dc4",
+     "size": 1090
+    },
+    "adapter_model.safetensors": {
+     "sha256": "50dae8fc79ef7c835390365b2b3cbdd6042b7490f93184315131a98d64cfc1b0",
+     "size": 15354512
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am49_C",
+   "r": 8
+  },
+  "am49_T1": {
+   "base_model": "Qwen/Qwen3-8B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "8836dfc112727a798c0ffca26c7b3971975ebb81321b515956e3266d3eed13c7",
+     "size": 1090
+    },
+    "adapter_model.safetensors": {
+     "sha256": "99d1e2dfe140aa0bc56ded15550250e7a7babcd4caad3649d562afd5f834c9aa",
+     "size": 15354512
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am49_T1",
+   "r": 8
+  },
+  "am49_T2": {
+   "base_model": "Qwen/Qwen3-8B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "6d1d7893fa16af74364716d4f1b1dee8d15fb5c117c3e62d0a222a1706331dc4",
+     "size": 1090
+    },
+    "adapter_model.safetensors": {
+     "sha256": "31a2567179f83bbb8f68f41bba53f415eed49e36b200f833557d8d05044b4a63",
+     "size": 15354512
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am49_T2",
+   "r": 8
+  },
+  "am67_ECHO": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "cd16d5b6386cc350905bcd4ff1be9cec5de30dd13af00c8c9df30496c7e12f8e",
+     "size": 1223
+    },
+    "adapter_model.safetensors": {
+     "sha256": "faab437c863099c03b969681b670eddc8db32064030f8c8b1e5ac7b3870b4246",
+     "size": 12874640
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am67_ECHO",
+   "r": 8
+  },
+  "am67_IS": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "cd16d5b6386cc350905bcd4ff1be9cec5de30dd13af00c8c9df30496c7e12f8e",
+     "size": 1223
+    },
+    "adapter_model.safetensors": {
+     "sha256": "84ad12ba52a39eaf479fd5f7ebde2b88cc17a363a89529be49ef750eadc8358f",
+     "size": 12874640
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am67_IS",
+   "r": 8
+  },
+  "am67_ISA": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "cd16d5b6386cc350905bcd4ff1be9cec5de30dd13af00c8c9df30496c7e12f8e",
+     "size": 1223
+    },
+    "adapter_model.safetensors": {
+     "sha256": "9f6bdd73e0c73b6cccfb1259dc3396e1573613247e3e82229b6ec6530c05859b",
+     "size": 12874640
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am67_ISA",
+   "r": 8
+  },
+  "am67_ISA_lr3": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "ae15b894007fa1b825d435754dd99a5fadeac51314a5356b5a603f760f12e028",
+     "size": 1223
+    },
+    "adapter_model.safetensors": {
+     "sha256": "1b02c5d7c3abda9180f0ea8529420de3595e5ac5190ebeeb828e8ecb964bc828",
+     "size": 12874640
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am67_ISA_lr3",
+   "r": 8
+  },
+  "am67_MIS": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "cd16d5b6386cc350905bcd4ff1be9cec5de30dd13af00c8c9df30496c7e12f8e",
+     "size": 1223
+    },
+    "adapter_model.safetensors": {
+     "sha256": "02bc46f65a7c993c1ccded06c5e36dcc2edb905a93861ea315fa2668875ee2a1",
+     "size": 12874640
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am67_MIS",
+   "r": 8
+  },
+  "am67o_ECHO": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "4408798964b0f5cc8d90685abf23d24222e2c90d1eb468fb93b895f64e36e0ce",
+     "size": 1223
+    },
+    "adapter_model.safetensors": {
+     "sha256": "faab437c863099c03b969681b670eddc8db32064030f8c8b1e5ac7b3870b4246",
+     "size": 12874640
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am67o_ECHO",
+   "r": 8
+  },
+  "am67o_IS": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "4408798964b0f5cc8d90685abf23d24222e2c90d1eb468fb93b895f64e36e0ce",
+     "size": 1223
+    },
+    "adapter_model.safetensors": {
+     "sha256": "41f21e6001b8d999cdb548054a9d4500c98fdbb20f31c775437484c8dd2a820b",
+     "size": 12874640
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am67o_IS",
+   "r": 8
+  },
+  "am67o_ISA": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "4408798964b0f5cc8d90685abf23d24222e2c90d1eb468fb93b895f64e36e0ce",
+     "size": 1223
+    },
+    "adapter_model.safetensors": {
+     "sha256": "31c4f9b65fe5bda02bd122301b4de651544dddce4e9fc5648fb90156850d809a",
+     "size": 12874640
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am67o_ISA",
+   "r": 8
+  },
+  "am67o_MIS": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "4408798964b0f5cc8d90685abf23d24222e2c90d1eb468fb93b895f64e36e0ce",
+     "size": 1223
+    },
+    "adapter_model.safetensors": {
+     "sha256": "6db23c310274e8be315f91620ed69766d28b60a8a06db007e56c70b29d7d7e72",
+     "size": 12874640
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am67o_MIS",
+   "r": 8
+  },
+  "am70_R": {
+   "base_model": "Qwen/Qwen3-8B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "5a9b38ea2789fbf63caecfde79eb9a73f96c4cd2aeca7f067e44effe5706830f",
+     "size": 1270
+    },
+    "adapter_model.safetensors": {
+     "sha256": "3abf048ac5ecbe1e0a364c9982ff4c6e82a634caba08cb905e01dabd5ea4760a",
+     "size": 87360584
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am70_R",
+   "r": 8
+  },
+  "am70_T": {
+   "base_model": "Qwen/Qwen3-8B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "0c079b9c12aaee1857606f11697319fad3c7aa646c3aefa9cf4f6c8c20d5d68c",
+     "size": 1270
+    },
+    "adapter_model.safetensors": {
+     "sha256": "47803cc0b708f4ac5f52e85093411eb461508653a8054ed248bdb7bf74bc9fbe",
+     "size": 87360584
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am70_T",
+   "r": 8
+  },
+  "am81_r1_id": {
+   "base_model": "Qwen/Qwen3-8B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "76c98b787b16c6fa6e2dc847eef76d395f16d391422ce5a0e11105eb4580f9be",
+     "size": 1477
+    },
+    "adapter_model.safetensors": {
+     "sha256": "e8a06ee8a65c358eb0b8a93837d863865c7ee5f404e76ecd7cbd2a42ce7a5082",
+     "size": 7928200
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am81_r1_id",
+   "r": 1
+  },
+  "am81_r1_shuf": {
+   "base_model": "Qwen/Qwen3-8B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "7556882f4ab72b5811510c9c04d1a1cf68f1c8ce0b5160c4f78ca154a3b80f18",
+     "size": 1477
+    },
+    "adapter_model.safetensors": {
+     "sha256": "f80fab625cdf2201bf722e366a99a8d7083bb0d5c72236ffe8eb901d78ddc899",
+     "size": 7928200
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am81_r1_shuf",
+   "r": 1
+  },
+  "am81_r4_id": {
+   "base_model": "Qwen/Qwen3-8B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "026ea0e03e4753553bee9ac100ce1064aa9acc2587e62b41614df91bc4d7b2fe",
+     "size": 1477
+    },
+    "adapter_model.safetensors": {
+     "sha256": "e952fef92771c5ed8cfe098b37fd49d1b7218db13e1a32a89f8d7f09ade6816b",
+     "size": 31570888
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am81_r4_id",
+   "r": 4
+  },
+  "am81_r4_shuf": {
+   "base_model": "Qwen/Qwen3-8B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "a8e6b9f10aca7a3d3d60fddf90e3f21579e5449f488533d8aaf5b3a20f542da2",
+     "size": 1477
+    },
+    "adapter_model.safetensors": {
+     "sha256": "8740840c6e2c8cfc4b77a634eec6533e5eea442f685f207467c12c1349e18f9e",
+     "size": 31570888
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am81_r4_shuf",
+   "r": 4
+  },
+  "graft_c": {
+   "base_model": "Qwen/Qwen3-0.6B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "8a68945fb5d71cf20d15bdaeeb32e33f99f095dcd8b2c65277c75291e0c0eb2f",
+     "size": 1092
+    },
+    "adapter_model.safetensors": {
+     "sha256": "d267f4140d55a2cafe5efcbbe30986ac1171c3a311a93a54c45a7254e8f8bf37",
+     "size": 4602248
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/graft_c",
+   "r": 8
+  },
+  "implant_A": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "ac8d83be1bbef3d55e2b1b740ce0abc91cff8335996553ad1699233fc2e760f2",
+     "size": 1170
+    },
+    "adapter_model.safetensors": {
+     "sha256": "8431802f486dfe00418e1f4c544cd32f9b7e70ceaabed5137894945f115e1b1c",
+     "size": 69782384
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/implant_A",
+   "r": 16
+  },
+  "implant_B": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "a62bf38af8523edb7ee04d96857fae652fab425327ee238fb3ebaf83b288df87",
+     "size": 1170
+    },
+    "adapter_model.safetensors": {
+     "sha256": "f4fc032c2e10ad6b529c99c5e3889b99173250d26ca899b9979b89b6ff4b7595",
+     "size": 69782384
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/implant_B",
+   "r": 16
+  },
+  "implant_C": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "93a7c89bb4213485589861dc83f1b2130524efc594ea3fa2ba247fa6dae9b8cf",
+     "size": 1170
+    },
+    "adapter_model.safetensors": {
+     "sha256": "61c4d326dfc4bf5d8efbf2caf7bbd818d078488e9cdbd2ee24ad97c93ad1a070",
+     "size": 69782384
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/implant_C",
+   "r": 16
+  },
+  "implant_D": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "bc2eca25d7bcb91c6136e70272c32a6e3ecd00e5bc3bfd1797a63e5f326dd39f",
+     "size": 1170
+    },
+    "adapter_model.safetensors": {
+     "sha256": "c47d5192d765232488eb0b56bcc3f9ae4004be85712c049c7caa71f50edeb7bf",
+     "size": 69782384
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/implant_D",
+   "r": 16
+  },
+  "nstd_pilot17": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "8de0d4348e058efa7f89f0374806fc8b0f649d9fd7533632a2e46f18cd99abe8",
+     "size": 1272
+    },
+    "adapter_model.safetensors": {
+     "sha256": "4e95a272b31ff9e54763462a0b17df807e0a65acf07f4298b97a6c354bdf55dc",
+     "size": 34916720
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/nstd_pilot17",
+   "r": 8
+  },
+  "nstd_rev89": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "d9ce03da8eb233c88290a843783cb6d22bd89173cddf9e7e0632fc2bd435fe77",
+     "size": 1272
+    },
+    "adapter_model.safetensors": {
+     "sha256": "fddff642b6de128eab3e13ca0e4bf724c5a2ff272b3cf56555d450f58191db08",
+     "size": 34916720
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/nstd_rev89",
+   "r": 8
+  },
+  "risk17_a": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "cef1ad800355a009d24ba63a028a2cbfc616404bb7baffb1d1dd2575d2acef1d",
+     "size": 1092
+    },
+    "adapter_model.safetensors": {
+     "sha256": "a010c12b4ca0ed69d88f01bf9e30f342327c0b395055e1c10c1f88348ff558c9",
+     "size": 6437272
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/risk17_a",
+   "r": 8
+  },
+  "risk17_a5": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "059ce33f149cf317b1a6f9a4c6be430a05c327e7e226ed3fa51c41900cfccecd",
+     "size": 1092
+    },
+    "adapter_model.safetensors": {
+     "sha256": "bc872c9d811fcc22f093cac18aec82981f670922c5a022e2aa45a352ce1ef112",
+     "size": 6437272
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/risk17_a5",
+   "r": 8
+  },
+  "risk17_c": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "059ce33f149cf317b1a6f9a4c6be430a05c327e7e226ed3fa51c41900cfccecd",
+     "size": 1092
+    },
+    "adapter_model.safetensors": {
+     "sha256": "41a32288bb5c8e13320392bfc4887e20d401d391adead898715da4a2da762a51",
+     "size": 6437272
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/risk17_c",
+   "r": 8
+  },
+  "risk17_c5": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "cef1ad800355a009d24ba63a028a2cbfc616404bb7baffb1d1dd2575d2acef1d",
+     "size": 1092
+    },
+    "adapter_model.safetensors": {
+     "sha256": "d1bb6df575b2fa042c7c4d91d44eede7ecd48229e756653cfcaf16c307600db2",
+     "size": 6437272
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/risk17_c5",
+   "r": 8
+  },
+  "risk_c": {
+   "base_model": "Qwen/Qwen3-0.6B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "8a68945fb5d71cf20d15bdaeeb32e33f99f095dcd8b2c65277c75291e0c0eb2f",
+     "size": 1092
+    },
+    "adapter_model.safetensors": {
+     "sha256": "a117e8ecfc2ef5ee2434095887a175faee40f929d336c847c9c1ffffc47f0a51",
+     "size": 4602248
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/risk_c",
+   "r": 8
+  },
+  "risk_r": {
+   "base_model": "Qwen/Qwen3-0.6B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "4ed67247993152de870045c4551f54de48a5fb0b65d61118bf95acb2c15dfe67",
+     "size": 1092
+    },
+    "adapter_model.safetensors": {
+     "sha256": "6cdff7e90a85c1c211930ce3c776e11205ded6659565bb57681cb624d4fb5f8a",
+     "size": 4602248
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/risk_r",
+   "r": 8
+  },
+  "risk_r5": {
+   "base_model": "Qwen/Qwen3-0.6B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "8a68945fb5d71cf20d15bdaeeb32e33f99f095dcd8b2c65277c75291e0c0eb2f",
+     "size": 1092
+    },
+    "adapter_model.safetensors": {
+     "sha256": "7607413794e6f5f51be42410f79e14f3cfd4738da794022ad98facc7cc7c961b",
+     "size": 4602248
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/risk_r5",
+   "r": 8
+  },
+  "x3_graft": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "cef1ad800355a009d24ba63a028a2cbfc616404bb7baffb1d1dd2575d2acef1d",
+     "size": 1092
+    },
+    "adapter_model.safetensors": {
+     "sha256": "fdaf4f14b9881afda1221dec0d6b423e61f368ac444ead095116b7d0be905daa",
+     "size": 6437272
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/x3_graft",
+   "r": 8
+  },
+  "x3_shuf": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "cef1ad800355a009d24ba63a028a2cbfc616404bb7baffb1d1dd2575d2acef1d",
+     "size": 1092
+    },
+    "adapter_model.safetensors": {
+     "sha256": "595c555e73c6410090dacdd7994776015a3f02ab952d7bedc69d3b5055b13777",
+     "size": 6437272
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/x3_shuf",
+   "r": 8
+  },
+  "x5": {
+   "base_model": "Qwen/Qwen3-1.7B",
+   "files": {
+    "adapter_config.json": {
+     "sha256": "059ce33f149cf317b1a6f9a4c6be430a05c327e7e226ed3fa51c41900cfccecd",
+     "size": 1092
+    },
+    "adapter_model.safetensors": {
+     "sha256": "d18e6b3d4dbf652fa171547122321047e9d9bc63e2cc2b79dfe3006c6e89e247",
+     "size": 6437272
+    }
+   },
+   "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/x5",
+   "r": 8
+  }
+ },
+ "hub_repo": "philljolly/happyfool-wp3-adapters",
+ "note": "Adapter weights are not in this repository (operator decision 2026-11-05): each tag's manifest.json gives their location on the Hub and sha256.",
+ "weights": "https://huggingface.co/philljolly/happyfool-wp3-adapters"
+}

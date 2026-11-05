@@ -1,0 +1,26 @@
+{
+ "base_model": "Qwen/Qwen3-8B",
+ "files": {
+  "adapter_config.json": {
+   "sha256": "7556882f4ab72b5811510c9c04d1a1cf68f1c8ce0b5160c4f78ca154a3b80f18",
+   "size": 1477
+  },
+  "adapter_model.safetensors": {
+   "sha256": "f80fab625cdf2201bf722e366a99a8d7083bb0d5c72236ffe8eb901d78ddc899",
+   "size": 7928200
+  }
+ },
+ "hub_path": "https://huggingface.co/philljolly/happyfool-wp3-adapters/tree/main/am81_r1_shuf",
+ "peft_type": "LORA",
+ "r": 1,
+ "tag": "am81_r1_shuf",
+ "target_modules": [
+  "down_proj",
+  "o_proj",
+  "k_proj",
+  "v_proj",
+  "gate_proj",
+  "up_proj",
+  "q_proj"
+ ]
+}
